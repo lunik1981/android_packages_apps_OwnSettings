@@ -34,7 +34,7 @@ public class OwnSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.OWNSETTINGS;
+        return MetricsEvent.OWN;
     }
 
     @Override
