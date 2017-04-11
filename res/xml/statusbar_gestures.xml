@@ -14,24 +14,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/ownsettings_title">
-
-	<PreferenceScreen
-		android:key="statusbar_settings"
-		android:fragment="com.own.settings.statusbar.StatusBarSettings"
-		android:title="@string/statusbar_settings_title" 
-		android:icon="@drawable/ic_own_statusbar" />
-
-	<PreferenceScreen
-		android:key="quick_settings"
-		android:fragment="com.own.settings.quicksettings.QuickSettings"
-		android:title="@string/quick_settings_title" 
-		android:icon="@drawable/ic_own_quicksettings" />
-		
-	<PreferenceScreen
-		android:key="notification_settings"
-		android:fragment="com.own.settings.notification.NotificationSettings"
-		android:title="@string/notification_settings_title" 
-		android:icon="@drawable/ic_own_notification" />
+    android:title="@string/statusbar_gestures_title">
 
 </PreferenceScreen>
