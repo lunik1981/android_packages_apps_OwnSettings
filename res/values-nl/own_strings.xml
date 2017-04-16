@@ -32,4 +32,8 @@
 	<string name="notification_settings_title">Notificatie Instellingen</string>
 	<string name="led_settings_title">Led Instellingen</string>
 	
+		<!-- Animation Settings -->
+	<string name="animation_settings_title">Animaties</string>
+	<string name="system_animation_tab">Systeem</string>
+	
  </resources>

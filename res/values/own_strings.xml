@@ -35,5 +35,9 @@
 	<!-- Notification Settings -->
 	<string name="notification_settings_title">Notification Settings</string>
 	<string name="led_settings_title">Led Settings</string>
+	
+	<!-- Animation Settings -->
+	<string name="animation_settings_title">Animations</string>
+	<string name="system_animation_tab">System</string>
 
  </resources>
