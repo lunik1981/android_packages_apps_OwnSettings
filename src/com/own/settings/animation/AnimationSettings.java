@@ -114,7 +114,8 @@ public class AnimationSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.animation_settings_title)};
+		    getString(R.string.system_animation_tab),
+		    getString(R.string.toast_animation_tab)};
         return titleString;
     }
 

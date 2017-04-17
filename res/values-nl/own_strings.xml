@@ -52,5 +52,19 @@
     <string name="title_animation_no_override">Voorkom app overschrijvingen</string>
     <string name="summary_animation_no_override">Voorkomt dat apps animatie instellingen overschrijft</string>
     <string name="animation_duration_default">Standaard</string>
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Toast animaties</string>
+    <string name="toast_none_animation">Geen</string>
+    <string name="toast_default_animation">Standaard</string>
+    <string name="toast_fade_animation">Vervaag</string>
+    <string name="toast_SlideRight_animation">Van rechts</string>
+    <string name="toast_SlideLeft_animation">Van links</string>
+    <string name="toast_FastFade_animation">Snel vervagen</string>
+    <string name="toast_GrowFade_animation">Groeinde vervaging</string>
+    <string name="toast_GrowFadeCenter_animation">Groeinde vervaging vanuit midden</string>
+    <string name="toast_GrowFadeBottom_animation">Groeinde vervaging van onder</string>
+    <string name="toast_Translucent_animation">Doorzichtig</string>
+    <string name="toast_SlideLeftRight_animation">Van links naar rechts</string>
+    <string name="toast_SlideRightLeft_animation">Van rechts naar links</string>
     
  </resources>
