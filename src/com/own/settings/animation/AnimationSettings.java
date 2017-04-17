@@ -37,6 +37,7 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.own.settings.animation.tabs.SystemAnimation;
+import com.own.settings.animation.tabs.ToastAnimation;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -91,6 +92,7 @@ public class AnimationSettings extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
 	    frags[0] = new SystemAnimation();
+	    frags[1] = new ToastAnimation();
         }
 
         @Override

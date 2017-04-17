@@ -39,6 +39,7 @@
 	<!-- Animation Settings -->
 	<string name="animation_settings_title">Animations</string>
 	<string name="system_animation_tab">System</string>
+	<string name="toast_animation_tab">Toast</string>
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animations</string>  
     <string name="system_animation_title">System animations</string>
@@ -55,6 +56,6 @@
     <string name="animation_duration_title">Animation duration</string>
     <string name="title_animation_no_override">Prevent app overrides</string>
     <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-    <string name="animation_duration_default">Default</string>
+    <string name="animation_duration_default">Default</string>    
 
  </resources>
