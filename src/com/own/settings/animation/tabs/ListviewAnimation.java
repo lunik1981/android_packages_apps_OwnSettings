@@ -101,7 +101,7 @@ public class ListviewAnimation extends SettingsPreferenceFragment implements
 	      mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
           mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
                 SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
-          mScrollingCachePref.setOnPreferenceChangeListener(this)
+          mScrollingCachePref.setOnPreferenceChangeListener(this);
 
     }
 
@@ -127,9 +127,8 @@ public class ListviewAnimation extends SettingsPreferenceFragment implements
             if (newValue != null) {
                 SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String) newValue);
             }
-            return true 
+            return true;
 		 }
-            preference.setSummary(getProperSummary(preference));
         return false;
     }
 
