@@ -45,6 +45,7 @@
     <string name="activity_open_title">Activiteit open animatie</string>
     <string name="activity_close_title">Activiteit sluiten animatie</string>
     <string name="task_open_title">Taak open animatie</string>
+    <string name="task_open_behind_title">Taak open op de achtergrond animatie</string>
     <string name="task_close_title">Taak sluit animatie</string>
     <string name="task_move_to_front_title">Verpaats naar voorgrond animatie</string>
     <string name="task_move_to_back_title">Verplaats naar achtergrond animatie</string>
