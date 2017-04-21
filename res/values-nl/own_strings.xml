@@ -36,6 +36,9 @@
 	<string name="animation_settings_title">Animaties</string>
 	<string name="system_animation_tab">Systeem</string>
 	<string name="listview_animation_tab">Lijst</string>
+    <!-- Disable animations -->
+    <string name="disable_animations">Schakel animaties uit</string>
+    <string name="disable_animations_summary">Schakeld alle systeem animaties uit, zoals het overgangs effect wanneer je een app opent</string>
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animaties</string>  
     <string name="system_animation_title">Systeem animaties</string>
