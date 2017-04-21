@@ -71,6 +71,9 @@
     <string name="toast_Translucent_animation">Doorzichtig</string>
     <string name="toast_SlideLeftRight_animation">Van links naar rechts</string>
     <string name="toast_SlideRightLeft_animation">Van rechts naar links</string>
+    <!-- Toast Icons -->
+    <string name="toast_icon_title">Toast icoon</string>
+    <string name="toast_icon_summary">Laat het corresponderende app icoon zien in het toast bericht</string>
     <!-- ListView animation -->
     <string name="listview_animation_title">Lijst animaties</string>
     <string name="listview_off">Standaard</string>
