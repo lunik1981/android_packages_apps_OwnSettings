@@ -90,5 +90,10 @@
     <string name="listview_overshoot_interpolator">Overschieten</string>
     <string name="listview_anticipate_overshoot_interpolator">Vervoeg en overschiet</string>
     <string name="listview_bounce_interpolator">Stuiter</string>
-    
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_summary">Scrolling cache kan scroll prestaties verbeteren tegenover het verlies van werkgeheugen</string>
+    <string name="pref_scrollingcache_force_enable">Geforceerd inschakelen</string>
+    <string name="pref_scrollingcache_default_enable">Standaard inschakelen</string>
+    <string name="pref_scrollingcache_default_disable">Standaard uitschakelen</string>
+    <string name="pref_scrollingcache_force_disable">Geforceerd uitschakelen</string>
  </resources>
