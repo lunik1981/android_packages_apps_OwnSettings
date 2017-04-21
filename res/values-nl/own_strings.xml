@@ -35,6 +35,7 @@
 		<!-- Animation Settings -->
 	<string name="animation_settings_title">Animaties</string>
 	<string name="system_animation_tab">Systeem</string>
+	<string name="listview_animation_tab">Lijst</string>
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animaties</string>  
     <string name="system_animation_title">Systeem animaties</string>

@@ -40,6 +40,7 @@
 	<string name="animation_settings_title">Animations</string>
 	<string name="system_animation_tab">System</string>
 	<string name="toast_animation_tab">Toast</string>
+	<string name="listview_animation_tab">Listview</string>
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animations</string>  
     <string name="system_animation_title">System animations</string>
