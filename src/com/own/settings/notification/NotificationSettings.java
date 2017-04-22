@@ -36,7 +36,7 @@ import com.own.settings.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
-import com.own.settings.notification.tabs.LedSettings;
+import com.own.settings.notification.tabs.MessageSettings;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -90,7 +90,7 @@ public class NotificationSettings extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-	    frags[0] = new LedSettings();
+	    frags[0] = new MessageSettings();
         }
 
         @Override
@@ -112,7 +112,7 @@ public class NotificationSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.led_settings_title)};
+		    getString(R.string.drawer_messages_tab_title)};
         return titleString;
     }
 

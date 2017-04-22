@@ -30,15 +30,15 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LedSettings extends SettingsPreferenceFragment implements
+public class MessageSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String TAG = "LedSettings";
+    private static final String TAG = "MessageSettings";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.led_settings);
+        addPreferencesFromResource(R.xml.drawer_messages_tab);
     }
 
     @Override

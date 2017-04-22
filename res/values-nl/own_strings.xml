@@ -20,6 +20,10 @@
     <!-- StatusBar -->	 
 	<string name="statusbar_icons_tab_title">Iconen</string>
 	<string name="statusbar_gestures_title">Gebaren</string>
+   <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bleutooth batterij status</string>
+    <string name="bluetooth_battery_summary">Laat batterij status zijn van verbonden bleutooth apparaat, als dit kan.</string>
+
 
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Snelle Instellingen</string>
@@ -28,11 +32,11 @@
 	<!-- Quick Settings -->
 	<string name="qs_advanced_title">Gevorderd</string>
 
-	<!-- Notification Settings -->
-	<string name="notification_settings_title">Notificatie Instellingen</string>
-	<string name="led_settings_title">Led Instellingen</string>
+	<!-- Notification Drawer Settings -->
+	<string name="notification_drawer_settings_title">Meldingspaneel</string>
+	<string name="drawer_messages_tab_title">Berichten</string>
 	
-		<!-- Animation Settings -->
+	<!-- Animation Settings -->
 	<string name="animation_settings_title">Animaties</string>
 	<string name="system_animation_tab">Systeem</string>
 	<string name="listview_animation_tab">Lijst</string>

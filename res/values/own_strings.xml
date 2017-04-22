@@ -24,6 +24,10 @@
 	<string name="statusbar_settings_title">StatusBar</string>
 	<string name="statusbar_icons_tab_title">Icons</string>
 	<string name="statusbar_gestures_title">Gestures</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
+
 
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Quick Settings</string>
@@ -32,9 +36,9 @@
 	<!-- Quick Settings -->
 	<string name="qs_advanced_title">Advanced</string>
 
-	<!-- Notification Settings -->
-	<string name="notification_settings_title">Notification Settings</string>
-	<string name="led_settings_title">Led Settings</string>
+	<!-- Notification Drawer Settings -->
+	<string name="notification_drawer_settings_title">Notification drawer</string>
+	<string name="drawer_messages_tab_title">Messages</string>
 	
 	<!-- Animation Settings -->
 	<string name="animation_settings_title">Animations</string>
