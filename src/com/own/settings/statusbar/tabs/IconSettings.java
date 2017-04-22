@@ -29,13 +29,13 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class ClockSettings extends SettingsPreferenceFragment implements
+public class IconSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.clock_tab);
+        addPreferencesFromResource(R.xml.statusbar_icons_tab);
     }
 
     @Override

@@ -18,7 +18,7 @@
     <!-- Categories -->
     
     <!-- StatusBar -->	 
-	<string name="clock_tab_title">Klok</string>
+	<string name="statusbar_icons_tab_title">Iconen</string>
 	<string name="statusbar_gestures_title">Gebaren</string>
 
 	<!-- Quick Settings -->
