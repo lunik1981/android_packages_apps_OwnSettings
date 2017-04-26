@@ -15,8 +15,8 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.own.SeekBarPreference;
-import com.android.internal.logging.MetricsLogger;
+import com.own.settings.javas.SeekBarPreference;
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 public class NetworkTrafficSettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener  {
@@ -43,7 +43,7 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.OWN;
+        return MetricsEvent.OWN;
     }
 
     @Override
