@@ -30,15 +30,15 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class StatusbarGestures extends SettingsPreferenceFragment implements
+public class StatusbarOther extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String TAG = "StatusbarGestures";
+    private static final String TAG = "StatusbarOther";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.statusbar_gestures);
+        addPreferencesFromResource(R.xml.statusbar_other_tab);
     }
 
     @Override

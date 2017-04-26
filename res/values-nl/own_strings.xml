@@ -19,12 +19,26 @@
     
     <!-- StatusBar -->	 
 	<string name="statusbar_icons_tab_title">Iconen</string>
-	<string name="statusbar_gestures_title">Gebaren</string>
+	<string name="statusbar_other_tab_title">Meer</string>
    <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bleutooth batterij status</string>
     <string name="bluetooth_battery_summary">Laat batterij status zijn van verbonden bleutooth apparaat, als dit kan.</string>
-
-
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netwerk verkeer</string>
+    <string name="show_network_traffic_state">Status bar verkeer monitor</string>
+    <string name="show_network_traffic_unit">Weergave unit</string>
+    <string name="show_network_traffic_disable">Uitgeschakeld</string>
+    <string name="show_network_traffic_up">Uitgaand</string>
+    <string name="show_network_traffic_down">Binnenkomend</string>
+    <string name="show_network_traffic_all">Uitgaand en binnenkomend</string>
+    <string name="show_network_traffic_bit">Bits per seconde</string>
+    <string name="show_network_traffic_byte">Bytes per seconde</string>
+    <string name="network_traffic_autohide">Automatisch verbergen</string>
+    <string name="network_traffic_autohide_summary">Verberg de monitor als er geen activiteit is</string>
+    <string name="network_traffic_autohide_threshold">Inactiviteits duur</string>
+    <string name="network_traffic_hidearrow_title">Verberg pijlen</string>
+    <string name="network_traffic_hidearrow_summary">Verberg pijlen in de monitor</string>
+    
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Snelle Instellingen</string>
 	<string name="quick_pulldown_title">Snel uivouwen</string>
