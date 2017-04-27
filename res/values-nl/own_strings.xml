@@ -15,6 +15,10 @@
  -->
  <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+	<!-- General Strings -->
+	<string name="general">Algemeen</string>
+	
+	
     <!-- Categories -->
     
     <!-- StatusBar -->	 
@@ -129,6 +133,10 @@
 
 	<!-- Recents Settings -->
 	<string name="recents_settings_title">Recente Apps</string>
-	<string name="general_recents_tab">Algemeen</string>4
-	
+	<string name="general_recents_tab">Algemeen</string>
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Verborgen apps</string>
+    <string name="hide_from_recents_add_app">Voeg app toe</string>
+    <string name="hide_apps_from_recents_summary">Kies welke apps er verborgen moeten worden van het recente apps scherm</string>
+
  </resources>
