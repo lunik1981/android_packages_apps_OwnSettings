@@ -144,4 +144,9 @@
     <string name="pref_scrollingcache_default_disable">Default disable</string>
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 
+
+	<!-- Recents Settings -->
+	<string name="recents_settings_title">Recents Apps</string>
+	<string name="general_recents_tab">General</string>4
+	
  </resources>
