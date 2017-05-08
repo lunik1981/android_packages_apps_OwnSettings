@@ -42,10 +42,7 @@
     <string name="network_traffic_autohide_threshold">Inactiviteits duur</string>
     <string name="network_traffic_hidearrow_title">Verberg pijlen</string>
     <string name="network_traffic_hidearrow_summary">Verberg pijlen in de monitor</string>
-	<!-- Recents MEM Bar -->
-	<string name="systemui_recents_mem_display_title">RAM Balk</string>
-	<string name="systemui_recents_mem_display_summary">Laat een balk zien met RAM status in het recente apps scherm</string>
-	
+
 	
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Snelle Instellingen</string>
@@ -142,5 +139,8 @@
     <string name="hide_apps_from_recents_title">Verborgen apps</string>
     <string name="hide_from_recents_add_app">Voeg app toe</string>
     <string name="hide_apps_from_recents_summary">Kies welke apps er verborgen moeten worden van het recente apps scherm</string>
-
+	<!-- Recents MEM Bar -->
+	<string name="systemui_recents_mem_display_title">RAM Balk</string>
+	<string name="systemui_recents_mem_display_summary">Laat een balk zien met RAM status in het recente apps scherm</string>
+	
  </resources>

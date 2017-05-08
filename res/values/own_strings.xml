@@ -51,10 +51,6 @@
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_hidearrow_title">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide arrows in traffic indicator</string>
-	<!-- Recents MEM Bar -->
-	<string name="systemui_recents_mem_display_title">Show Memory Bar</string>
-	<string name="systemui_recents_mem_display_summary">Enable Disable Ram bar in recent app view</string>
- 
 
 
 	<!-- Quick Settings -->
@@ -160,5 +156,8 @@
     <string name="hide_apps_from_recents_title">Hidden apps</string>
     <string name="hide_from_recents_add_app">Add App</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
-
+	<!-- Recents MEM Bar -->
+	<string name="systemui_recents_mem_display_title">Show Memory Bar</string>
+	<string name="systemui_recents_mem_display_summary">Enable Disable Ram bar in recent app view</string>
+	
  </resources>
