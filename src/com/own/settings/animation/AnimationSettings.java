@@ -39,6 +39,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.own.settings.animation.tabs.ListviewAnimation;
 import com.own.settings.animation.tabs.SystemAnimation;
 import com.own.settings.animation.tabs.ToastAnimation;
+import com.own.settings.animation.tabs.PowerMenuAnimation;
 
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -96,6 +97,7 @@ public class AnimationSettings extends SettingsPreferenceFragment {
 	    frags[0] = new SystemAnimation();
 	    frags[1] = new ToastAnimation();
 	    frags[2] = new ListviewAnimation();
+	    frags[3] = new PowerMenuAnimation();
         }
 
         @Override
@@ -119,7 +121,8 @@ public class AnimationSettings extends SettingsPreferenceFragment {
         titleString = new String[]{
 		    getString(R.string.system_animation_tab),
 		    getString(R.string.toast_animation_tab),
-		    getString(R.string.listview_animation_tab)};
+		    getString(R.string.listview_animation_tab),
+		    getString(R.string.power_menu_animation_tab)};
         return titleString;
     }
 
