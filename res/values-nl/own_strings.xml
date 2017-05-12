@@ -172,7 +172,13 @@
     <string name="pref_scrollingcache_default_enable">Standaard inschakelen</string>
     <string name="pref_scrollingcache_default_disable">Standaard uitschakelen</string>
     <string name="pref_scrollingcache_force_disable">Geforceerd uitschakelen</string>
-    
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Aan/Uit menu animaties</string>
+    <string name="power_menu_animation_summary">Verander het in/uit gangs animatie van het aan/uit menu</string>
+    <string name="power_menu_animation_dialog_title">Selecteer animatie</string>
+    <string name="power_menu_animation_aosp">AOSP (Standaard)</string>
+    <string name="power_menu_animation_bottom">Van onder</string>
+    <string name="power_menu_animation_top">Van boven</string>
 
 	<!-- Recents Settings -->
 	<string name="recents_settings_title">Recente Apps</string>
