@@ -180,7 +180,14 @@
     <string name="power_menu_animation_bottom">Van onder</string>
     <string name="power_menu_animation_top">Van boven</string>
     <string name="power_menu_animation_rotate">Rotatie</string>
-
+    <string name="power_menu_animation_xylon">Vlieg</string>
+    <string name="power_menu_animation_slide">Glijd</string>
+    <string name="power_menu_animation_turn">Draai</string>
+    <string name="power_menu_animation_fly">Gloei</string>
+    <string name="power_menu_animation_translucent_top">Groei in (Van boven)</string>
+    <string name="power_menu_animation_translucent_bottom">Groei in (Van onder)</string>
+    
+    
 	<!-- Recents Settings -->
 	<string name="recents_settings_title">Recente Apps</string>
 	<string name="general_recents_tab">Algemeen</string>
