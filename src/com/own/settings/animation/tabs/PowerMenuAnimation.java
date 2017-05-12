@@ -59,8 +59,6 @@ public class PowerMenuAnimation extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.power_menu_animation_tab);
- 	    mContext = getActivity().getApplicationContext();
- 		mContentRes = getActivity().getContentResolver();
  		
         mPowerMenuAnimations = (ListPreference) findPreference(POWER_MENU_ANIMATIONS);
         mPowerMenuAnimations.setValue(String.valueOf(Settings.System.getInt(
@@ -79,9 +77,7 @@ public class PowerMenuAnimation extends SettingsPreferenceFragment implements
             mPowerMenuAnimations.setValue(String.valueOf(newValue));
             mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
             return true;
-		 }
-            preference.setSummary(getProperSummary(preference));
-  
+		 }  
           return false;
     }
 
