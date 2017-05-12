@@ -179,6 +179,7 @@
     <string name="power_menu_animation_aosp">AOSP (Standaard)</string>
     <string name="power_menu_animation_bottom">Van onder</string>
     <string name="power_menu_animation_top">Van boven</string>
+    <string name="power_menu_animation_rotate">Rotatie</string>
 
 	<!-- Recents Settings -->
 	<string name="recents_settings_title">Recente Apps</string>
