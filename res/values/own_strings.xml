@@ -100,7 +100,9 @@
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_hidearrow_title">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide arrows in traffic indicator</string>
-
+	<string name="network_traffic_color_style">Color style</string>
+	<string name="network_traffic_color_reset">Reset color</string>
+	<string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
 
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Quick Settings</string>

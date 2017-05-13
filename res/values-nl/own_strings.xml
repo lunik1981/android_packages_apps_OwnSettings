@@ -86,7 +86,9 @@
     <string name="network_traffic_autohide_threshold">Inactiviteits duur</string>
     <string name="network_traffic_hidearrow_title">Verberg pijlen</string>
     <string name="network_traffic_hidearrow_summary">Verberg pijlen in de monitor</string>
-
+	<string name="network_traffic_color_style">Kleur style</string>
+	<string name="network_traffic_color_reset">Reset kleuren</string>
+	<string name="network_traffic_color_reset_message">Kleuren naar standaard waardes herstellen?</string>
 	
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Snelle Instellingen</string>
