@@ -46,4 +46,10 @@
 		android:title="@string/recents_settings_title" 
 		android:icon="@drawable/ic_own_recents" />
 
+	<PreferenceScreen
+		android:key="about"
+		android:title="@string/about_ownrom"
+		android:fragment="com.own.settings.about.OwnROM"
+		android:icon="@drawable/ic_settings_about" />
+
 </PreferenceScreen>

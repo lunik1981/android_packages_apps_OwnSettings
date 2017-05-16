@@ -229,5 +229,21 @@
     <string name="immersive_recents_default">Standaard</string>
     <string name="immersive_recents_statusbar">Alleen statusbalk</string>
     <string name="immersive_recents_navbar">Alleen navigatie balk</string>
-    
+
+    <!-- About OwnROM -->
+    <string name="about_ownrom">Over OwnROM</string>
+    <!-- Changelog -->
+    <string name="changelog_ownrom_error">Kan changelog niet laden</string>
+    <!-- Share OwnROM -->
+    <string name="share_ownrom_title">Deel OwnROM</string>
+    <string name="share_ownrom_summary">Laat andere weten wat je vind van OwnROM</string>
+    <string name="share_message">Zie waar het bij #OwnROM allemaal om gaat op Google+: https://plus.google.com/communities/108869588356214314591</string>
+    <string name="share_chooser_title">Deel OwnROM</string>
+    <!-- Sites OwnROM -->
+    <string name="ownrom_source_summary">Bekijk onze Source Codes</string>
+    <string name="ownrom_google_plus_title">Google+</string>
+    <string name="ownrom_google_plus_summary">Bezoek onze G+ pagina voor info en updates</string>
+    <!-- Maintainers -->
+    <string name="maintainers_ownrom_error">Kan maintainers lijst niet laden</string>
+        
  </resources>

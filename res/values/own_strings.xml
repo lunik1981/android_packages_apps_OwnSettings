@@ -258,5 +258,26 @@
     <string name="immersive_recents_fullscreen">Fullscreen</string>
     <string name="immersive_recents_statusbar">Statusbar only</string>
     <string name="immersive_recents_navbar">Navbar only</string>
-    
+
+
+    <!-- About OwnROM -->
+    <string name="about_ownrom">About OwnROM</string>
+    <string name="about_links_tab">Links</string>
+    <!-- Changelog -->
+    <string name="changelog_ownrom_title">Changelog</string>
+    <string name="changelog_ownrom_error">Unable to load changelog</string>
+    <!-- Share OwnROM -->
+    <string name="share_ownrom_title">Share OwnROM</string>
+    <string name="share_ownrom_summary">Let others know about OwnROM</string>
+    <string name="share_message">Check out what #OwnROM is all about @ Google+: https://plus.google.com/communities/108869588356214314591</string>
+    <string name="share_chooser_title">Share OwnROM</string>
+    <!-- Sites OwnROM -->
+    <string name="ownrom_source_title">Github</string>
+    <string name="ownrom_source_summary">Visit our source git team</string>
+    <string name="ownrom_google_plus_title">Google+</string>
+    <string name="ownrom_google_plus_summary">Visit our G+ page for support and news</string>
+    <!-- Maintainers -->
+    <string name="maintainers_ownrom_title">Maintainers</string>
+    <string name="maintainers_ownrom_error">Unable to load maintainers list</string>
+
  </resources>
