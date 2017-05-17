@@ -48,7 +48,7 @@
 
 	<PreferenceScreen
 		android:key="about"
-		android:title="@string/about_ownrom"
+		android:title="@string/owncenter"
 		android:fragment="com.own.settings.about.OwnROM"
 		android:icon="@drawable/ic_settings_about" />
 

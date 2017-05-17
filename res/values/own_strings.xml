@@ -261,8 +261,8 @@
 
 
     <!-- About OwnROM -->
-    <string name="about_ownrom">OwnROM Center</string>
-    <string name="about_links_tab">Links</string>
+    <string name="owncenter">OwnROM Center</string>
+    <string name="owncenter_links_tab">Links</string>
     <!-- Changelog -->
     <string name="changelog_ownrom_title">Changelog</string>
     <string name="changelog_ownrom_error">Unable to load changelog</string>

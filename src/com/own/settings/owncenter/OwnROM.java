@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.own.settings.about;
+package com.own.settings.owncenter;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -36,9 +36,9 @@ import com.own.settings.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
-import com.own.settings.about.tabs.Links;
-import com.own.settings.about.tabs.Changelog;
-import com.own.settings.about.tabs.Team;
+import com.own.settings.about.owncenter.Links;
+import com.own.settings.about.owncenter.Changelog;
+import com.own.settings.about.owncenter.Team;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -116,7 +116,7 @@ public class OwnROM extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.about_links_tab),
+		    getString(R.string.owncenter_links_tab),
 		    getString(R.string.changelog_ownrom_title),
 		    getString(R.string.team_ownrom_title)};
         return titleString;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.own.settings.about.tabs;
+package com.own.settings.owncenter.tabs;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -46,7 +46,7 @@ public class Links extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.about_links_tab);
+        addPreferencesFromResource(R.xml.owncenter_links_tab);
 
         mSourceUrl = findPreference(KEY_OWNROM_SOURCE);
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);

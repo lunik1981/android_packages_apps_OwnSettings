@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.own.settings.about.tabs;
+package com.own.settings.owncenter.tabs;
 
 import android.app.Activity;
 import android.content.Intent;
