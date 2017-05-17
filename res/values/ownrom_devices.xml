@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2017 crDroid Android Project
+     Copyright (C) 205-2017 The OwnROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -34,6 +34,10 @@
     <string name="device_category_xiaomi_title">XIAOMI</string>
     <string name="device_category_yu_title">YU</string>
 
+    <!-- GOOGLE -->
+    <string name="device_google_angler">Nexus 6p (Angler)</string>
+    <string name="device_google_angler_summary">Maintainer and Head Developer OwnROM - Mark V (OwnDroid)</string>
+    
     <!-- ANDROİD ONE -->
 
     <!-- BQ -->
@@ -43,10 +47,6 @@
     <!-- HTC -->
 
     <!-- HUAWEİ -->
-
-    <!-- GOOGLE -->
-    <string name="device_google_angler">Nexus 6p (Angler)</string>
-    <string name="device_google_angler_summary">Maintainer - Mark V (OwnDroid)</string>
 
     <!-- LeEco -->
 

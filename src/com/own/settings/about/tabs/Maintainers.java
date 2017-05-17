@@ -16,21 +16,51 @@
 
 package com.own.settings.about.tabs;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class Maintainers extends SettingsPreferenceFragment {
+	
+	public static final String TAG = "Links";
+	
+	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";
+	
+	private Preference mAnglerPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         addPreferencesFromResource(R.xml.device_maintainers);
+        
+        mAnglerPlusUrl = findPreference(KEY_ANGLER_MAINTAINER_PLUS_LINK);
+        
     }
 
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mAnglerPlusUrl) {
+            launchUrl("https://plus.google.com/+MarkVisser10021991");
+        }
+        return super.onPreferenceTreeClick(preference);
+    }
+
+
+    private void launchUrl(String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
+        getActivity().startActivity(intent);
+    }
+
+               
     @Override
     protected int getMetricsCategory() {
         return MetricsEvent.OWN;

@@ -22,10 +22,10 @@
 
         <Preference
             android:id="@+id/device_google_angler"
+            android:key="angler_maintainer_plus_link"
             android:icon="@drawable/phone_tint"
             android:title="@string/device_google_angler"
-            android:summary="@string/device_google_angler_summary"
-            android:selectable="false" />
+            android:summary="@string/device_google_angler_summary" />
 
     </PreferenceCategory>
     
