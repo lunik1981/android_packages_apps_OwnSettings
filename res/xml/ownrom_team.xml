@@ -16,6 +16,22 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/about_ownrom">
 
+	<!-- Developers Erea -->
+    <!-- Head developers -->
+    <PreferenceCategory
+        android:title="@string/developer_category_head">
+
+        <Preference
+            android:id="@+id/developer_owndroid"
+            android:key="developer_owndroid_plus_link"
+            android:icon="@drawable/code_tint"
+            android:title="@string/developer_owndroid"
+            android:summary="@string/developer_owndroid_summary" />
+
+    </PreferenceCategory>
+
+
+	<!-- Maintainers Erea -->
     <!-- GOOGLE -->
     <PreferenceCategory
         android:title="@string/device_category_google_title">

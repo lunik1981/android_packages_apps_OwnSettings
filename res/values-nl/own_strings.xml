@@ -244,7 +244,5 @@
     <string name="ownrom_google_plus_title">Google+</string>
     <string name="ownrom_google_plus_summary">Bezoek onze G+ pagina voor info en updates</string>
     <string name="ownrom_website_summary">bezoek onze website voor downloads en updates</string>
-    <!-- Maintainers -->
-    <string name="maintainers_ownrom_error">Kan maintainers lijst niet laden</string>
         
  </resources>

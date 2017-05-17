@@ -278,8 +278,7 @@
     <string name="ownrom_google_plus_summary">Visit our G+ page for support and news</string>
     <string name="ownrom_website_title">OwnDroid Website</string>
     <string name="ownrom_website_summary">Visit our website for downloads and updates</string>
-    <!-- Maintainers -->
-    <string name="maintainers_ownrom_title">Maintainers</string>
-    <string name="maintainers_ownrom_error">Unable to load maintainers list</string>
+    <!-- Team -->
+    <string name="team_ownrom_title">Team</string>
 
  </resources>

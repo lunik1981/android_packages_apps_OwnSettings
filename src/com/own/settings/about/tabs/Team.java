@@ -28,26 +28,42 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class Maintainers extends SettingsPreferenceFragment {
+public class Team extends SettingsPreferenceFragment {
 	
-	public static final String TAG = "Links";
+	public static final String TAG = "team";
+
+	//Developers Erea
+	private String KEY_DEVELOPER_OWNDROID_PLUS_LINK = "developer_owndroid_plus_link"
 	
+	//Maintainers Erea
 	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";
+
+	//Developers Erea
+	private Preference mOwndroidPlusUrl;
 	
+	//Maintainers Erea
 	private Preference mAnglerPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.device_maintainers);
-        
+        addPreferencesFromResource(R.xml.ownrom_team);
+
+		//Developers Erea
+		mOwndroidPlusUrl = findPreference(KEY_DEVELOPER_OWNDROID_PLUS_LINK);
+
+		//Maintainers Erea
         mAnglerPlusUrl = findPreference(KEY_ANGLER_MAINTAINER_PLUS_LINK);
         
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mAnglerPlusUrl) {
+		//Developers Erea
+        if (preference == mOwndroidPlusUrl) {
+            launchUrl("https://plus.google.com/+MarkVisser10021991");
+		//Maintainers Erea
+        } else if (preference == mAnglerPlusUrl) {
             launchUrl("https://plus.google.com/+MarkVisser10021991");
         }
         return super.onPreferenceTreeClick(preference);
