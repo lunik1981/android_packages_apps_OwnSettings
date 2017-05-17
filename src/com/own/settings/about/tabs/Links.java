@@ -35,10 +35,12 @@ public class Links extends SettingsPreferenceFragment {
 
     private String KEY_OWNROM_SOURCE = "ownrom_source";
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
+    private String KEY_OWNROM_WEBSITE = "ownrom_website" ;
     private String KEY_OWNROM_SHARE = "ownrom_share";
 
     private Preference mSourceUrl;
     private Preference mGoogleUrl;
+    private Preference mWebsiteUrl;
     private Preference mShare;
 
     @Override
@@ -48,6 +50,7 @@ public class Links extends SettingsPreferenceFragment {
 
         mSourceUrl = findPreference(KEY_OWNROM_SOURCE);
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);
+        mWebsiteUrl = findPreference(KEY_OWNROM_WEBSITE);
         mShare = findPreference(KEY_OWNROM_SHARE);
     }
 
@@ -57,6 +60,8 @@ public class Links extends SettingsPreferenceFragment {
             launchUrl("https://github.com/OwnROM");
         } else if (preference == mGoogleUrl) {
             launchUrl("https://plus.google.com/communities/108869588356214314591");
+        } else if (preference == mWebsiteUrl) {
+			launchUrl("https://ownrom.netlify.com");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

@@ -16,11 +16,11 @@
                   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
 				  android:title="@string/about_links_tab">
 
-        <!-- OwnROM Share -->
+        <!-- OwnROM Website -->
         <PreferenceScreen
-            android:key="share"
-            android:title="@string/share_ownrom_title"
-            android:summary="@string/share_ownrom_summary" />
+            android:key="ownrom_website"
+            android:title="@string/ownrom_website_title"
+            android:summary="@string/ownrom_website_summary" />
 
         <!-- OwnROM Github -->
         <PreferenceScreen
@@ -34,4 +34,10 @@
             android:title="@string/ownrom_google_plus_title"
             android:summary="@string/ownrom_google_plus_summary" />
 
+        <!-- OwnROM Share -->
+        <PreferenceScreen
+            android:key="share"
+            android:title="@string/share_ownrom_title"
+            android:summary="@string/share_ownrom_summary" />
+            
 </PreferenceScreen>
