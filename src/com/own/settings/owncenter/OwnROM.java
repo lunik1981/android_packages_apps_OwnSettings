@@ -36,9 +36,9 @@ import com.own.settings.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
-import com.own.settings.about.owncenter.Links;
-import com.own.settings.about.owncenter.Changelog;
-import com.own.settings.about.owncenter.Team;
+import com.own.settings.owncenter.tabs.Links;
+import com.own.settings.owncenter.tabs.Changelog;
+import com.own.settings.owncenter.tabs.Team;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 

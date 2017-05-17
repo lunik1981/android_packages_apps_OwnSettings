@@ -33,7 +33,7 @@ public class Team extends SettingsPreferenceFragment {
 	public static final String TAG = "team";
 
 	//Developers Erea
-	private String KEY_DEVELOPER_OWNDROID_PLUS_LINK = "developer_owndroid_plus_link"
+	private String KEY_DEVELOPER_OWNDROID_PLUS_LINK = "developer_owndroid_plus_link";
 	
 	//Maintainers Erea
 	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";

@@ -27,7 +27,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_own_search_alpha" />
+            android:src="@drawable/ic_own_search" />
 
     </RelativeLayout>
 
