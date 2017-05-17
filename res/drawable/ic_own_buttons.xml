@@ -13,16 +13,11 @@
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
 
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorAccent">
-		<path
-			android:fillColor="#FFFFFFFF"
-			android:pathData="M0,31.6499023c0-1.546875,0-28.6938477,0-29.7607422
-							  c0-1.3837891,1.4057617-2.4130859,2.7954102-1.6035156c1.1137695,0.6479492,23.3701172,13.7314453,25.2695313,14.8500977
-							  c1.2480469,0.7353516,1.2265625,2.487793,0,3.2241211C26.6977539,19.1801758,4.3564453,32.3305664,2.7382813,33.2446289
-							  C1.5537109,33.9145508,0,33.1743164,0,31.6499023z"/>
+	android:width="24dp"
+	android:height="24dp"
+	android:viewportWidth="24"
+	android:viewportHeight="24" >
+	    <path android:fillColor="?*android:attr/colorAccent" 
+			  android:pathData="M459,76.5H51c-28,0 -51,23 -51,51v255c0,28 23,51 51,51h408c28,0 51,-23 51,-51v-255C510,99.4 487,76.5 459,76.5zM229.5,153h51v51h-51V153zM229.5,229.5h51v51h-51V229.5zM153,153h51v51h-51V153zM153,229.5h51v51h-51V229.5zM127.5,280.5h-51v-51h51V280.5zM127.5,204h-51v-51h51V204zM357,382.5H153v-51h204V382.5zM357,280.5h-51v-51h51V280.5zM357,204h-51v-51h51V204zM433.5,280.5h-51v-51h51V280.5zM433.5,204h-51v-51h51V204z"/>
 
 </vector>
