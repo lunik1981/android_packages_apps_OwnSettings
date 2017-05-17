@@ -261,7 +261,7 @@
 
 
     <!-- About OwnROM -->
-    <string name="about_ownrom">About OwnROM</string>
+    <string name="about_ownrom">OwnROM Center</string>
     <string name="about_links_tab">Links</string>
     <!-- Changelog -->
     <string name="changelog_ownrom_title">Changelog</string>
