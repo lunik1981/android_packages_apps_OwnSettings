@@ -29,9 +29,9 @@ import com.android.settings.R;
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
-public class Links extends SettingsPreferenceFragment {
+public class OTA extends SettingsPreferenceFragment {
 
-    public static final String TAG = "Links";
+    public static final String TAG = "OTA";
 
     private String KEY_OWNROM_SOURCE = "ownrom_source";
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
@@ -46,7 +46,7 @@ public class Links extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.owncenter_links_tab);
+        addPreferencesFromResource(R.xml.owncenter_ota_tab);
 
         mSourceUrl = findPreference(KEY_OWNROM_SOURCE);
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);

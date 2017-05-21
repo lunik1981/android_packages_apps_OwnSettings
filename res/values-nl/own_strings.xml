@@ -230,7 +230,7 @@
     <string name="immersive_recents_statusbar">Alleen statusbalk</string>
     <string name="immersive_recents_navbar">Alleen navigatie balk</string>
 
-    <!-- About OwnROM -->
+    <!--OwnROM Center -->
     <string name="owncenter">OwnROM Centrum</string>
     <!-- Changelog -->
     <string name="changelog_ownrom_error">Kan changelog niet laden</string>

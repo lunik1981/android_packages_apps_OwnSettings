@@ -36,7 +36,7 @@ import com.own.settings.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
-import com.own.settings.owncenter.tabs.Links;
+import com.own.settings.owncenter.tabs.OTA;
 import com.own.settings.owncenter.tabs.Changelog;
 import com.own.settings.owncenter.tabs.Team;
 
@@ -92,7 +92,7 @@ public class OwnROM extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-	    frags[0] = new Links();
+	    frags[0] = new OTA();
 	    frags[1] = new Changelog();
 	    frags[2] = new Team();
         }
@@ -116,7 +116,7 @@ public class OwnROM extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.owncenter_links_tab),
+		    getString(R.string.owncenter_ota_tab),
 		    getString(R.string.changelog_ownrom_title),
 		    getString(R.string.team_ownrom_title)};
         return titleString;
