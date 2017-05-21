@@ -239,10 +239,11 @@
     <string name="share_ownrom_summary">Laat andere weten wat je vind van OwnROM</string>
     <string name="share_message">Zie waar het bij #OwnROM allemaal om gaat op Google+: https://plus.google.com/communities/108869588356214314591</string>
     <string name="share_chooser_title">Deel OwnROM</string>
-    <!-- Sites OwnROM -->
+    <!-- OwnROM OTA-->
     <string name="ownrom_source_summary">Bekijk onze Source Codes</string>
     <string name="ownrom_google_plus_title">Google+</string>
     <string name="ownrom_google_plus_summary">Bezoek onze G+ pagina voor info en updates</string>
     <string name="ownrom_website_summary">bezoek onze website voor downloads en updates</string>
+    <string name="ownrom_walls_summary">Download verschillende Wallpapers</string>
         
  </resources>

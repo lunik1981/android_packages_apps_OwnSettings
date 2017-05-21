@@ -33,14 +33,16 @@ public class OTA extends SettingsPreferenceFragment {
 
     public static final String TAG = "OTA";
 
+    private String KEY_OWNROM_WEBSITE = "ownrom_website" ;
+    private String KEY_OWNROM_WALLS = "ownrom_walls" ;
     private String KEY_OWNROM_SOURCE = "ownrom_source";
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
-    private String KEY_OWNROM_WEBSITE = "ownrom_website" ;
     private String KEY_OWNROM_SHARE = "ownrom_share";
 
+    private Preference mWebsiteUrl;
+    private Preference mWallsUrl;
     private Preference mSourceUrl;
     private Preference mGoogleUrl;
-    private Preference mWebsiteUrl;
     private Preference mShare;
 
     @Override
@@ -48,20 +50,23 @@ public class OTA extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.owncenter_ota_tab);
 
+        mWebsiteUrl = findPreference(KEY_OWNROM_WEBSITE);
+        mWallsUrl = findPreference(KEY_OWNROM_WALLS);
         mSourceUrl = findPreference(KEY_OWNROM_SOURCE);
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);
-        mWebsiteUrl = findPreference(KEY_OWNROM_WEBSITE);
         mShare = findPreference(KEY_OWNROM_SHARE);
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mSourceUrl) {
+		if (preference == mWebsiteUrl) {
+			launchUrl("https://ownrom.netlify.com");
+		} else if (preference == mWallsUrl) {
+			launchUrl("https://drive.google.com/open?id=0ByxXWLUoTqcveHlfOHd2ZUlENW8");
+        } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/OwnROM");
         } else if (preference == mGoogleUrl) {
             launchUrl("https://plus.google.com/communities/108869588356214314591");
-        } else if (preference == mWebsiteUrl) {
-			launchUrl("https://ownrom.netlify.com");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

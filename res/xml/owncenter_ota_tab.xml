@@ -31,6 +31,12 @@
             android:title="@string/ownrom_website_title"
             android:summary="@string/ownrom_website_summary" />
 
+		<!-- Own Walls -->
+		<PreferenceScreen
+			android:key="ownrom_walls"
+			android:title="@string/ownrom_walls_title"
+			android:summary="@string/ownrom_walls_summary" />
+			
         <!-- OwnROM Github -->
         <PreferenceScreen
             android:key="ownrom_source"
