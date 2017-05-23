@@ -41,7 +41,10 @@
     <!-- LG -->
     <string name="device_lg_d852">LG G3 (D852)</string>
     <string name="device_lg_d852_summary">Victor Linfield (vilinfield)</string>
-    
+
+    <!-- LENOVO -->
+    <string name="device_lenovo_A7010a48">Lenovo Vibe K4 Note</string>
+    <string name="device_lenovo_A7010a48_summary">Mohan Cm (mohancm100)</string>
     
     <!-- ANDROİD ONE -->
 
@@ -54,8 +57,6 @@
     <!-- HUAWEİ -->
 
     <!-- LeEco -->
-
-    <!-- LENOVO -->
 
     <!-- MOTOROLA -->
 

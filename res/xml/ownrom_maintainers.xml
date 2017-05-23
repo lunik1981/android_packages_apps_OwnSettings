@@ -40,7 +40,19 @@
             android:summary="@string/device_lg_d852_summary" />
                   
     </PreferenceCategory>  
-    
+
+    <!-- LENOVO -->
+    <PreferenceCategory
+        android:title="@string/device_category_lenovo_title">
+        
+        <Preference
+            android:id="@+id/device_lenovo_A7010a48"
+            android:key="A7010a48_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_lenovo_A7010a48"
+            android:summary="@string/device_lenovo_A7010a48_summary" />        
+        
+    </PreferenceCategory> 
     
     <!-- ANDROİD ONE
     <PreferenceCategory
@@ -70,11 +82,6 @@
     <!-- LeEco 
     <PreferenceCategory
         android:title="@string/device_category_leeco_title">
-    </PreferenceCategory> -->
-
-    <!-- LENOVO
-    <PreferenceCategory
-        android:title="@string/device_category_lenovo_title">
     </PreferenceCategory> -->
 
     <!-- MOTOROLA
