@@ -13,12 +13,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-	<!-- Developers Erea -->
-	<!-- Developers titles -->
-	<string name="developer_category_head">Hoofd Ontwikkelaar</string>
+	<!-- team titles -->
+	<string name="team_category_head">Hoofd ontwikkelaars</string>
+	<string name="team_category_website">Website ontwikkelaars</string>
 
 	<!-- Head Developers -->
-	<string name="developer_owndroid">Hoofd Ontwikkelaar - OwnROM</string>
+	<string name="developer_owndroid">Hoofd ontwikkelaar - OwnROM</string>
 
+	<!-- Website Developers -->
+	<string name="website_developer_victor">Hoofd website ontwikkelaar</string>
 
 </resources>

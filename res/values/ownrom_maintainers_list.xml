@@ -36,7 +36,12 @@
 
     <!-- GOOGLE -->
     <string name="device_google_angler">Nexus 6p (Angler)</string>
-    <string name="device_google_angler_summary">Maintainer Mark V (OwnDroid)</string>
+    <string name="device_google_angler_summary">Mark V (OwnDroid)</string>
+
+    <!-- LG -->
+    <string name="device_lg_d852">LG G3 (D852)</string>
+    <string name="device_lg_d852_summary">Victor Linfield (vilinfield)</string>
+    
     
     <!-- ANDROİD ONE -->
 
@@ -51,8 +56,6 @@
     <!-- LeEco -->
 
     <!-- LENOVO -->
-
-    <!-- LG -->
 
     <!-- MOTOROLA -->
 

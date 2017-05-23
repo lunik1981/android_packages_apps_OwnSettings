@@ -14,11 +14,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 	<!-- team titles -->
-	<string name="team_category_head">Head developer</string>
+	<string name="team_category_head">Head developers</string>
+	<string name="team_category_website">Website developers</string>
 
 	<!-- Head Developers -->
 	<string name="developer_owndroid">Head developer - OwnROM</string>
 	<string name="developer_owndroid_summary">Mark V (OwnDroid)</string>
+	
+	<!-- Website Developers -->
+	<string name="website_developer_victor">Head website developer</string>
+	<string name="website_developer_victor_summary">Victor Linfield (vilinfield)</string>
 
 
 </resources>

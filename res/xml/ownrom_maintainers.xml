@@ -27,6 +27,20 @@
             android:summary="@string/device_google_angler_summary" />
 
     </PreferenceCategory>
+
+    <!-- LG -->
+    <PreferenceCategory
+        android:title="@string/device_category_lg_title">
+        
+        <Preference
+            android:id="@+id/device_lg_d852"
+            android:key="d852_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_lg_d852"
+            android:summary="@string/device_lg_d852_summary" />
+                  
+    </PreferenceCategory>  
+    
     
     <!-- ANDROİD ONE
     <PreferenceCategory
@@ -62,11 +76,6 @@
     <PreferenceCategory
         android:title="@string/device_category_lenovo_title">
     </PreferenceCategory> -->
-
-    <!-- LG
-    <PreferenceCategory
-        android:title="@string/device_category_lg_title">
-    </PreferenceCategory>  -->
 
     <!-- MOTOROLA
     <PreferenceCategory

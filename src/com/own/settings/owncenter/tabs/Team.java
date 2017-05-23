@@ -32,23 +32,42 @@ public class Team extends SettingsPreferenceFragment {
 	
 	public static final String TAG = "team";
 
+	// Developers
 	private String KEY_DEVELOPER_OWNDROID_PLUS_LINK = "developer_owndroid_plus_link";
+	
+	// Website Developers
+	private String KEY_DEVELOPER_VICTOR_PLUS_LINK = "developer_victor_plus_link";
 
+	// Developers
 	private Preference mOwndroidPlusUrl;
+	
+	// Website Developers
+	private Preference mVictorPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.ownrom_team);
 
+		// Developers
 		mOwndroidPlusUrl = findPreference(KEY_DEVELOPER_OWNDROID_PLUS_LINK);
+		
+		// Website Developers
+		mVictorPlusUrl = findPreference(KEY_DEVELOPER_VICTOR_PLUS_LINK);
         
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
+		
+		// Developers
         if (preference == mOwndroidPlusUrl) {
             launchUrl("https://plus.google.com/+MarkVisser10021991");
+            
+		// Website Developers
+		} else if (preference == mVictorPlusUrl) {
+            launchUrl("https://plus.google.com/+VictorLinfield");
+            
         }
         return super.onPreferenceTreeClick(preference);
     }

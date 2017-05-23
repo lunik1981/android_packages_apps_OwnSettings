@@ -29,4 +29,17 @@
 
     </PreferenceCategory>
 
+    <!-- Website developers -->
+    <PreferenceCategory
+        android:title="@string/team_category_website">
+
+        <Preference
+            android:id="@+id/developer_victor"
+            android:key="developer_victor_plus_link"
+            android:icon="@drawable/world_tint"
+            android:title="@string/website_developer_victor"
+            android:summary="@string/website_developer_victor_summary" />
+
+    </PreferenceCategory>
+    
 </PreferenceScreen>

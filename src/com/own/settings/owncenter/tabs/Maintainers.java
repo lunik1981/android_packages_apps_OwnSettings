@@ -32,23 +32,42 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	public static final String TAG = "maintainers";
 
+	// Google
 	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";
+	
+	// LG
+	private String KEY_D852_MAINTAINER_PLUS_LINK = "d852_maintainer_plus_link";
 
+	// Google
 	private Preference mAnglerPlusUrl;
+	
+	// LG
+	private Preference mD852PlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.ownrom_maintainers);
 
+		// Google
         mAnglerPlusUrl = findPreference(KEY_ANGLER_MAINTAINER_PLUS_LINK);
+        
+        // LG
+        mD852PlusUrl = findPreference(KEY_D852_MAINTAINER_PLUS_LINK);
         
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
+
+		// Google
         if (preference == mAnglerPlusUrl) {
             launchUrl("https://plus.google.com/+MarkVisser10021991");
+            
+		// LG
+		} else if (preference == mD852PlusUrl) {
+			launchUrl("https://plus.google.com/+VictorLinfield");
+			
         }
         return super.onPreferenceTreeClick(preference);
     }
