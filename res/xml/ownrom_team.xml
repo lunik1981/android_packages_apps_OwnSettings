@@ -14,12 +14,11 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/owncenter">
+    android:title="@string/team_ownrom_title">
 
-	<!-- Developers Erea -->
     <!-- Head developers -->
     <PreferenceCategory
-        android:title="@string/developer_category_head">
+        android:title="@string/team_category_head">
 
         <Preference
             android:id="@+id/developer_owndroid"
@@ -30,109 +29,4 @@
 
     </PreferenceCategory>
 
-
-	<!-- Maintainers Erea -->
-    <!-- GOOGLE -->
-    <PreferenceCategory
-        android:title="@string/device_category_google_title">
-
-        <Preference
-            android:id="@+id/device_google_angler"
-            android:key="angler_maintainer_plus_link"
-            android:icon="@drawable/phone_tint"
-            android:title="@string/device_google_angler"
-            android:summary="@string/device_google_angler_summary" />
-
-    </PreferenceCategory>
-    
-    <!-- ANDROİD ONE
-    <PreferenceCategory
-        android:title="@string/device_category_one_title">
-    </PreferenceCategory> -->
-
-    <!-- BQ
-    <PreferenceCategory
-        android:title="@string/device_category_bq_title">
-    </PreferenceCategory> -->
-
-    <!-- ASUS
-    <PreferenceCategory
-        android:title="@string/device_category_asus_title">
-    </PreferenceCategory> -->
-
-    <!-- HTC 
-    <PreferenceCategory
-        android:title="@string/device_category_htc_title">
-    </PreferenceCategory> -->
-
-    <!-- HUAWEİ
-    <PreferenceCategory
-        android:title="@string/device_category_huawei_title">
-    </PreferenceCategory> -->
-
-    <!-- LeEco 
-    <PreferenceCategory
-        android:title="@string/device_category_leeco_title">
-    </PreferenceCategory> -->
-
-    <!-- LENOVO
-    <PreferenceCategory
-        android:title="@string/device_category_lenovo_title">
-    </PreferenceCategory> -->
-
-    <!-- LG
-    <PreferenceCategory
-        android:title="@string/device_category_lg_title">
-    </PreferenceCategory>  -->
-
-    <!-- MOTOROLA
-    <PreferenceCategory
-        android:title="@string/device_category_motorola_title">
-    </PreferenceCategory>  -->
-
-    <!-- NEXTBIT
-    <PreferenceCategory
-        android:title="@string/device_category_nextbit_title">
-    </PreferenceCategory>  -->
-
-    <!-- NVİDİA
-    <PreferenceCategory
-        android:title="@string/device_category_nvidia_title">
-    </PreferenceCategory> -->
-
-    <!-- ONEPLUS
-    <PreferenceCategory
-        android:title="@string/device_category_oneplus_title">
-    </PreferenceCategory>  -->
-
-    <!-- OPPO
-    <PreferenceCategory
-        android:title="@string/device_category_oppo_title">
-    </PreferenceCategory>  -->
-
-    <!-- SAMSUNG
-    <PreferenceCategory
-        android:title="@string/device_category_samsung_title">
-    </PreferenceCategory>  -->
-
-    <!-- SONY
-    <PreferenceCategory
-        android:title="@string/device_category_sony_title">
-    </PreferenceCategory> -->
-
-    <!-- WİLEYFOX
-    <PreferenceCategory
-        android:title="@string/device_category_wileyfox_title">
-    </PreferenceCategory>  -->
-
-    <!-- XIAOMI
-    <PreferenceCategory
-        android:title="@string/device_category_xiaomi_title">
-    </PreferenceCategory>  -->
-
-    <!-- YU
-    <PreferenceCategory
-        android:title="@string/device_category_yu_title">
-    </PreferenceCategory>  -->
-    
 </PreferenceScreen>

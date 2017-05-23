@@ -13,74 +13,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-	<!-- Developers Erea -->
-	<!-- Developers titles -->
-	<string name="developer_category_head">Head developer</string>
+	<!-- team titles -->
+	<string name="team_category_head">Head developer</string>
 
 	<!-- Head Developers -->
 	<string name="developer_owndroid">Head developer - OwnROM</string>
 	<string name="developer_owndroid_summary">Mark V (OwnDroid)</string>
 
-	<!-- Maintainers erea -->
-    <!-- Device Brands -->
-    <string name="device_category_one_title">ANDROİD ONE</string>
-    <string name="device_category_bq_title">BQ</string>
-    <string name="device_category_asus_title">ASUS</string>
-    <string name="device_category_htc_title">HTC</string>
-    <string name="device_category_huawei_title">HUAWEİ</string>
-    <string name="device_category_google_title">GOOGLE</string>
-    <string name="device_category_leeco_title">LeEco</string>
-    <string name="device_category_lenovo_title">LENOVO</string>
-    <string name="device_category_lg_title">LG</string>
-    <string name="device_category_motorola_title">MOTOROLA</string>
-    <string name="device_category_nextbit_title">NEXTBIT</string>
-    <string name="device_category_nvidia_title">NVİDİA</string>
-    <string name="device_category_oneplus_title">ONEPLUS</string>
-    <string name="device_category_oppo_title">OPPO</string>
-    <string name="device_category_samsung_title">SAMSUNG</string>
-    <string name="device_category_sony_title">SONY</string>
-    <string name="device_category_wileyfox_title">WİLEYFOX</string>
-    <string name="device_category_xiaomi_title">XIAOMI</string>
-    <string name="device_category_yu_title">YU</string>
-
-    <!-- GOOGLE -->
-    <string name="device_google_angler">Nexus 6p (Angler)</string>
-    <string name="device_google_angler_summary">Maintainer Mark V (OwnDroid)</string>
-    
-    <!-- ANDROİD ONE -->
-
-    <!-- BQ -->
-
-    <!-- ASUS -->
-
-    <!-- HTC -->
-
-    <!-- HUAWEİ -->
-
-    <!-- LeEco -->
-
-    <!-- LENOVO -->
-
-    <!-- LG -->
-
-    <!-- MOTOROLA -->
-
-    <!-- NEXTBIT -->
-
-    <!-- NVİDİA -->
-
-    <!-- ONEPLUS -->
-
-    <!-- OPPO -->
-
-    <!-- SAMSUNG -->
-
-    <!-- SONY -->
-
-    <!-- WİLEYFOX -->
-
-    <!-- XIAOMI -->
-
-    <!-- YU -->
 
 </resources>

@@ -39,6 +39,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.own.settings.owncenter.tabs.OTA;
 import com.own.settings.owncenter.tabs.Changelog;
 import com.own.settings.owncenter.tabs.Team;
+import com.own.settings.owncenter.tabs.Maintainers;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -95,6 +96,7 @@ public class OwnROM extends SettingsPreferenceFragment {
 	    frags[0] = new OTA();
 	    frags[1] = new Changelog();
 	    frags[2] = new Team();
+	    frags[3] = new Maintainers();
         }
 
         @Override
@@ -118,7 +120,8 @@ public class OwnROM extends SettingsPreferenceFragment {
         titleString = new String[]{
 		    getString(R.string.owncenter_ota_tab),
 		    getString(R.string.changelog_ownrom_title),
-		    getString(R.string.team_ownrom_title)};
+		    getString(R.string.team_ownrom_title),
+		    getString(R.string.ownrom_maintainers)};
         return titleString;
     }
 

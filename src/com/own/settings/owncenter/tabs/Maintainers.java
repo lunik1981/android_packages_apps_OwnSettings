@@ -28,26 +28,26 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class Team extends SettingsPreferenceFragment {
+public class Maintainers extends SettingsPreferenceFragment {
 	
-	public static final String TAG = "team";
+	public static final String TAG = "maintainers";
 
-	private String KEY_DEVELOPER_OWNDROID_PLUS_LINK = "developer_owndroid_plus_link";
+	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";
 
-	private Preference mOwndroidPlusUrl;
+	private Preference mAnglerPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.ownrom_team);
+        addPreferencesFromResource(R.xml.ownrom_maintainers);
 
-		mOwndroidPlusUrl = findPreference(KEY_DEVELOPER_OWNDROID_PLUS_LINK);
+        mAnglerPlusUrl = findPreference(KEY_ANGLER_MAINTAINER_PLUS_LINK);
         
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mOwndroidPlusUrl) {
+        if (preference == mAnglerPlusUrl) {
             launchUrl("https://plus.google.com/+MarkVisser10021991");
         }
         return super.onPreferenceTreeClick(preference);
