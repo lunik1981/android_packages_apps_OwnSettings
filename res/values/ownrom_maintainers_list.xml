@@ -45,7 +45,11 @@
     <!-- LENOVO -->
     <string name="device_lenovo_A7010a48">Lenovo Vibe K4 Note</string>
     <string name="device_lenovo_A7010a48_summary">Mohan Cm (mohancm100)</string>
-    
+
+    <!-- MOTOROLA -->
+    <string name="device_motorola_harpia">G4 Play</string>
+    <string name="device_motorola_harpia_summary">Subhrajyoti (SubhrajyotiSen)</string>
+        
     <!-- ANDROİD ONE -->
 
     <!-- BQ -->

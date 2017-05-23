@@ -53,7 +53,20 @@
             android:summary="@string/device_lenovo_A7010a48_summary" />        
         
     </PreferenceCategory> 
-    
+
+    <!-- MOTOROLA -->
+    <PreferenceCategory
+        android:title="@string/device_category_motorola_title">
+        
+        <Preference
+            android:id="@+id/device_motorola_harpia"
+            android:key="harpia_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_motorola_harpia"
+            android:summary="@string/device_motorola_harpia_summary" />     
+            
+    </PreferenceCategory>  
+        
     <!-- ANDROİD ONE
     <PreferenceCategory
         android:title="@string/device_category_one_title">
@@ -83,11 +96,6 @@
     <PreferenceCategory
         android:title="@string/device_category_leeco_title">
     </PreferenceCategory> -->
-
-    <!-- MOTOROLA
-    <PreferenceCategory
-        android:title="@string/device_category_motorola_title">
-    </PreferenceCategory>  -->
 
     <!-- NEXTBIT
     <PreferenceCategory

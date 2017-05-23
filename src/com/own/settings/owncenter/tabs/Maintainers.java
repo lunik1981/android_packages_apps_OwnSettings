@@ -41,6 +41,10 @@ public class Maintainers extends SettingsPreferenceFragment {
 	// Lenovo
 	private String KEY_A7010a48_MAINTAINER_PLUS_LINK = "A7010a48_maintainer_plus_link";
 
+	// Motorola
+	private String KEY_HARPIA_MAINTAINER_PLUS_LINK = "harpia_maintainer_plus_link";
+	
+	
 	// Google
 	private Preference mAnglerPlusUrl;
 	
@@ -49,6 +53,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// Lenovo
 	private Preference mA7010a48PlusUrl;
+	
+	// Motorola
+	private Preference mHarpiaPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,6 +70,9 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // Lenovo
         mA7010a48PlusUrl = findPreference(KEY_A7010a48_MAINTAINER_PLUS_LINK);
+        
+        // Motorola
+        mHarpiaPlusUrl = findPreference(KEY_HARPIA_MAINTAINER_PLUS_LINK);
         
     }
 
@@ -80,7 +90,11 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// Lenovo
 		} else if (preference == mA7010a48PlusUrl) {
 			launchUrl("https://plus.google.com/+MohanCm100");
-			
+		
+		// Motorola
+		} else if (preference == mHarpiaPlusUrl) {
+			launchUrl("https://plus.google.com/u/0/+subhrajyotisen12");
+				
         }
         return super.onPreferenceTreeClick(preference);
     }
