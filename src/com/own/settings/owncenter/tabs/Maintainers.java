@@ -43,6 +43,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 
 	// Motorola
 	private String KEY_HARPIA_MAINTAINER_PLUS_LINK = "harpia_maintainer_plus_link";
+	private String KEY_POTTER_MAINTAINER_PLUS_LINK = "potter_maintainer_plus_link";
 	
 	
 	// Google
@@ -56,6 +57,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// Motorola
 	private Preference mHarpiaPlusUrl;
+	private Preference mPotterPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -73,6 +75,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // Motorola
         mHarpiaPlusUrl = findPreference(KEY_HARPIA_MAINTAINER_PLUS_LINK);
+        mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
         
     }
 
@@ -94,6 +97,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// Motorola
 		} else if (preference == mHarpiaPlusUrl) {
 			launchUrl("https://plus.google.com/u/0/+subhrajyotisen12");
+		} else if (preference == mPotterPlusUrl) {
+			launchUrl("https://plus.google.com/u/1/110774809129522678759");
 				
         }
         return super.onPreferenceTreeClick(preference);

@@ -64,6 +64,13 @@
             android:icon="@drawable/phone_tint"
             android:title="@string/device_motorola_harpia"
             android:summary="@string/device_motorola_harpia_summary" />     
+
+        <Preference
+            android:id="@+id/device_motorola_potter"
+            android:key="potter_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_motorola_potter"
+            android:summary="@string/device_motorola_potter_summary" />  
             
     </PreferenceCategory>  
         

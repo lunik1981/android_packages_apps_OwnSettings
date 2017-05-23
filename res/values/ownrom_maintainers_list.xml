@@ -49,6 +49,8 @@
     <!-- MOTOROLA -->
     <string name="device_motorola_harpia">G4 Play</string>
     <string name="device_motorola_harpia_summary">Subhrajyoti (SubhrajyotiSen)</string>
+    <string name="device_motorola_potter">Moto G5 Plus</string>
+    <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
         
     <!-- ANDROİD ONE -->
 
