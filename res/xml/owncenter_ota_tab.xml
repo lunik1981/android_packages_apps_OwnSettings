@@ -19,7 +19,8 @@
        <!-- OwnOTA -->
        <PreferenceScreen 
 			android:key="own_ota"
-			android:title="@string/own_updater_title">
+			android:title="@string/own_updater_title"
+			android:summary="@string/own_updater_summary" >
 				<intent android:action="android.intent.action.MAIN"
 						android:targetPackage="com.own.ota"
 						android:targetClass="com.own.ota.MainActivity" />
