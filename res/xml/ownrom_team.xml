@@ -41,5 +41,18 @@
             android:summary="@string/website_developer_victor_summary" />
 
     </PreferenceCategory>
-    
+
+    <!-- Website developers -->
+    <PreferenceCategory
+        android:title="@string/team_category_designer">
+
+        <Preference
+            android:id="@+id/designer_tjstevemx"
+            android:key="designer_tjstevemx_plus_link"
+            android:icon="@drawable/pallete_tint"
+            android:title="@string/designer_tjstevemx"
+            android:summary="@string/designer_tjstevemx_summary" />
+
+    </PreferenceCategory>
+        
 </PreferenceScreen>

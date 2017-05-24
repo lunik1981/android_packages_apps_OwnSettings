@@ -16,6 +16,7 @@
 	<!-- team titles -->
 	<string name="team_category_head">Head developers</string>
 	<string name="team_category_website">Website developers</string>
+	<string name="team_category_designer">Designers</string>
 
 	<!-- Head Developers -->
 	<string name="developer_owndroid">Head developer - OwnROM</string>
@@ -24,6 +25,10 @@
 	<!-- Website Developers -->
 	<string name="website_developer_victor">Head website developer</string>
 	<string name="website_developer_victor_summary">Victor Linfield (vilinfield)</string>
+	
+	<!-- Designers -->
+	<string name="designer_tjstevemx">Head designer</string>
+	<string name="designer_tjstevemx_summary">Esteban (TJSteveMX)</string>
 
 
 </resources>

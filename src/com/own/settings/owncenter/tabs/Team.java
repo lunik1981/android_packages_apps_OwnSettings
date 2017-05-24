@@ -38,11 +38,18 @@ public class Team extends SettingsPreferenceFragment {
 	// Website Developers
 	private String KEY_DEVELOPER_VICTOR_PLUS_LINK = "developer_victor_plus_link";
 
+	// Designers
+	private String KEY_DESIGNER_TJSTEVEMX_PLUS_LINK = "designer_tjstevemx_plus_link"
+
+
 	// Developers
 	private Preference mOwndroidPlusUrl;
 	
 	// Website Developers
 	private Preference mVictorPlusUrl;
+	
+	// Designers
+	private Preference mTjstevemxPlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,6 +61,9 @@ public class Team extends SettingsPreferenceFragment {
 		
 		// Website Developers
 		mVictorPlusUrl = findPreference(KEY_DEVELOPER_VICTOR_PLUS_LINK);
+		
+		// Designers
+		mTjstevemxPlusUrl = findPreference(KEY_DESIGNER_TJSTEVEMX_PLUS_LINK);
         
     }
 
@@ -67,7 +77,11 @@ public class Team extends SettingsPreferenceFragment {
 		// Website Developers
 		} else if (preference == mVictorPlusUrl) {
             launchUrl("https://plus.google.com/+VictorLinfield");
-            
+
+		// Designers
+		} else if (preference == mTjstevemxPlusUrl) {
+            launchUrl("https://plus.google.com/107002554168576794353");
+                        
         }
         return super.onPreferenceTreeClick(preference);
     }
