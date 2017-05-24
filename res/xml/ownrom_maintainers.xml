@@ -73,7 +73,20 @@
             android:summary="@string/device_motorola_potter_summary" />  
             
     </PreferenceCategory>  
+
+    <!-- ONEPLUS -->
+    <PreferenceCategory
+        android:title="@string/device_category_oneplus_title">
         
+        <Preference
+            android:id="@+id/device_oneplus_oneplus2"
+            android:key="oneplus2_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_oneplus_oneplus2"
+            android:summary="@string/device_oneplus_oneplus2_summary" />
+            
+    </PreferenceCategory>  
+            
     <!-- ANDROİD ONE
     <PreferenceCategory
         android:title="@string/device_category_one_title">
@@ -113,11 +126,6 @@
     <PreferenceCategory
         android:title="@string/device_category_nvidia_title">
     </PreferenceCategory> -->
-
-    <!-- ONEPLUS
-    <PreferenceCategory
-        android:title="@string/device_category_oneplus_title">
-    </PreferenceCategory>  -->
 
     <!-- OPPO
     <PreferenceCategory

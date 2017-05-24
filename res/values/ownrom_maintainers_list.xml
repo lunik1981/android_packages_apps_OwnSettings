@@ -51,7 +51,10 @@
     <string name="device_motorola_harpia_summary">Subhrajyoti (SubhrajyotiSen)</string>
     <string name="device_motorola_potter">Moto G5 Plus</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
-        
+
+    <!-- ONEPLUS -->
+    <string name="device_oneplus_oneplus2">OnePlus 2</string>
+    <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string>        
     <!-- ANDROİD ONE -->
 
     <!-- BQ -->
@@ -69,8 +72,6 @@
     <!-- NEXTBIT -->
 
     <!-- NVİDİA -->
-
-    <!-- ONEPLUS -->
 
     <!-- OPPO -->
 

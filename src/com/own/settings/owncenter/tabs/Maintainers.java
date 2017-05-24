@@ -45,6 +45,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_HARPIA_MAINTAINER_PLUS_LINK = "harpia_maintainer_plus_link";
 	private String KEY_POTTER_MAINTAINER_PLUS_LINK = "potter_maintainer_plus_link";
 	
+	// OnePlus
+	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link"
+	
 	
 	// Google
 	private Preference mAnglerPlusUrl;
@@ -58,6 +61,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 	// Motorola
 	private Preference mHarpiaPlusUrl;
 	private Preference mPotterPlusUrl;
+	
+	// OnePlus
+	private Preference mOneplus2PlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,6 +82,9 @@ public class Maintainers extends SettingsPreferenceFragment {
         // Motorola
         mHarpiaPlusUrl = findPreference(KEY_HARPIA_MAINTAINER_PLUS_LINK);
         mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
+        
+        // OnePlus
+        mOneplus2PlusUrl = findPrefernce(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
         
     }
 
@@ -99,6 +108,10 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/u/0/+subhrajyotisen12");
 		} else if (preference == mPotterPlusUrl) {
 			launchUrl("https://plus.google.com/u/1/110774809129522678759");
+			
+		// OnePlus
+		} else if (preference == mOneplus2PlusUrl) {
+			launchUrl("plus.google.com/+MuhammadHamzaMZO");
 				
         }
         return super.onPreferenceTreeClick(preference);
