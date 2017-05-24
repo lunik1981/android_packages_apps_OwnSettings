@@ -39,7 +39,7 @@ public class Team extends SettingsPreferenceFragment {
 	private String KEY_DEVELOPER_VICTOR_PLUS_LINK = "developer_victor_plus_link";
 
 	// Designers
-	private String KEY_DESIGNER_TJSTEVEMX_PLUS_LINK = "designer_tjstevemx_plus_link"
+	private String KEY_DESIGNER_TJSTEVEMX_PLUS_LINK = "designer_tjstevemx_plus_link";
 
 
 	// Developers

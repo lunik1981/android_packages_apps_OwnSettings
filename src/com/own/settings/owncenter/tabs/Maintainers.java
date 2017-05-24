@@ -46,7 +46,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_POTTER_MAINTAINER_PLUS_LINK = "potter_maintainer_plus_link";
 	
 	// OnePlus
-	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link"
+	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link";
 	
 	
 	// Google
@@ -84,7 +84,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
         
         // OnePlus
-        mOneplus2PlusUrl = findPrefernce(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
+        mOneplus2PlusUrl = findPreference(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
         
     }
 
@@ -111,7 +111,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 			
 		// OnePlus
 		} else if (preference == mOneplus2PlusUrl) {
-			launchUrl("plus.google.com/+MuhammadHamzaMZO");
+			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
 				
         }
         return super.onPreferenceTreeClick(preference);

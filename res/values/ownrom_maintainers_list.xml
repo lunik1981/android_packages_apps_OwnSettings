@@ -43,17 +43,17 @@
     <string name="device_lg_d852_summary">Victor Linfield (vilinfield)</string>
 
     <!-- LENOVO -->
-    <string name="device_lenovo_A7010a48">Lenovo Vibe K4 Note</string>
+    <string name="device_lenovo_A7010a48">Lenovo Vibe K4 Note (A7010a48)</string>
     <string name="device_lenovo_A7010a48_summary">Mohan Cm (mohancm100)</string>
 
     <!-- MOTOROLA -->
-    <string name="device_motorola_harpia">G4 Play</string>
+    <string name="device_motorola_harpia">G4 Play (Harpia)</string>
     <string name="device_motorola_harpia_summary">Subhrajyoti (SubhrajyotiSen)</string>
-    <string name="device_motorola_potter">Moto G5 Plus</string>
+    <string name="device_motorola_potter">Moto G5 Plus (Potter)</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
 
     <!-- ONEPLUS -->
-    <string name="device_oneplus_oneplus2">OnePlus 2</string>
+    <string name="device_oneplus_oneplus2">OnePlus 2 (OnePlus2)</string>
     <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string>        
     <!-- ANDROİD ONE -->
 
