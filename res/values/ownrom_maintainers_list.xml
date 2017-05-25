@@ -54,7 +54,10 @@
 
     <!-- ONEPLUS -->
     <string name="device_oneplus_oneplus2">OnePlus 2 (OnePlus2)</string>
-    <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string>        
+    <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string> 
+    <string name="device_oneplus_oneplus3">OnePlus 3 (OnePlus3)</string>
+    <string name="device_oneplus_oneplus3_summary">Kevin Stolk (Linkinback02)</string>
+    
     <!-- ANDROİD ONE -->
 
     <!-- BQ -->

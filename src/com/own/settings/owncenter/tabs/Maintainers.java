@@ -47,6 +47,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// OnePlus
 	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link";
+	private String KEY_ONEPLUS3_MAINTAINER_PLUS_LINK = "oneplus3_maintainer_plus_link";
 	
 	
 	// Google
@@ -64,6 +65,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// OnePlus
 	private Preference mOneplus2PlusUrl;
+	private Preference mOneplus3PlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -85,6 +87,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // OnePlus
         mOneplus2PlusUrl = findPreference(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
+        mOneplus3PlusUrl = findPreference(KEY_ONEPLUS3_MAINTAINER_PLUS_LINK);
         
     }
 
@@ -112,7 +115,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// OnePlus
 		} else if (preference == mOneplus2PlusUrl) {
 			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
-				
+		} else if (preference == mOneplus2PlusUrl) {
+			launchUrl("https://plus.google.com/117407273513920648646");
+							
         }
         return super.onPreferenceTreeClick(preference);
     }
