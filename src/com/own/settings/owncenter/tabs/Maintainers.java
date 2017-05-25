@@ -115,7 +115,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// OnePlus
 		} else if (preference == mOneplus2PlusUrl) {
 			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
-		} else if (preference == mOneplus2PlusUrl) {
+		} else if (preference == mOneplus3PlusUrl) {
 			launchUrl("https://plus.google.com/117407273513920648646");
 							
         }
