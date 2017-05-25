@@ -35,6 +35,7 @@ import android.view.ViewGroup;
 
 import com.own.settings.PagerSlidingTabStrip;
 import com.own.settings.statusbar.tabs.IconSettings;
+import com.own.settings.statusbar.tabs.Clock;
 import com.own.settings.statusbar.tabs.StatusbarOther;
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -93,7 +94,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
 	    frags[0] = new IconSettings();
-	    frags[1] = new StatusbarOther();
+	    frags[1] = new Clock();
+	    frags[2] = new StatusbarOther();
         }
 
         @Override
@@ -116,6 +118,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
 		    getString(R.string.statusbar_icons_tab_title),
+		    getString(R.string.statusbar_clock_tab),
 		    getString(R.string.statusbar_other_tab_title)};
         return titleString;
     }

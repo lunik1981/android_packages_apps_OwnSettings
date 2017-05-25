@@ -65,9 +65,37 @@
 	
     <!-- Categories -->
     
-    <!-- StatusBar -->	 
+    <!-- Status bar -->
+    <!-- Tabs -->
 	<string name="statusbar_icons_tab_title">Iconen</string>
+	<string name="statusbar_clock_tab">Klok</string>
 	<string name="statusbar_other_tab_title">Meer</string>
+	<!-- General --> 
+    <string name="status_bar_toggle_brightness">Helderheid</string>
+    <string name="status_bar_toggle_brightness_summary">Beheer uw schermhelderheid door over de statusbalk te schuiven</string>
+    <string name="status_bar_notif_count_title">Notificatie aantal</string>
+    <string name="status_bar_notif_count_summary">Laat het aantal notificaties zien op het app icoon in de statusbalk</string>
+    <string name="status_bar_quick_qs_pulldown_title">Snel openen</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s vegen zal de snelle instellingen snel openen</string>
+    <string name="status_bar_quick_qs_pulldown_off">Uit</string>
+    <string name="status_bar_quick_qs_pulldown_left">Links</string>
+    <string name="status_bar_quick_qs_pulldown_right">Rechts</string>
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_position_title">Klok positie</string>
+    <string name="status_bar_clock_position_right">Rechts</string>
+    <string name="status_bar_clock_position_left">Links</string>
+    <string name="status_bar_clock_position_center">Midden</string>
+    <string name="status_bar_am_pm_info">24-uurs klok is ingeschakeld</string>
+    <string name="status_bar_am_pm_normal">Normaal</string>
+    <string name="status_bar_am_pm_small">Klein</string>
+    <string name="status_bar_am_pm_hidden">Verborgen</string>
+    <!-- Status bar - icon blacklist -->
+    <string name="status_bar_icons_title">Status bar iconen</string>
+    <string name="status_bar_icons_summary">Beheer welke iconen er zichtbaar zijn</string>
+    <!-- Status bar - double tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Dubbel-tik om te slapen</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Dubbel-tik op de statusbalk om het scherm uit te schakelen</string>
+	<string name="statusbar_settings_title">StatusBalk</string>
    <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bleutooth batterij status</string>
     <string name="bluetooth_battery_summary">Laat batterij status zijn van verbonden bleutooth apparaat, als dit kan.</string>
