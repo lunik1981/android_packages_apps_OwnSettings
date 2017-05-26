@@ -118,6 +118,14 @@
 	<string name="network_traffic_color_reset">Reset kleuren</string>
 	<string name="network_traffic_color_reset_message">Kleuren naar standaard waardes herstellen?</string>
 	
+	
+	<!-- Button Settings -->
+	<string name="button_settings_title">Knoppen</string>
+	<string name="button_navigation_tab">Navigatie</string>
+	<string name="button_power_tab">Aan/Uit knop</string>
+	<string name="button_volume_tab">Volume knoppen</string>
+	
+		
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Snelle Instellingen</string>
 	<string name="quick_pulldown_title">Snel uivouwen</string>

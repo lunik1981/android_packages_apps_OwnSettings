@@ -132,6 +132,14 @@
 	<string name="network_traffic_color_reset">Reset color</string>
 	<string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
 
+
+	<!-- Button Settings -->
+	<string name="button_settings_title">Buttons</string>
+	<string name="button_navigation_tab">Navigation</string>
+	<string name="button_power_tab">Power Button</string>
+	<string name="button_volume_tab">Volume Buttons</string>
+
+	
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Quick Settings</string>
 	<string name="quick_pulldown_title">Quick Pulldown</string>
