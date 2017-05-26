@@ -14,4 +14,36 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/button_volume_tab">
+        
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="volume_wake_screen"
+            android:title="@string/button_wake_title"
+            android:defaultValue="false" />
+
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="volbtn_music_controls"
+            android:title="@string/volbtn_music_controls_title"
+            android:summary="@string/volbtn_music_controls_summary"
+            android:defaultValue="true" />
+
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="volume_keys_control_ring_stream"
+            android:title="@string/volume_keys_control_ring_stream_title"
+            android:summaryOn="@string/volume_keys_control_ring_stream_summary_on"
+            android:summaryOff="@string/volume_keys_control_ring_stream_summary_off"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="volume_key_cursor_control"
+            android:dialogTitle="@string/volbtn_cursor_control_title"
+            android:title="@string/volbtn_cursor_control_title"
+            android:entries="@array/volbtn_cursor_control_entries"
+            android:entryValues="@array/volbtn_cursor_control_values"
+            android:persistent="false" />
+
+        <SwitchPreference
+            android:key="swap_volume_buttons"
+            android:title="@string/swap_volume_buttons_title"
+            android:summary="@string/swap_volume_buttons_summary" />
+
 </PreferenceScreen>
