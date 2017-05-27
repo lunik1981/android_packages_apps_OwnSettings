@@ -16,31 +16,74 @@
 
 package com.own.settings.statusbar.tabs;
 
-import android.os.Bundle;
-import android.preference.ListPreference;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceScreen;
-import android.preference.SwitchPreference;
-import android.provider.Settings;
+ import android.os.Bundle;
+ import android.content.Intent;
+ import android.content.pm.PackageManager;
+ import android.content.pm.ResolveInfo;
+ import android.content.res.Configuration;
+ import android.content.ContentResolver;
+ import android.content.res.Resources;
+ import android.support.v7.preference.ListPreference;
+ import android.support.v7.preference.Preference;
+ import android.support.v7.preference.PreferenceCategory;
+ import android.support.v7.preference.PreferenceScreen;
+ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+ import android.support.v14.preference.SwitchPreference;
+ import android.text.format.DateFormat;
+ import android.provider.Settings;
+ import android.os.UserHandle;
+ import android.view.View;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import cyanogenmod.preference.CMSystemSettingListPreference;
+
 public class IconSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+
+    private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
+
+    private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
+    private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
+
+    private CMSystemSettingListPreference mStatusBarBattery;
+    private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.statusbar_icons_tab);
+        
+        mStatusBarBattery = (CMSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
+        mStatusBarBatteryShowPercent =
+                (CMSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+
+        mStatusBarBattery.setOnPreferenceChangeListener(this);
+        enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(0));
+
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+		if (preference == mStatusBarBattery) {
+            int batteryStyle = Integer.valueOf((String) newValue);
+            enableStatusBarBatteryDependents(batteryStyle);
+            return true;
+          }
         return false;
+    }
+
+    private void enableStatusBarBatteryDependents(int batteryIconStyle) {
+        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
+                batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
+            mStatusBarBatteryShowPercent.setEnabled(false);
+        } else {
+            mStatusBarBatteryShowPercent.setEnabled(true);
+        }
     }
 
     @Override

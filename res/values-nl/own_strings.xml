@@ -89,6 +89,18 @@
     <string name="status_bar_am_pm_normal">Normaal</string>
     <string name="status_bar_am_pm_small">Klein</string>
     <string name="status_bar_am_pm_hidden">Verborgen</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_category">Batterij icoon</string>
+    <string name="status_bar_battery_style_title">Batterij status style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icoon portret</string>
+    <string name="status_bar_battery_style_icon_landscape">Icoon landschap</string>
+    <string name="status_bar_battery_style_circle">Circel</string>
+    <string name="status_bar_battery_style_hidden">Verborgen</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Batterij percentage</string>
+    <string name="status_bar_battery_percentage_default">Verborgen</string>
+    <string name="status_bar_battery_percentage_text_inside">In het icoon</string>
+    <string name="status_bar_battery_percentage_text_next">Naast het icoon</string>
     <!-- Status bar - icon blacklist -->
     <string name="status_bar_icons_title">Status bar iconen</string>
     <string name="status_bar_icons_summary">Beheer welke iconen er zichtbaar zijn</string>
