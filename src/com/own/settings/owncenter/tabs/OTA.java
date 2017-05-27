@@ -38,12 +38,14 @@ public class OTA extends SettingsPreferenceFragment {
     private String KEY_OWNROM_SOURCE = "ownrom_source";
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
     private String KEY_OWNROM_SHARE = "ownrom_share";
+    private String KEY_OWNROM_DONATE = "ownrom_donate";
 
     private Preference mWebsiteUrl;
     private Preference mWallsUrl;
     private Preference mSourceUrl;
     private Preference mGoogleUrl;
     private Preference mShare;
+    private Preference mDonateUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,8 @@ public class OTA extends SettingsPreferenceFragment {
         mSourceUrl = findPreference(KEY_OWNROM_SOURCE);
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);
         mShare = findPreference(KEY_OWNROM_SHARE);
+        mDonateUrl = findPreference(KEY_OWNROM_DONATE);
+        
     }
 
     @Override
@@ -74,6 +78,8 @@ public class OTA extends SettingsPreferenceFragment {
             intent.putExtra(Intent.EXTRA_TEXT, String.format(
                     getActivity().getString(R.string.share_message), Build.MODEL));
             startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
+        } else if (preference == mDonateUrl) {
+            launchUrl("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3XYRGG4EYLWNL");
         }
 
         return super.onPreferenceTreeClick(preference);

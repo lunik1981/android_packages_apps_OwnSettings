@@ -56,4 +56,10 @@
             android:title="@string/share_ownrom_title"
             android:summary="@string/share_ownrom_summary" />
             
+        <!-- OwnROM Donate -->
+        <PreferenceScreen
+            android:key="ownrom_donate"
+            android:title="@string/ownrom_donation_link"
+            android:summary="@string/ownrom_donation_link_summary" />
+            
 </PreferenceScreen>

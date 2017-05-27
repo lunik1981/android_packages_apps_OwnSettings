@@ -344,6 +344,8 @@
     <!--OwnROM Center -->
     <string name="owncenter">OwnROM Centrum</string>
     <string name="own_updater_summary">Update uw ROM, G-Apps en andere dingen</string>
+    <string name="ownrom_donation_link">Doneer</string>
+    <string name="ownrom_donation_link_summary">Help ons OwnROM nog beter te maken door te doneren via PayPall</string>
     <!-- Changelog -->
     <string name="changelog_ownrom_error">Kan changelog niet laden</string>
     <!-- Share OwnROM -->
