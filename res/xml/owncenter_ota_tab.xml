@@ -52,7 +52,7 @@
 
         <!-- OwnROM Share -->
         <PreferenceScreen
-            android:key="share"
+            android:key="ownrom_share"
             android:title="@string/share_ownrom_title"
             android:summary="@string/share_ownrom_summary" />
             
