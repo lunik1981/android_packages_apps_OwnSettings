@@ -18,6 +18,7 @@
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="volume_wake_screen"
             android:title="@string/button_wake_title"
+            android:summary="@string/button_wake_title_summary"
             android:defaultValue="false" />
 
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
