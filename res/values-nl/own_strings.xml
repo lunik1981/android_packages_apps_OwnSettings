@@ -176,6 +176,7 @@
     <string name="kill_app_longpress_back_summary">Sluit de app op de voorgrond geforceerd met door een lange tik op de terug knop</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Verlichting</string>
+    <string name="button_backlight_summary">Stel het achtergrondlicht gedrag in van alle hardware knoppen</string>
     <string name="button_backlight_enabled">Verlicht de knoppen</string>
     <string name="keyboard_backlight_enabled">Verlicht het keyboard</string>
     <string name="button_backlight_seekbar_title">Knoppen helderheid</string>

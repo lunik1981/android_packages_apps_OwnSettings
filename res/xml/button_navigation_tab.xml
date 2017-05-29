@@ -15,15 +15,16 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/button_navigation_tab">
 
-    <PreferenceCategory
-        android:key="home_key"
-        android:title="@string/hardware_keys_home_key_title" >
-
 		<com.own.settings.javas.ButtonBacklightBrightness
 			android:key="button_backlight"
 			android:title="@string/button_backlight_title"
+			android:summary="@string/button_backlight_summary"
 			android:dialogTitle="@string/button_backlight_title"
 			android:persistent="false" />
+			
+    <PreferenceCategory
+        android:key="home_key"
+        android:title="@string/hardware_keys_home_key_title" >
 			
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="home_wake_screen"
