@@ -170,6 +170,7 @@
     <string name="swap_volume_buttons_title">Heroriënteer</string>
     <string name="swap_volume_buttons_summary">Inverteer de volume knoppen als het scherm is gedraaid</string>
     <string name="button_wake_title">Ontwaak toestel</string>
+    <string name="button_wake_title_summary">Ontwaak het toestel door op 1 van de volume knoppen te drukken</string>
     <string name="home_answer_call_title">Beantwoord oproep</string>
     <string name="home_answer_call_summary">De thuisknop zal de huidige oproep accepteren</string>
     <string name="kill_app_longpress_back">Sluit app geforceerd</string>
