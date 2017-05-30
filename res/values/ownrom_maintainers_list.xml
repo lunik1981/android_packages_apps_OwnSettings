@@ -39,17 +39,19 @@
     <string name="device_google_angler_summary">Mark V (OwnDroid)</string>
 
     <!-- LG -->
-    <string name="device_lg_d852">LG G3 (D852)</string>
+    <string name="device_lg_d852">G3 (D852)</string>
     <string name="device_lg_d852_summary">Victor Linfield (vilinfield)</string>
 
     <!-- LENOVO -->
-    <string name="device_lenovo_A7010a48">Lenovo Vibe K4 Note (A7010a48)</string>
+    <string name="device_lenovo_A7010a48">Vibe K4 Note (A7010a48)</string>
     <string name="device_lenovo_A7010a48_summary">Mohan Cm (mohancm100)</string>
+    <string name="device_lenovo_z2plus">Z2 Plus</string>
+    <string name="device_lenovo_z2plus_summary">Subhrajyoti (SubhrajyotiSen)</string>
 
     <!-- MOTOROLA -->
     <string name="device_motorola_harpia">G4 Play (Harpia)</string>
     <string name="device_motorola_harpia_summary">Subhrajyoti (SubhrajyotiSen)</string>
-    <string name="device_motorola_potter">Moto G5 Plus (Potter)</string>
+    <string name="device_motorola_potter">G5 Plus (Potter)</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
 
     <!-- ONEPLUS -->

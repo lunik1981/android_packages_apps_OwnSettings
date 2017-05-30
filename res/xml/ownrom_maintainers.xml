@@ -50,7 +50,14 @@
             android:key="A7010a48_maintainer_plus_link"
             android:icon="@drawable/phone_tint"
             android:title="@string/device_lenovo_A7010a48"
-            android:summary="@string/device_lenovo_A7010a48_summary" />        
+            android:summary="@string/device_lenovo_A7010a48_summary" />    
+            
+        <Preference
+            android:id="@+id/device_lenovo_z2plus"
+            android:key="z2plus_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_lenovo_z2plus"
+            android:summary="@string/device_lenovo_z2plus_summary" />      
         
     </PreferenceCategory> 
 

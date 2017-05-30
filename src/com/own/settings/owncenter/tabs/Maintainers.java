@@ -40,6 +40,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// Lenovo
 	private String KEY_A7010a48_MAINTAINER_PLUS_LINK = "A7010a48_maintainer_plus_link";
+	private String KEY_Z2PLUS_MAINTAINER_PLUS_LINK = "z2plus_maintainer_plus_link";
 
 	// Motorola
 	private String KEY_HARPIA_MAINTAINER_PLUS_LINK = "harpia_maintainer_plus_link";
@@ -58,6 +59,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// Lenovo
 	private Preference mA7010a48PlusUrl;
+	private Preference mZ2plusPlusUrl;
 	
 	// Motorola
 	private Preference mHarpiaPlusUrl;
@@ -80,6 +82,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // Lenovo
         mA7010a48PlusUrl = findPreference(KEY_A7010a48_MAINTAINER_PLUS_LINK);
+        mZ2plusPlusUrl = findPreference(KEY_Z2PLUS_MAINTAINER_PLUS_LINK);
         
         // Motorola
         mHarpiaPlusUrl = findPreference(KEY_HARPIA_MAINTAINER_PLUS_LINK);
@@ -105,7 +108,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// Lenovo
 		} else if (preference == mA7010a48PlusUrl) {
 			launchUrl("https://plus.google.com/+MohanCm100");
-		
+		} else if (preference == mZ2plusPlusUrl) {
+			launchUrl("https://plus.google.com/u/0/+subhrajyotisen12");
+			
 		// Motorola
 		} else if (preference == mHarpiaPlusUrl) {
 			launchUrl("https://plus.google.com/u/0/+subhrajyotisen12");
