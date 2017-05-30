@@ -164,6 +164,8 @@ public class NavigationButton extends SettingsPreferenceFragment implements
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
         final PreferenceCategory backCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
+        final PreferenceCategory backlightCategory =
+				(PreferenceCategory) prefScreen.findPreference(CATEGORY_BACKLIGHT);
         final PreferenceCategory menuCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
         final PreferenceCategory assistCategory =
@@ -214,6 +216,7 @@ public class NavigationButton extends SettingsPreferenceFragment implements
             }
         } else {
             prefScreen.removePreference(backCategory);
+            prefScreen.removePreference(backlightCategory);
         }
 
         if (hasMenuKey) {
