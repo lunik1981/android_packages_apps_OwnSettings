@@ -37,6 +37,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// LG
 	private String KEY_D852_MAINTAINER_PLUS_LINK = "d852_maintainer_plus_link";
+	private String KEY_D855_MAINTAINER_PLUS_LINK = "d855_maintainer_plus_link";
 	
 	// Lenovo
 	private String KEY_A7010a48_MAINTAINER_PLUS_LINK = "A7010a48_maintainer_plus_link";
@@ -56,6 +57,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// LG
 	private Preference mD852PlusUrl;
+	private Preference mD855PlusUrl;
 	
 	// Lenovo
 	private Preference mA7010a48PlusUrl;
@@ -79,6 +81,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // LG
         mD852PlusUrl = findPreference(KEY_D852_MAINTAINER_PLUS_LINK);
+        mD855PlusUrl = findPreference(KEY_D855_MAINTAINER_PLUS_LINK);
         
         // Lenovo
         mA7010a48PlusUrl = findPreference(KEY_A7010a48_MAINTAINER_PLUS_LINK);
@@ -104,7 +107,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// LG
 		} else if (preference == mD852PlusUrl) {
 			launchUrl("https://plus.google.com/+VictorLinfield");
-			
+		} else if (preference == mD855PlusUrl) {
+			launchUrl("https://plus.google.com/+VictorLinfield");
+						
 		// Lenovo
 		} else if (preference == mA7010a48PlusUrl) {
 			launchUrl("https://plus.google.com/+MohanCm100");

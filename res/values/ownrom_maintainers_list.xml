@@ -41,7 +41,9 @@
     <!-- LG -->
     <string name="device_lg_d852">G3 (D852)</string>
     <string name="device_lg_d852_summary">Victor Linfield (vilinfield)</string>
-
+    <string name="device_lg_d855">G3 (D855)</string>
+    <string name="device_lg_d855_summary">Victor Linfield (vilinfield)</string>
+    
     <!-- LENOVO -->
     <string name="device_lenovo_A7010a48">Vibe K4 Note (A7010a48)</string>
     <string name="device_lenovo_A7010a48_summary">Mohan Cm (mohancm100)</string>
