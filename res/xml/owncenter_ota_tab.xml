@@ -50,6 +50,18 @@
             android:title="@string/ownrom_google_plus_title"
             android:summary="@string/ownrom_google_plus_summary" />
 
+        <!-- OwnROM Facebook -->
+        <PreferenceScreen
+            android:key="ownrom_facebook"
+            android:title="@string/ownrom_fb_title"
+            android:summary="@string/ownrom_fb_summary" />
+
+        <!-- OwnROM Telegram -->
+        <PreferenceScreen
+            android:key="ownrom_telegram"
+            android:title="@string/ownrom_telegram_title"
+            android:summary="@string/ownrom_telegram_summary" />
+            
         <!-- OwnROM Share -->
         <PreferenceScreen
             android:key="ownrom_share"

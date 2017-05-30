@@ -361,5 +361,7 @@
     <string name="ownrom_google_plus_summary">Bezoek onze G+ pagina voor info en updates</string>
     <string name="ownrom_website_summary">bezoek onze website voor downloads en updates</string>
     <string name="ownrom_walls_summary">Download verschillende Wallpapers</string>
+    <string name="ownrom_fb_summary">Bezoek en/of volg ons op Facebook</string>
+    <string name="ownrom_telegram_summary">Voeg je zelf toe aan onze Telegram channel en blijf up-to-date!</string>
         
  </resources>

@@ -37,6 +37,8 @@ public class OTA extends SettingsPreferenceFragment {
     private String KEY_OWNROM_WALLS = "ownrom_walls" ;
     private String KEY_OWNROM_SOURCE = "ownrom_source";
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
+	private String KEY_OWNROM_FACEBOOK = "ownrom_facebook";
+	private String KEY_OWNROM_TELEGRAM = "ownrom_telegram";
     private String KEY_OWNROM_SHARE = "ownrom_share";
     private String KEY_OWNROM_DONATE = "ownrom_donate";
 
@@ -44,6 +46,8 @@ public class OTA extends SettingsPreferenceFragment {
     private Preference mWallsUrl;
     private Preference mSourceUrl;
     private Preference mGoogleUrl;
+    private Preference mFacebookUrl;
+    private Preference mTelegramUrl;
     private Preference mShare;
     private Preference mDonateUrl;
 
@@ -56,6 +60,8 @@ public class OTA extends SettingsPreferenceFragment {
         mWallsUrl = findPreference(KEY_OWNROM_WALLS);
         mSourceUrl = findPreference(KEY_OWNROM_SOURCE);
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);
+        mFacebookUrl = findPreference(KEY_OWNROM_FACEBOOK);
+        mTelegramUrl = findPreference(KEY_OWNROM_TELEGRAM);
         mShare = findPreference(KEY_OWNROM_SHARE);
         mDonateUrl = findPreference(KEY_OWNROM_DONATE);
         
@@ -71,6 +77,10 @@ public class OTA extends SettingsPreferenceFragment {
             launchUrl("https://github.com/OwnROM");
         } else if (preference == mGoogleUrl) {
             launchUrl("https://plus.google.com/communities/108869588356214314591");
+        } else if (preference == mFacebookUrl) {
+            launchUrl("https://www.facebook.com/OwnDroid.nl/");
+        } else if (preference == mTelegramUrl) {
+            launchUrl("https://t.me/joinchat/AAAAAEGTudAMFfkGo4xBXQ");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

@@ -404,6 +404,10 @@
     <string name="ownrom_website_summary">Visit our website for downloads and updates</string>
     <string name="ownrom_walls_title">OwnWalls</string>
     <string name="ownrom_walls_summary">Download all kinds of Wallpapers</string>
+    <string name="ownrom_fb_title">Facebook</string>
+    <string name="ownrom_fb_summary">Fisit and/or follow us on Facebook</string>
+    <string name="ownrom_telegram_title">Telegram Channel</string>
+    <string name="ownrom_telegram_summary">Join our Telegram channel to stay updated!</string>
     <!-- Team -->
     <string name="team_ownrom_title">Team</string>
 
