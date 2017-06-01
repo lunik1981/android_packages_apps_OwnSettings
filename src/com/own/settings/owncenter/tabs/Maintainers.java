@@ -31,9 +31,10 @@ import com.android.settings.SettingsPreferenceFragment;
 public class Maintainers extends SettingsPreferenceFragment {
 	
 	public static final String TAG = "maintainers";
-
-	// Google
-	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";
+	
+	// OnePlus
+	private String KEY_ONEPLUS3_MAINTAINER_PLUS_LINK = "oneplus3_maintainer_plus_link";
+	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link";
 	
 	// LG
 	private String KEY_D852_MAINTAINER_PLUS_LINK = "d852_maintainer_plus_link";
@@ -49,13 +50,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_POTTER_MAINTAINER_PLUS_LINK = "potter_maintainer_plus_link";
 	
 	// OnePlus
-	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link";
-	private String KEY_ONEPLUS3_MAINTAINER_PLUS_LINK = "oneplus3_maintainer_plus_link";
-	
-	
-	// Google
-	private Preference mAnglerPlusUrl;
-	
+	private Preference mOneplus3PlusUrl;
+	private Preference mOneplus2PlusUrl;
+		
 	// LG
 	private Preference mD852PlusUrl;
 	private Preference mD855PlusUrl;
@@ -68,18 +65,15 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private Preference mHarpiaPlusUrl;
 	private Preference mPotterPlusUrl;
 	private Preference mAthenePlusUrl;
-	
-	// OnePlus
-	private Preference mOneplus2PlusUrl;
-	private Preference mOneplus3PlusUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.ownrom_maintainers);
-
-		// Google
-        mAnglerPlusUrl = findPreference(KEY_ANGLER_MAINTAINER_PLUS_LINK);
+        
+        // OnePlus
+        mOneplus3PlusUrl = findPreference(KEY_ONEPLUS3_MAINTAINER_PLUS_LINK);
+        mOneplus2PlusUrl = findPreference(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
         
         // LG
         mD852PlusUrl = findPreference(KEY_D852_MAINTAINER_PLUS_LINK);
@@ -94,19 +88,17 @@ public class Maintainers extends SettingsPreferenceFragment {
         mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
         mAthenePlusUrl = findPreference(KEY_ATHENE_MAINTAINER_PLUS_LINK);
         
-        // OnePlus
-        mOneplus2PlusUrl = findPreference(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
-        mOneplus3PlusUrl = findPreference(KEY_ONEPLUS3_MAINTAINER_PLUS_LINK);
-        
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
 
-		// Google
-        if (preference == mAnglerPlusUrl) {
-            launchUrl("https://plus.google.com/+MarkVisser10021991");
-            
+		// OnePlus
+		if (preference == mOneplus3PlusUrl) {
+			launchUrl("https://plus.google.com/+MarkVisser10021991");
+		} else if (preference == mOneplus2PlusUrl) {
+			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
+			           
 		// LG
 		} else if (preference == mD852PlusUrl) {
 			launchUrl("https://plus.google.com/+VictorLinfield");
@@ -126,12 +118,6 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/u/1/110774809129522678759");
 		} else if (preference == mAthenePlusUrl) {
 			launchUrl("https://plus.google.com/114912018259767227558");
-						
-		// OnePlus
-		} else if (preference == mOneplus2PlusUrl) {
-			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
-		} else if (preference == mOneplus3PlusUrl) {
-			launchUrl("https://plus.google.com/117407273513920648646");
 							
         }
         return super.onPreferenceTreeClick(preference);

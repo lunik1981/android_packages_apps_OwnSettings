@@ -34,9 +34,11 @@
     <string name="device_category_xiaomi_title">XIAOMI</string>
     <string name="device_category_yu_title">YU</string>
 
-    <!-- GOOGLE -->
-    <string name="device_google_angler">Nexus 6p (Angler)</string>
-    <string name="device_google_angler_summary">Mark V (OwnDroid)</string>
+    <!-- ONEPLUS -->
+    <string name="device_oneplus_oneplus3">OnePlus 3/3t (OnePlus3/3t)</string>
+    <string name="device_oneplus_oneplus3_summary">Mark V (OwnDroid)</string>
+    <string name="device_oneplus_oneplus2">OnePlus 2 (OnePlus2)</string>
+    <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string> 
 
     <!-- LG -->
     <string name="device_lg_d852">G3 (D852)</string>
@@ -57,18 +59,14 @@
     <string name="device_motorola_athene_summary">Rajat Gupta (tywinlannister7)</string>
     <string name="device_motorola_potter">G5 Plus (Potter)</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
-
-    <!-- ONEPLUS -->
-    <string name="device_oneplus_oneplus2">OnePlus 2 (OnePlus2)</string>
-    <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string> 
-    <string name="device_oneplus_oneplus3">OnePlus 3 (OnePlus3)</string>
-    <string name="device_oneplus_oneplus3_summary">Kevin Stolk (Linkinback02)</string>
     
     <!-- ANDROİD ONE -->
 
     <!-- BQ -->
 
     <!-- ASUS -->
+    
+    <!-- GOOGLE -->
 
     <!-- HTC -->
 

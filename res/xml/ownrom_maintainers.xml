@@ -15,18 +15,25 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/ownrom_maintainers">
 
-    <!-- GOOGLE -->
+    <!-- ONEPLUS -->
     <PreferenceCategory
-        android:title="@string/device_category_google_title">
+        android:title="@string/device_category_oneplus_title">
 
         <Preference
-            android:id="@+id/device_google_angler"
-            android:key="angler_maintainer_plus_link"
+            android:id="@+id/device_oneplus_oneplus3"
+            android:key="oneplus3_maintainer_plus_link"
             android:icon="@drawable/phone_tint"
-            android:title="@string/device_google_angler"
-            android:summary="@string/device_google_angler_summary" />
-
-    </PreferenceCategory>
+            android:title="@string/device_oneplus_oneplus3"
+            android:summary="@string/device_oneplus_oneplus3_summary" />
+            
+        <Preference
+            android:id="@+id/device_oneplus_oneplus2"
+            android:key="oneplus2_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_oneplus_oneplus2"
+            android:summary="@string/device_oneplus_oneplus2_summary" />
+            
+    </PreferenceCategory>  
 
     <!-- LG -->
     <PreferenceCategory
@@ -95,26 +102,11 @@
             
     </PreferenceCategory>  
 
-    <!-- ONEPLUS -->
+    <!-- GOOGLE 
     <PreferenceCategory
-        android:title="@string/device_category_oneplus_title">
+        android:title="@string/device_category_google_title">
+    </PreferenceCategory> -->
         
-        <Preference
-            android:id="@+id/device_oneplus_oneplus2"
-            android:key="oneplus2_maintainer_plus_link"
-            android:icon="@drawable/phone_tint"
-            android:title="@string/device_oneplus_oneplus2"
-            android:summary="@string/device_oneplus_oneplus2_summary" />
-
-        <Preference
-            android:id="@+id/device_oneplus_oneplus3"
-            android:key="oneplus3_maintainer_plus_link"
-            android:icon="@drawable/phone_tint"
-            android:title="@string/device_oneplus_oneplus3"
-            android:summary="@string/device_oneplus_oneplus3_summary" />
-            
-    </PreferenceCategory>  
-            
     <!-- ANDROİD ONE
     <PreferenceCategory
         android:title="@string/device_category_one_title">
