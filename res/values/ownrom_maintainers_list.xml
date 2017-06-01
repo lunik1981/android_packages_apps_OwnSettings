@@ -53,6 +53,8 @@
     <!-- MOTOROLA -->
     <string name="device_motorola_harpia">G4 Play (Harpia)</string>
     <string name="device_motorola_harpia_summary">Subhrajyoti (SubhrajyotiSen)</string>
+    <string name="device_motorola_athene">G4 Plus (Athene)</string>
+    <string name="device_motorola_athene_summary">Rajat Gupta (tywinlannister7)</string>
     <string name="device_motorola_potter">G5 Plus (Potter)</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
 

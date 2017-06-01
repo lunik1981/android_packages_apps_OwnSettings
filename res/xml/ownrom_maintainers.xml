@@ -86,6 +86,13 @@
             android:title="@string/device_motorola_potter"
             android:summary="@string/device_motorola_potter_summary" />  
             
+        <Preference
+            android:id="@+id/device_motorola_athene"
+            android:key="athene_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_motorola_athene"
+            android:summary="@string/device_motorola_athene_summary" />  
+            
     </PreferenceCategory>  
 
     <!-- ONEPLUS -->

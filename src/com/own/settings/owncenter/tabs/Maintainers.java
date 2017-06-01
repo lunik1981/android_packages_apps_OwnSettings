@@ -42,6 +42,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	// Lenovo
 	private String KEY_A7010a48_MAINTAINER_PLUS_LINK = "A7010a48_maintainer_plus_link";
 	private String KEY_Z2PLUS_MAINTAINER_PLUS_LINK = "z2plus_maintainer_plus_link";
+	private String KEY_ATHENE_MAINTAINER_PLUS_LINK = "athene_maintainer_plus_link";
 
 	// Motorola
 	private String KEY_HARPIA_MAINTAINER_PLUS_LINK = "harpia_maintainer_plus_link";
@@ -66,6 +67,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	// Motorola
 	private Preference mHarpiaPlusUrl;
 	private Preference mPotterPlusUrl;
+	private Preference mAthenePlusUrl;
 	
 	// OnePlus
 	private Preference mOneplus2PlusUrl;
@@ -90,6 +92,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         // Motorola
         mHarpiaPlusUrl = findPreference(KEY_HARPIA_MAINTAINER_PLUS_LINK);
         mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
+        mAthenePlusUrl = findPreference(KEY_ATHENE_MAINTAINER_PLUS_LINK);
         
         // OnePlus
         mOneplus2PlusUrl = findPreference(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
@@ -121,7 +124,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/u/0/+subhrajyotisen12");
 		} else if (preference == mPotterPlusUrl) {
 			launchUrl("https://plus.google.com/u/1/110774809129522678759");
-			
+		} else if (preference == mAthenePlusUrl) {
+			launchUrl("https://plus.google.com/114912018259767227558");
+						
 		// OnePlus
 		} else if (preference == mOneplus2PlusUrl) {
 			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
