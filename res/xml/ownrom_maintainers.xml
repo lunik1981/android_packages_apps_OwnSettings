@@ -38,13 +38,6 @@
     <!-- LG -->
     <PreferenceCategory
         android:title="@string/device_category_lg_title">
-        
-        <Preference
-            android:id="@+id/device_lg_d852"
-            android:key="d852_maintainer_plus_link"
-            android:icon="@drawable/phone_tint"
-            android:title="@string/device_lg_d852"
-            android:summary="@string/device_lg_d852_summary" />
 
         <Preference
             android:id="@+id/device_lg_d855"
@@ -52,6 +45,13 @@
             android:icon="@drawable/phone_tint"
             android:title="@string/device_lg_d855"
             android:summary="@string/device_lg_d855_summary" />
+
+        <Preference
+            android:id="@+id/device_lg_d852"
+            android:key="d852_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_lg_d852"
+            android:summary="@string/device_lg_d852_summary" />
                       
     </PreferenceCategory>  
 
@@ -78,13 +78,6 @@
     <!-- MOTOROLA -->
     <PreferenceCategory
         android:title="@string/device_category_motorola_title">
-        
-        <Preference
-            android:id="@+id/device_motorola_harpia"
-            android:key="harpia_maintainer_plus_link"
-            android:icon="@drawable/phone_tint"
-            android:title="@string/device_motorola_harpia"
-            android:summary="@string/device_motorola_harpia_summary" />     
 
         <Preference
             android:id="@+id/device_motorola_potter"
@@ -92,7 +85,14 @@
             android:icon="@drawable/phone_tint"
             android:title="@string/device_motorola_potter"
             android:summary="@string/device_motorola_potter_summary" />  
-            
+
+        <Preference
+            android:id="@+id/device_motorola_harpia"
+            android:key="harpia_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_motorola_harpia"
+            android:summary="@string/device_motorola_harpia_summary" />     
+
         <Preference
             android:id="@+id/device_motorola_athene"
             android:key="athene_maintainer_plus_link"
