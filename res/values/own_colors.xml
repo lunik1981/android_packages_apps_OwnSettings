@@ -13,8 +13,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 	<color name="theme_accent">#ff4285f4</color>
+	<color name="action_picker_fab_background">@color/theme_accent</color>
 	<color name="background_tab_pressed">#1AFFFFFF</color>
 	<color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+    <color name="icon_tint_color">@*android:color/material_deep_teal_500</color>
+    <color name="white">#FFF</color>
 
     <!-- Color of the hex input divider -->
     <color name="divider">#1fffffff</color>
@@ -46,8 +49,6 @@
     <!-- Colors of the help screen -->
     <color name="color_picker_help_screen_background">#e0000000</color>
     <color name="color_picker_help_summary_text_color">#b3ffffff</color>
-
-	<color name="theme_accent">#ff009688</color>
 	<color name="own_accent">@color/theme_accent</color>
     
 </resources>

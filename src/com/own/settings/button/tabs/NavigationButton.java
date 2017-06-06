@@ -17,6 +17,9 @@
 package com.own.settings.button.tabs;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.content.ComponentName;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -28,6 +31,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.RemoteException;
 import android.os.SystemProperties;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
@@ -52,13 +56,32 @@ import com.own.settings.javas.TelephonyUtils;
 import cyanogenmod.providers.CMSettings;
 
 import java.util.List;
+import java.util.ArrayList;
 
 import org.cyanogenmod.internal.util.ScreenType;
+
+import com.android.internal.utils.du.ActionConstants;
+import com.android.internal.utils.du.Config;
+import com.android.internal.utils.du.DUActionUtils;
+import com.android.internal.utils.du.Config.ButtonConfig;
+
+import com.own.settings.javas.SeekBarPreference;
 
 public class NavigationButton extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String TAG = "NavigationButton";
+
+    private static final String NAVBAR_VISIBILITY = "navbar_visibility";
+    private static final String KEY_NAVBAR_MODE = "navbar_mode";
+    private static final String KEY_FLING_NAVBAR_SETTINGS = "fling_settings";
+    private static final String KEY_CATEGORY_NAVIGATION_INTERFACE = "category_navbar_interface";
+    private static final String KEY_CATEGORY_NAVIGATION_GENERAL = "category_navbar_general";
+    private static final String KEY_NAVIGATION_BAR_LEFT = "navigation_bar_left";
+    private static final String KEY_SMARTBAR_SETTINGS = "smartbar_settings";
+    private static final String KEY_NAVIGATION_HEIGHT_PORT = "navbar_height_portrait";
+    private static final String KEY_NAVIGATION_HEIGHT_LAND = "navbar_height_landscape";
+    private static final String KEY_NAVIGATION_WIDTH = "navbar_width";
 
     private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
     private static final String KEY_HOME_LONG_PRESS = "hardware_keys_home_long_press";
@@ -116,6 +139,16 @@ public class NavigationButton extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    private SwitchPreference mNavbarVisibility;
+    private ListPreference mNavbarMode;
+    private PreferenceScreen mFlingSettings;
+    private PreferenceCategory mNavInterface;
+    private PreferenceCategory mNavGeneral;
+    private PreferenceScreen mSmartbarSettings;
+    private SeekBarPreference mBarHeightPort;
+    private SeekBarPreference mBarHeightLand;
+    private SeekBarPreference mBarWidth;
+
     private ListPreference mHomeLongPressAction;
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
@@ -140,6 +173,13 @@ public class NavigationButton extends SettingsPreferenceFragment implements
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+        mNavInterface = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_INTERFACE);
+        mNavGeneral = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_GENERAL);
+        mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
+        mNavbarMode = (ListPreference) findPreference(KEY_NAVBAR_MODE);
+        mFlingSettings = (PreferenceScreen) findPreference(KEY_FLING_NAVBAR_SETTINGS);
+        mSmartbarSettings = (PreferenceScreen) findPreference(KEY_SMARTBAR_SETTINGS);
+
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
         final int deviceWakeKeys = getResources().getInteger(
@@ -158,6 +198,41 @@ public class NavigationButton extends SettingsPreferenceFragment implements
         final boolean showAssistWake = (deviceWakeKeys & KEY_MASK_ASSIST) != 0;
         final boolean showAppSwitchWake = (deviceWakeKeys & KEY_MASK_APP_SWITCH) != 0;
         final boolean showCameraWake = (deviceWakeKeys & KEY_MASK_CAMERA) != 0;
+
+        boolean showing = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.NAVIGATION_BAR_VISIBLE,
+                DUActionUtils.hasNavbarByDefault(getActivity()) ? 1 : 0) != 0;
+        updateBarVisibleAndUpdatePrefs(showing);
+        mNavbarVisibility.setOnPreferenceChangeListener(this);
+
+        int mode = Settings.Secure.getInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_MODE,
+                0);
+
+        updateBarModeSettings(mode);
+        mNavbarMode.setOnPreferenceChangeListener(this);
+
+        int size = Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.NAVIGATION_BAR_HEIGHT, 100, UserHandle.USER_CURRENT);
+        mBarHeightPort = (SeekBarPreference) findPreference(KEY_NAVIGATION_HEIGHT_PORT);
+        mBarHeightPort.setValue(size);
+        mBarHeightPort.setOnPreferenceChangeListener(this);
+
+        final boolean canMove = DUActionUtils.navigationBarCanMove();
+        if (canMove) {
+            mNavGeneral.removePreference(findPreference(KEY_NAVIGATION_HEIGHT_LAND));
+            size = Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_WIDTH, 100, UserHandle.USER_CURRENT);
+            mBarWidth = (SeekBarPreference) findPreference(KEY_NAVIGATION_WIDTH);
+            mBarWidth.setValue(size);
+            mBarWidth.setOnPreferenceChangeListener(this);
+        } else {
+            mNavGeneral.removePreference(findPreference(KEY_NAVIGATION_WIDTH));
+            size = Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_HEIGHT_LANDSCAPE, 100, UserHandle.USER_CURRENT);
+            mBarHeightLand = (SeekBarPreference) findPreference(KEY_NAVIGATION_HEIGHT_LAND);
+            mBarHeightLand.setValue(size);
+            mBarHeightLand.setOnPreferenceChangeListener(this);
+        }
 
         boolean hasAnyBindableKey = false;
         final PreferenceCategory homeCategory =
@@ -328,6 +403,20 @@ public class NavigationButton extends SettingsPreferenceFragment implements
         return list;
     }
 
+    private void updateBarModeSettings(int mode) {
+        mNavbarMode.setValue(String.valueOf(mode));
+        mSmartbarSettings.setEnabled(mode == 0);
+        mSmartbarSettings.setSelectable(mode == 0);
+        mFlingSettings.setEnabled(mode == 1);
+        mFlingSettings.setSelectable(mode == 1);
+    }
+
+    private void updateBarVisibleAndUpdatePrefs(boolean showing) {
+        mNavbarVisibility.setChecked(showing);
+        mNavInterface.setEnabled(mNavbarVisibility.isChecked());
+        mNavGeneral.setEnabled(mNavbarVisibility.isChecked());
+    }
+
     private void handleActionListChange(ListPreference pref, Object newValue, String setting) {
         String value = (String) newValue;
         int index = pref.findIndexOfValue(value);
@@ -344,8 +433,35 @@ public class NavigationButton extends SettingsPreferenceFragment implements
         
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-		
-        if (preference == mHomeLongPressAction) {
+
+		if (preference.equals(mNavbarMode)) {
+            int mode = Integer.parseInt(((String) newValue).toString());
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_MODE, mode);
+            updateBarModeSettings(mode);
+            return true;
+        } else if (preference.equals(mNavbarVisibility)) {
+            boolean showing = ((Boolean)newValue);
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE,
+                    showing ? 1 : 0);
+            updateBarVisibleAndUpdatePrefs(showing);
+            return true;
+        } else if (preference == mBarHeightPort) {
+            int val = (Integer) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_HEIGHT, val, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mBarHeightLand) {
+            int val = (Integer) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_HEIGHT_LANDSCAPE, val, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mBarWidth) {
+            int val = (Integer) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_WIDTH, val, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mHomeLongPressAction) {
             handleActionListChange(mHomeLongPressAction, newValue,
                     CMSettings.System.KEY_HOME_LONG_PRESS_ACTION);
             return true;
