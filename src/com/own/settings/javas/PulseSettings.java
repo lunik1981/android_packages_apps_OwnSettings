@@ -49,6 +49,9 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private static final String SOLID_FUDGE = "pulse_solid_fudge_factor";
     private static final String SOLID_LAVAMP_SPEED = "lavamp_solid_speed";
     private static final String FADING_LAVAMP_SPEED = "fling_pulse_lavalamp_speed";
+    private static final String PULSE_SOLID_UNITS_COUNT = "pulse_solid_units_count";
+    private static final String PULSE_SOLID_UNITS_OPACITY = "pulse_solid_units_opacity";
+    private static final String PULSE_CUSTOM_BUTTONS_OPACITY = "pulse_custom_buttons_opacity";
 
     SwitchPreference mShowPulse;
     ListPreference mRenderMode;
@@ -62,6 +65,9 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     SeekBarPreference mSolidFudge;
     SeekBarPreference mSolidSpeed;
     SeekBarPreference mFadingSpeed;
+    SeekBarPreference mSolidCount;
+    SeekBarPreference mSolidOpacity;
+    SeekBarPreference mNavButtonsOpacity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,7 +76,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
         mShowPulse = (SwitchPreference) findPreference("eos_fling_show_pulse");
         mShowPulse.setChecked(Settings.Secure.getIntForUser(getContentResolver(),
-                Settings.Secure.FLING_PULSE_ENABLED, 0, UserHandle.USER_CURRENT) == 1);
+                Settings.Secure.FLING_PULSE_ENABLED, 1, UserHandle.USER_CURRENT) == 1);
         mShowPulse.setOnPreferenceChangeListener(this);
 
         int renderMode = Settings.Secure.getIntForUser(getContentResolver(),
@@ -146,6 +152,27 @@ public class PulseSettings extends SettingsPreferenceFragment implements
                 (SeekBarPreference) findPreference(FADING_LAVAMP_SPEED);
         mFadingSpeed.setValue(fspeed);
         mFadingSpeed.setOnPreferenceChangeListener(this);
+        int count = Settings.Secure.getIntForUser(getContentResolver(),
+               Settings.Secure.PULSE_SOLID_UNITS_COUNT, 64, UserHandle.USER_CURRENT);
+        mSolidCount =
+                (SeekBarPreference) findPreference(PULSE_SOLID_UNITS_COUNT);
+        mSolidCount.setValue(count);
+        mSolidCount.setOnPreferenceChangeListener(this);
+        
+        int opacity = Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.PULSE_SOLID_UNITS_OPACITY, 200, UserHandle.USER_CURRENT);
+        mSolidOpacity =
+                (SeekBarPreference) findPreference(PULSE_SOLID_UNITS_OPACITY);
+        mSolidOpacity.setValue(opacity);
+        mSolidOpacity.setOnPreferenceChangeListener(this);
+
+        int buttonsOpacity = Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.PULSE_CUSTOM_BUTTONS_OPACITY, 200, UserHandle.USER_CURRENT);
+        mNavButtonsOpacity =
+                (SeekBarPreference) findPreference(PULSE_CUSTOM_BUTTONS_OPACITY);
+        mNavButtonsOpacity.setValue(buttonsOpacity);
+        mNavButtonsOpacity.setOnPreferenceChangeListener(this);
+ 
     }
 
     @Override
@@ -217,6 +244,21 @@ public class PulseSettings extends SettingsPreferenceFragment implements
             Settings.Secure.putIntForUser(getContentResolver(),
                     Settings.Secure.FLING_PULSE_LAVALAMP_SPEED, val, UserHandle.USER_CURRENT);
             return true;
+        } else if (preference == mSolidCount) {
+            int val = Integer.parseInt(String.valueOf(newValue));
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.PULSE_SOLID_UNITS_COUNT, val, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mSolidOpacity) {
+            int val = Integer.parseInt(String.valueOf(newValue));
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.PULSE_SOLID_UNITS_OPACITY, val, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mNavButtonsOpacity) {
+            int val = Integer.parseInt(String.valueOf(newValue));
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.PULSE_CUSTOM_BUTTONS_OPACITY, val, UserHandle.USER_CURRENT);
+              return true;
         }
         return false;
     }

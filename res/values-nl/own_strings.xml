@@ -278,7 +278,12 @@
     <string name="pulse_legacy_mode_advanced_category">Meer instellingen voor vervagende blokken</string>
     <string name="pulse_custom_fudge_factor">Weerstands level</string>
     <string name="lavamp_solid_speed_title">Lava Lamp snelheid</string>
+    <string name="pulse_solid_units_count">Aantal lijnen</string>
+    <string name="pulse_solid_units_opacity">Lijn dichthijd</string>
     <string name="pulse_solid_dimen_category">Meer instellingen voor lijnen</string>
+    <string name="fling_lavalamp_color_from">Lava Lamp start kleur</string>
+    <string name="fling_lavalamp_color_to">Lava Lamp eind kleur</string>
+    <string name="pulse_custom_buttons_opacity_title">Knoppen dichtheid tijdens pulse</string>
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Balk dikte</string>
     <string name="pulse_custom_div">Balk breedte</string>
@@ -303,10 +308,13 @@
     <string name="smartbar_button_animation_summary">Stel de animatie in voor de knoppen als er op deze gedrukt wordt</string>
     <string name="smartbar_button_animation_ripple">Golven</string>
     <string name="smartbar_button_animation_spring">Springen</string>
+    <string name="smartbar_button_animation_flip">Draai</string>
+    <string name="smartbar_button_animation_pixel">Pixel (alle knoppen)</string>
+    <string name="smartbar_button_animation_pixel_home">Pixel (Alleen thuisknop)</string>
     <string name="smartbar_factory_reset_title">Resetten</string>
     <string name="smartbar_factory_reset_confirm">Weet je zeker dat je de Smartbalk wil herstellen?</string>
-    <string name="smartbar_ime_action_title">Input methode acties</string>
-    <string name="smartbar_ime_action_summary">Stel in welke knoppen er zichtbaar moeten zijn als het toetsenbord in beeld is</string>
+    <string name="smartbar_ime_action_title">Input methode of media acties</string>
+    <string name="smartbar_ime_action_summary">Stel in welke knoppen er zichtbaar moeten zijn als het toetsenbord in beeld is of media afspeeld</string>
     <string name="smartbar_ime_action_none">Geen</string>
     <string name="smartbar_ime_action_arrows">Cursor pijlen</string>
     <string name="smartbar_ime_action_switcher">Toetsenbord wisselaar</string>
@@ -319,6 +327,8 @@
     <string name="smartbar_config_restore_success_toast">Smartbalk profiel hersteld</string>
     <string name="smartbar_config_backup_error_toast">Probleem met het opslaan van profiel</string>
     <string name="smartbar_config_restore_error_toast">Probleem met het herstellen van profiel</string>
+    <string name="smartbar_doubletap_sleep_title">Dubbel tikken om te slapen</string>
+    <string name="smartbar_doubletap_sleep_summary">Dubbel tikken op de lege ruimtes op de Smartbalk zal het scherm uit schakelen</string>
     <string name="navbar_buttons_alpha_title">Knoppen transparantie</string>
     <!-- Power menu -->
     <string name="power_menu_title">Aan/Uit menu</string>
