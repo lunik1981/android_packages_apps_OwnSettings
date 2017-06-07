@@ -65,7 +65,6 @@ public class OmniSwitch extends SettingsPreferenceFragment implements
 
         mOmniSwitchSettings = (Preference)
                 prefSet.findPreference(OMNISWITCH_START_SETTINGS);
-        mOmniSwitchSettings.setEnabled(mRecentsUseOmniSwitch.isChecked());
     }
 
     @Override
@@ -90,7 +89,6 @@ public class OmniSwitch extends SettingsPreferenceFragment implements
 
             Settings.System.putInt(
                     resolver, Settings.System.RECENTS_USE_OMNISWITCH, value ? 1 : 0);
-            mOmniSwitchSettings.setEnabled(value);
         } else {
             return false;
         }
