@@ -147,7 +147,13 @@
     <string name="battery_bar_style_regular">Standaard</string>
     <string name="battery_bar_style_center_mirrored">Spiegel-gecentreerd</string>
     <string name="battery_bar_style_reversed">Omgedraaid</string>
-	
+    <string name="battery_bar_blend_color_title">Blend kleuren</string>
+    <string name="battery_bar_blend_color_summary">Blend vol/leeg kleuren na aanleiding van batterij percentage</string>
+    <string name="battery_bar_blend_color_reverse_title">Draai kleur richting</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Vol &#8594; Leeg: rood &#8592; groen &#8592; blauw &#8592; rood</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Vol &#8594; Leeg: rood &#8594; groen &#8594; blauw &#8594; rood</string>
+
+
 	<!-- Button Settings -->
 	<string name="button_settings_title">Knoppen</string>
 	<string name="button_navigation_tab">Navigatie</string>
