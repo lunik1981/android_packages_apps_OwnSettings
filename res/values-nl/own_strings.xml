@@ -318,6 +318,7 @@
     <string name="smartbar_ime_action_none">Geen</string>
     <string name="smartbar_ime_action_arrows">Cursor pijlen</string>
     <string name="smartbar_ime_action_switcher">Toetsenbord wisselaar</string>
+    <string name="smartbar_ime_action_dynamic">Input/media pijlen</string>
     <string name="smartbar_backup_current_config_title">Sla profiel op</string>
     <string name="smartbar_restore_config_title">Herstel profiel</string>
     <string name="smartbar_config_name_edit_dialog_title">Smartbalk profiel naamm</string>
@@ -329,6 +330,8 @@
     <string name="smartbar_config_restore_error_toast">Probleem met het herstellen van profiel</string>
     <string name="smartbar_doubletap_sleep_title">Dubbel tikken om te slapen</string>
     <string name="smartbar_doubletap_sleep_summary">Dubbel tikken op de lege ruimtes op de Smartbalk zal het scherm uit schakelen</string>
+    <string name="one_handed_mode_title">1 hand modes</string>
+    <string name="one_handed_mode_summary">Schakeld 1 hand modes in als u van de ene kant naar de andere kant veegt over de smart balk</string>
     <string name="navbar_buttons_alpha_title">Knoppen transparantie</string>
     <!-- Power menu -->
     <string name="power_menu_title">Aan/Uit menu</string>
@@ -485,7 +488,15 @@
     <string name="immersive_recents_default">Standaard</string>
     <string name="immersive_recents_statusbar">Alleen statusbalk</string>
     <string name="immersive_recents_navbar">Alleen navigatie balk</string>
-
+    <!-- OmniSwitch -->
+    <string name="recents_use_omniswitch_title">Stel in als recente apps scherm</string>
+    <string name="recents_use_omniswitch_summary">Gebruik Omniswitch als standaard recente apps wisselaar</string>
+    <string name="omniswitch_start_settings_title">Instellingen</string>
+    <string name="omniswitch_start_settings_summary">Open de instellingen van Omniswitch</string>
+    <string name="omniswitch_first_time_title">Informatie</string>
+    <string name="omniswitch_first_time_message">Let op! Schakel Omniswitch wel in! Dit kun je doen via de \"Instellingen\" hieronder</string>
+    
+    
     <!--OwnROM Center -->
     <string name="owncenter">OwnROM Centrum</string>
     <string name="own_updater_summary">Update uw ROM, G-Apps en andere dingen</string>

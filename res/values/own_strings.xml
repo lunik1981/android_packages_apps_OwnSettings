@@ -351,6 +351,7 @@
     <string name="smartbar_ime_action_none">None</string>
     <string name="smartbar_ime_action_arrows">Input arrows</string>
     <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
+    <string name="smartbar_ime_action_dynamic">Input/media arrows</string>
     <string name="smartbar_backup_current_config_title">Save profile</string>
     <string name="smartbar_restore_config_title">Restore profile</string>
     <string name="smartbar_config_name_edit_dialog_title">Smartbar profile name</string>
@@ -362,6 +363,8 @@
     <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
     <string name="smartbar_doubletap_sleep_title">Double tap to sleep</string>
     <string name="smartbar_doubletap_sleep_summary">Double tap on navbar empty areas to switch off the screen</string>
+    <string name="one_handed_mode_title">One handed mode</string>
+    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
     <string name="navbar_buttons_alpha_title">Button transparency</string>
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
@@ -519,6 +522,7 @@
 	<!-- Recents Settings -->
 	<string name="recents_settings_title">Recents Apps</string>
 	<string name="general_recents_tab">General</string>
+	<string name="omniswitch_tab">Omniswitch</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Hidden apps</string>
     <string name="hide_from_recents_add_app">Add App</string>
@@ -534,6 +538,14 @@
     <string name="immersive_recents_fullscreen">Fullscreen</string>
     <string name="immersive_recents_statusbar">Statusbar only</string>
     <string name="immersive_recents_navbar">Navbar only</string>
+    <!-- OmniSwitch -->
+    <string name="recents_use_omniswitch_title">Use for recents</string>
+    <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
+    <string name="omniswitch_start_settings_title">Settings</string>
+    <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
+    <string name="omniswitch_first_time_title">Information</string>
+    <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
+    <string name="omniswitch_settings_title">OmniSwitch</string>
 
 
     <!-- OwnROM Center -->

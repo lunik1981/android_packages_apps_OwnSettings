@@ -36,7 +36,9 @@ import com.own.settings.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
+
 import com.own.settings.recents.tabs.GeneralRecents;
+import com.own.settings.recents.tabs.OmniSwitch;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -91,6 +93,7 @@ public class RecentsSettings extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
 	    frags[0] = new GeneralRecents();
+	    frags[1] = new OmniSwitch();
         }
 
         @Override
@@ -112,7 +115,8 @@ public class RecentsSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.general_recents_tab)};
+		    getString(R.string.general_recents_tab),
+		    getString(R.string.omniswitch_tab)};
         return titleString;
     }
 
