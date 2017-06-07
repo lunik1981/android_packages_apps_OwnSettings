@@ -21,6 +21,11 @@
            android:title="@string/network_traffic_title"
            android:fragment="com.own.settings.javas.NetworkTrafficSettings" />
 
+	<PreferenceScreen
+			android:key="batterybar"
+			android:fragment="com.own.settings.javas.BatteryBar"
+			android:title="@string/battery_bar_title" />
+
     <cyanogenmod.preference.CMSystemSettingListPreference
         android:key="qs_quick_pulldown"
         android:title="@string/status_bar_quick_qs_pulldown_title"

@@ -129,7 +129,20 @@
 	<string name="network_traffic_color_style">Kleur style</string>
 	<string name="network_traffic_color_reset">Reset kleuren</string>
 	<string name="network_traffic_color_reset_message">Kleuren naar standaard waardes herstellen?</string>
-	
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Batterij balk</string>
+    <string name="battery_bar">Batterij balk locatie</string>
+    <string name="battery_bar_no_navbar">Batterij balk locatie</string>
+    <string name="battery_bar_color">Batterij balk kleur</string>
+    <string name="battery_bar_charging_color">Batterij balk oplaad kleur</string>
+    <string name="battery_bar_battery_low_color">Batterij balk laag percentage kleur</string>
+    <string name="battery_bar_cat">Batterij balk style</string>
+    <string name="battery_bar_style_title">Batterij balk plaatsing</string>
+    <string name="battery_bar_thickness_title">Batterij balk dikte</string>
+    <string name="battery_bar_animate_title">Oplaad animatie</string>
+    <string name="battery_bar_style_regular">Standaard</string>
+    <string name="battery_bar_style_center_mirrored">Spiegel-gecentreerd</string>
+    <string name="battery_bar_style_reversed">Omgedraaid</string>
 	
 	<!-- Button Settings -->
 	<string name="button_settings_title">Knoppen</string>
