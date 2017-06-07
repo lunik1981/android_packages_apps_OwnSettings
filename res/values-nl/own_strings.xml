@@ -133,6 +133,10 @@
     <string name="battery_bar_title">Batterij balk</string>
     <string name="battery_bar">Batterij balk locatie</string>
     <string name="battery_bar_no_navbar">Batterij balk locatie</string>
+    <string name="battery_bar_location_hide">Verberg</string>
+    <string name="battery_bar_location_statusbar">Statusbalk</string>
+    <string name="battery_bar_location_top_navbar">Boven de navigatie balk</string>
+    <string name="battery_bar_location_bottom_navbar">Onder de navigatie balk</string>
     <string name="battery_bar_color">Batterij balk kleur</string>
     <string name="battery_bar_charging_color">Batterij balk oplaad kleur</string>
     <string name="battery_bar_battery_low_color">Batterij balk laag percentage kleur</string>
