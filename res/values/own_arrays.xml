@@ -470,8 +470,8 @@
     </string-array>
 
     <string-array name="systemui_navbar_settings_fragments" translatable="false">
-        <item>com.crdroid.settings.fragments.SmartbarSettings</item>
-        <item>com.crdroid.settings.fragments.FlingSettings</item>
+        <item>com.own.settings.javas.SmartbarSettings</item>
+        <item>com.own.settings.javas.FlingSettings</item>
     </string-array>
 
     <string-array name="systemui_navbar_mode_settings">
