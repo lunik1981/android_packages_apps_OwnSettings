@@ -15,10 +15,16 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/button_navigation_tab">
 
+    <PreferenceCategory
+        android:key="category_softkeys"
+        android:title="@string/softkeys_title" >
+        
 		<SwitchPreference
 			android:key="navbar_visibility"
 			android:title="@string/navbar_visibility" />
 
+    </PreferenceCategory>
+    
     <PreferenceCategory
         android:key="category_navbar_interface"
         android:title="@string/navbar_interface_title" >
@@ -75,7 +81,7 @@
     
     <PreferenceCategory
         android:key="key_backlight"
-        android:title="@string/button_backlight_title" >
+        android:title="@string/hardware_keys" >
         
 		<com.own.settings.javas.ButtonBacklightBrightness
 			android:key="button_backlight"

@@ -14,7 +14,7 @@ import com.android.settings.R;
 
 public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
     private final String TAG = getClass().getName();
-    private static final String SETTINGS_NS = "http://schemas.android.com/apk/res/com.android.settings";
+    private static final String SETTINGS = "http://schemas.android.com/apk/res/com.android.settings";
     private static final String ANDROIDNS = "http://schemas.android.com/apk/res/android";
     private static final int DEFAULT_VALUE = 50;
 
@@ -34,10 +34,10 @@ public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarCh
         final TypedArray a = context.obtainStyledAttributes(
                 attrs, R.styleable.SeekBarPreference);
 
-        mMax = attrs.getAttributeIntValue(SETTINGS_NS, "max", 100);
-        mMin = attrs.getAttributeIntValue(SETTINGS_NS, "min", 0);
+        mMax = attrs.getAttributeIntValue(ANDROIDNS, "max", 100);
+        mMin = attrs.getAttributeIntValue(SETTINGS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
-        mUnits = getAttributeStringValue(attrs, SETTINGS_NS, "units", "");
+        mUnits = getAttributeStringValue(attrs, SETTINGS, "units", "");
 
         Integer id = a.getResourceId(R.styleable.SeekBarPreference_units, 0);
         if (id > 0) {
@@ -45,7 +45,7 @@ public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarCh
         }
 
         try {
-            String newInterval = attrs.getAttributeValue(SETTINGS_NS, "interval");
+            String newInterval = attrs.getAttributeValue(SETTINGS, "interval");
             if (newInterval != null)
                 mInterval = Integer.parseInt(newInterval);
         } catch (Exception e) {
@@ -56,7 +56,7 @@ public class SeekBarPreference extends Preference implements SeekBar.OnSeekBarCh
         mSeekBar = new SeekBar(context, attrs);
         mSeekBar.setMax(mMax - mMin);
         mSeekBar.setOnSeekBarChangeListener(this);
-        setLayoutResource(R.layout.preference_seekbar);
+        setLayoutResource(R.layout.seek_bar_preference);
     }
 
     public SeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr) {
