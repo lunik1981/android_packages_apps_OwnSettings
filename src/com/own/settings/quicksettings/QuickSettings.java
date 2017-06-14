@@ -94,7 +94,7 @@ public class QuickSettings extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-	    frags[0] = new QSAdvanced();
+	    frags[0] = new QSGeneral();
         }
 
         @Override

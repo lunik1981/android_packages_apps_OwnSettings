@@ -72,7 +72,14 @@
             android:icon="@drawable/phone_tint"
             android:title="@string/device_lenovo_z2plus"
             android:summary="@string/device_lenovo_z2plus_summary" />      
-        
+
+        <Preference
+            android:id="@+id/device_lenovo_zukz1"
+            android:key="zukz1_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_lenovo_zukz1"
+            android:summary="@string/device_lenovo_zukz1_summary" />  
+            
     </PreferenceCategory> 
 
     <!-- MOTOROLA -->

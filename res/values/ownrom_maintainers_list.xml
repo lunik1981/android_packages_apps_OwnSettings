@@ -51,6 +51,8 @@
     <string name="device_lenovo_A7010a48_summary">Mohan Cm (mohancm100)</string>
     <string name="device_lenovo_z2plus">Z2 Plus</string>
     <string name="device_lenovo_z2plus_summary">Subhrajyoti (SubhrajyotiSen)</string>
+    <string name="device_lenovo_zukz1">Jyothish Joshy (forkking)</string>
+	<string name="device_lenovo_zukz1_summary">ZUK Z1 (Ham)</string>
 
     <!-- MOTOROLA -->
     <string name="device_motorola_harpia">G4 Play (Harpia)</string>
