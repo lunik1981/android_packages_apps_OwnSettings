@@ -373,7 +373,15 @@
     <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
     <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
     <string name="camera_double_tap_power_gesture_desc">Open de camera snel tijdens het ontgrendelen</string>	
-    
+	<!-- Other Button Settings -->
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_fullscreen">Maak fullscreen screenshots</string>
+    <string name="screenshot_type_partial">Selecteer het gedeelte waarvan je een screenshot wil maken</string>
+    <!-- Screenshot delay -->
+    <string name="screenshot_options_category">Screenshot opties</string>
+    <string name="screenshot_delay_title">Screenshot vertraging</string>
+    <string name="screenshot_delay_summary">Stel de tijd in tussen het drukken van de toetsen en het daadwerkelijk nemen van de screenshot</string>
+   
     
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Snelle Instellingen</string>
