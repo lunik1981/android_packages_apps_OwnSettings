@@ -379,7 +379,7 @@
 	<string name="quick_pulldown_title">Snel uivouwen</string>
 
 	<!-- Quick Settings -->
-	<string name="qs_advanced_title">Gevorderd</string>
+	<string name="qs_general_tab">Algemeen</string>
 
 	<!-- Notification Drawer Settings -->
 	<string name="notification_drawer_settings_title">Meldingspaneel</string>

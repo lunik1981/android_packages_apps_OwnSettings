@@ -40,7 +40,7 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.own.settings.quicksettings.tabs.QuickPullDown;
-import com.own.settings.quicksettings.tabs.QSAdvanced;
+import com.own.settings.quicksettings.tabs.QSGeneral;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -94,8 +94,7 @@ public class QuickSettings extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-	    frags[0] = new QuickPullDown();
-	    frags[1] = new QSAdvanced();
+	    frags[0] = new QSAdvanced();
         }
 
         @Override
@@ -117,8 +116,7 @@ public class QuickSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.quick_pulldown_title),
-		    getString(R.string.qs_advanced_title)};
+		    getString(R.string.qs_general_tab)};
         return titleString;
     }
 

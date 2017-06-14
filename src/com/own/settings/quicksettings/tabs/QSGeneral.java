@@ -30,15 +30,15 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
-public class QSAdvanced extends SettingsPreferenceFragment implements
+public class QSGeneral extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String TAG = "QSAdvanced";
+    private static final String TAG = "QSGeneral";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.qs_advanced);
+        addPreferencesFromResource(R.xml.qs_general_tab);
     }
 
     @Override

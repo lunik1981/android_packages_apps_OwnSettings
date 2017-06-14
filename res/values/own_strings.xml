@@ -413,7 +413,7 @@
 	<string name="quick_pulldown_title">Quick Pulldown</string>
 
 	<!-- Quick Settings -->
-	<string name="qs_advanced_title">Advanced</string>
+	<string name="qs_general_tab">General</string>
 
 	<!-- Notification Drawer Settings -->
 	<string name="notification_drawer_settings_title">Notification drawer</string>
