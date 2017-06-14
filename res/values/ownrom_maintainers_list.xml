@@ -61,6 +61,10 @@
     <string name="device_motorola_athene_summary">Rajat Gupta (tywinlannister7)</string>
     <string name="device_motorola_potter">G5 Plus (Potter)</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
+
+	<!-- XIAOMI -->
+    <string name="device_xiaomi_armani">Redmi 1s (Armani)</string>
+    <string name="device_xiaomi_armani_summary">Sujit Roy (sujitroy)</string>    
     
     <!-- ANDROİD ONE -->
 
@@ -89,8 +93,6 @@
     <!-- SONY -->
 
     <!-- WİLEYFOX -->
-
-    <!-- XIAOMI -->
 
     <!-- YU -->
 

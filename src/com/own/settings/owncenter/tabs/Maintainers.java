@@ -50,6 +50,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_POTTER_MAINTAINER_PLUS_LINK = "potter_maintainer_plus_link";
 	private String KEY_ATHENE_MAINTAINER_PLUS_LINK = "athene_maintainer_plus_link";
 
+	// Xiaomi
+	private String KEY_ARMANI_MAINTAINER_PLUS_LINK = "armani_maintainer_plus_link";
 	
 	// OnePlus
 	private Preference mOneplus3PlusUrl;
@@ -69,6 +71,10 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private Preference mPotterPlusUrl;
 	private Preference mAthenePlusUrl;
 
+	// Xiaomi
+	private Preference mArmaniPlusUrl;
+	
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,6 +97,9 @@ public class Maintainers extends SettingsPreferenceFragment {
         mHarpiaPlusUrl = findPreference(KEY_HARPIA_MAINTAINER_PLUS_LINK);
         mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
         mAthenePlusUrl = findPreference(KEY_ATHENE_MAINTAINER_PLUS_LINK);
+        
+        // Xiaomi
+        mArmaniPlusUrl = findPreference(KEY_ARMANI_MAINTAINER_PLUS_LINK);
         
     }
 
@@ -124,7 +133,11 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/u/1/110774809129522678759");
 		} else if (preference == mAthenePlusUrl) {
 			launchUrl("https://plus.google.com/114912018259767227558");
-							
+
+		// Xiaomi
+		} else if (preference == mArmaniPlusUrl) {
+			launchUrl("https://plus.google.com/+SujitRoyKumar");
+										
         }
         return super.onPreferenceTreeClick(preference);
     }

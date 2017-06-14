@@ -109,6 +109,20 @@
             
     </PreferenceCategory>  
 
+    <!-- XIAOMI   -->
+    <PreferenceCategory
+        android:title="@string/device_category_xiaomi_title">
+
+        <Preference
+            android:id="@+id/device_xiaomi_armani"
+            android:key="armani_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_xiaomi_armani"
+            android:summary="@string/device_xiaomi_armani_summary" />  
+
+    </PreferenceCategory>
+    
+    
     <!-- GOOGLE 
     <PreferenceCategory
         android:title="@string/device_category_google_title">
@@ -172,11 +186,6 @@
     <!-- WİLEYFOX
     <PreferenceCategory
         android:title="@string/device_category_wileyfox_title">
-    </PreferenceCategory>  -->
-
-    <!-- XIAOMI
-    <PreferenceCategory
-        android:title="@string/device_category_xiaomi_title">
     </PreferenceCategory>  -->
 
     <!-- YU
