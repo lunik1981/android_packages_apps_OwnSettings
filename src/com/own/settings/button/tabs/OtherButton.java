@@ -44,10 +44,10 @@ public class OtherButton extends SettingsPreferenceFragment implements
     private static final String TAG = "OtherButton";
 
     private static final String SCREENSHOT_TYPE = "screenshot_type";
-    private static final String SCREENSHOT_DELAY = "screenshot_delay";
+    //private static final String SCREENSHOT_DELAY = "screenshot_delay";
 
     private ListPreference mScreenshotType;
-    private SeekBarPreference mScreenshotDelay;
+    //private SeekBarPreference mScreenshotDelay;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,11 +63,11 @@ public class OtherButton extends SettingsPreferenceFragment implements
         mScreenshotType.setSummary(mScreenshotType.getEntry());
         mScreenshotType.setOnPreferenceChangeListener(this);
 
-        mScreenshotDelay = (SeekBarPreference) findPreference(SCREENSHOT_DELAY);
-        int screenshotDelay = Settings.System.getInt(resolver,
-                Settings.System.SCREENSHOT_DELAY, 100);
-        mScreenshotDelay.setValue(screenshotDelay / 1);
-        mScreenshotDelay.setOnPreferenceChangeListener(this);
+       // mScreenshotDelay = (SeekBarPreference) findPreference(SCREENSHOT_DELAY);
+       // int screenshotDelay = Settings.System.getInt(resolver,
+       //        Settings.System.SCREENSHOT_DELAY, 100);
+       // mScreenshotDelay.setValue(screenshotDelay / 1);
+       // mScreenshotDelay.setOnPreferenceChangeListener(this);
 
     }
 
@@ -81,11 +81,11 @@ public class OtherButton extends SettingsPreferenceFragment implements
                     Settings.System.SCREENSHOT_TYPE, mScreenshotTypeValue);
             mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
             return true;
-        } else if (preference == mScreenshotDelay) {
-            int screenshotDelay = (Integer) objValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.SCREENSHOT_DELAY, screenshotDelay * 1);
-            return true;
+        //} else if (preference == mScreenshotDelay) {
+        //    int screenshotDelay = (Integer) objValue;
+        //    Settings.System.putInt(getActivity().getContentResolver(),
+        //            Settings.System.SCREENSHOT_DELAY, screenshotDelay * 1);
+        //    return true;
          }
         return false;
     }

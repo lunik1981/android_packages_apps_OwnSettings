@@ -25,7 +25,7 @@
 					android:key="screenshot_type"
 					android:title="@string/screenshot_type_title" />
 
-				<com.own.settings.javas.SeekBarPreference
+				<!--<com.own.settings.javas.SeekBarPreference
 					android:key="screenshot_delay"
 					android:title="@string/screenshot_delay_title"
 					android:summary="@string/screenshot_delay_summary"
@@ -33,7 +33,7 @@
 					settings:minimum="100"
 					settings:interval="100"
 					settings:units="ms"
-					android:persistent="false" />
+					android:persistent="false" /> -->
 
         </PreferenceCategory>
 
