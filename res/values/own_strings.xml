@@ -175,6 +175,7 @@
 	<string name="button_navigation_tab">Navigation</string>
 	<string name="button_power_tab">Power Button</string>
 	<string name="button_volume_tab">Volume Buttons</string>
+	<string name="button_other_tab">Other</string>
 	<string name="softkeys_title">Software Navigation</string>
 	<string name="hardware_keys">Hardware Navigation</string>
     <!-- Button settings -->

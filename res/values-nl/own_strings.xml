@@ -159,6 +159,7 @@
 	<string name="button_navigation_tab">Navigatie</string>
 	<string name="button_power_tab">Aan/Uit knop</string>
 	<string name="button_volume_tab">Volume knoppen</string>
+	<string name="button_other_tab">Andere</string>
 	<string name="softkeys_title">Software Navigatie</string>
 	<string name="hardware_keys">Hardware Navigatie</string>
     <!-- Button settings -->

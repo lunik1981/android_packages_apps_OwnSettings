@@ -39,6 +39,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.own.settings.button.tabs.NavigationButton;
 import com.own.settings.button.tabs.PowerButton;
 import com.own.settings.button.tabs.VolumeButton;
+import com.own.settings.button.tabs.OtherButton;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -95,6 +96,7 @@ public class ButtonSettings extends SettingsPreferenceFragment {
 	    frags[0] = new NavigationButton();
 	    frags[1] = new PowerButton();
 	    frags[2] = new VolumeButton();
+	    frags[3] = new OtherButton();
         }
 
         @Override
@@ -118,7 +120,8 @@ public class ButtonSettings extends SettingsPreferenceFragment {
         titleString = new String[]{
 			getString(R.string.button_navigation_tab),
 			getString(R.string.button_power_tab),
-		    getString(R.string.button_volume_tab)};
+		    getString(R.string.button_volume_tab),
+		    getString(R.string.button_other_tab)};
         return titleString;
     }
 
