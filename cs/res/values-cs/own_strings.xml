@@ -393,37 +393,37 @@
   <string name="volume_keys_control_ring_stream_title">Ovládání hlasitosti vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tlačítka hlasitosti ovládají hlasitost vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tlačítka hlasitosti ovládají hlasitost médií</string>
-  <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
+  <string name="camera_double_tap_power_gesture_title">Fotoaparát dvojitým stisknutím vypínače</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
+  <string name="camera_double_tap_power_gesture_desc">Rychle otevře fotoaparát bez odemknutí obrazovky</string>
   <!-- Other Button Settings -->
   <!-- Optional screenshot type -->
-  <string name="screenshot_type_title">Screenshot type</string>
-  <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
-  <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
+  <string name="screenshot_type_title">Typ snímku obrazovky</string>
+  <string name="screenshot_type_fullscreen">Snímek celé obrazovky</string>
+  <string name="screenshot_type_partial">Přetáhnutím vyberte oblast, kterou chcete použít jako snímek obrazovky</string>
   <!-- Screenshot delay -->
-  <string name="screenshot_options_category">Screenshot options</string>
-  <string name="screenshot_delay_title">Screenshot delay</string>
-  <string name="screenshot_delay_summary">Adjust the time for when a screenshot is captured</string>
+  <string name="screenshot_options_category">Možnosti snímku obrazovky</string>
+  <string name="screenshot_delay_title">Prodleva snímku obrazovky</string>
+  <string name="screenshot_delay_summary">Upravit dobu, kdy je zachycen snímek obrazovky</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
-  <string name="quick_pulldown_title">Quick Pulldown</string>
+  <string name="quick_settings_title">Rychlé nastavení</string>
+  <string name="quick_pulldown_title">Rychlé vysunutí nabídky</string>
   <!-- Quick Settings -->
-  <string name="qs_general_tab">General</string>
+  <string name="qs_general_tab">Obecné</string>
   <!-- Quick Settings brightness slider -->
-  <string name="qs_brightness_slider_title">Brightness slider</string>
-  <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+  <string name="qs_brightness_slider_title">Posuvník jasu</string>
+  <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Brightness icon</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Ikona jasu</string>
+  <string name="brightness_icon_summary">Zobrazit ikonu jasu nalevo od posuvníku</string>
   <!-- Notification Drawer Settings -->
-  <string name="notification_drawer_settings_title">Notification drawer</string>
-  <string name="drawer_messages_tab_title">Messages</string>
+  <string name="notification_drawer_settings_title">Oznamovací oblast</string>
+  <string name="drawer_messages_tab_title">Zprávy</string>
   <!-- Force expanded notifications -->
-  <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
-  <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+  <string name="force_expanded_notifications_title">Vynutit rozšířené oznámení</string>
+  <string name="force_expanded_notifications_summary">K dispozici pouze pro aplikace, které podporují rozšířené oznámení</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
+  <string name="disable_immersive_message_title">Zakázat zprávy pohlcujícího režimu (immersive mód))</string>
   <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
   <!-- Animation Settings -->
   <string name="animation_settings_title">Animations</string>
@@ -513,63 +513,63 @@
   <string name="power_menu_animation_rotate">Rotace</string>
   <string name="power_menu_animation_xylon">Létání</string>
   <string name="power_menu_animation_slide">Sklouznutí</string>
-  <string name="power_menu_animation_turn">Turn</string>
-  <string name="power_menu_animation_fly">Glow</string>
+  <string name="power_menu_animation_turn">Zatočení</string>
+  <string name="power_menu_animation_fly">Záře</string>
   <string name="power_menu_animation_card">3D</string>
-  <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-  <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+  <string name="power_menu_animation_translucent_top">Průsvitné (nahoře)</string>
+  <string name="power_menu_animation_translucent_bottom">Průsvitné (dole)</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tiles">QS Tiles</string>
-  <string name="qs_tile_animation_style_title">Animation style</string>
-  <string name="qs_tile_animation_duration_title">Animation duration</string>
-  <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
-  <string name="qs_tile_animation_style_off">No animation</string>
-  <string name="qs_tile_animation_style_flip">Flip</string>
-  <string name="qs_tile_animation_style_rotate">Rotate</string>
-  <string name="qs_tile_animation_duration_low">Low</string>
-  <string name="qs_tile_animation_duration_default">Default</string>
-  <string name="qs_tile_animation_duration_fast">Fast</string>
-  <string name="qs_tile_animation_duration_superfast">Super fast</string>
-  <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-  <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
-  <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+  <string name="qs_tiles">QS dlaždice</string>
+  <string name="qs_tile_animation_style_title">Styl animace</string>
+  <string name="qs_tile_animation_duration_title">Doba trvání animace</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolace animace dlaždice</string>
+  <string name="qs_tile_animation_style_off">Bez animace</string>
+  <string name="qs_tile_animation_style_flip">Překlopení</string>
+  <string name="qs_tile_animation_style_rotate">Otočit</string>
+  <string name="qs_tile_animation_duration_low">Nízká</string>
+  <string name="qs_tile_animation_duration_default">Výchozí</string>
+  <string name="qs_tile_animation_duration_fast">Rychlá</string>
+  <string name="qs_tile_animation_duration_superfast">Super rychlá</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Lineární</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Zrychlení</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zpomalení</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Zrychlení a zpomalení</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Odskočení</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročení</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Předbíhání</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Předbíhání a překročení</string>
   <string name="qs_set_animation_style">%1$s</string>
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Recents Settings -->
-  <string name="recents_settings_title">Recents Apps</string>
-  <string name="general_recents_tab">General</string>
+  <string name="recents_settings_title">Nedávné aplikace</string>
+  <string name="general_recents_tab">Obecné</string>
   <string name="omniswitch_tab">Omniswitch</string>
   <!-- Hide Apps from Recents -->
-  <string name="hide_apps_from_recents_title">Hidden apps</string>
-  <string name="hide_from_recents_add_app">Add App</string>
-  <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
+  <string name="hide_apps_from_recents_title">Skryté aplikace</string>
+  <string name="hide_from_recents_add_app">Přidat aplikaci</string>
+  <string name="hide_apps_from_recents_summary">Vyberte aplikace, které chcete vyloučit z panelu nedávné</string>
   <!-- Recents MEM Bar -->
-  <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
-  <string name="systemui_recents_mem_display_summary">Enable Disable Ram bar in recent app view</string>
+  <string name="systemui_recents_mem_display_title">Zobrazit ukazatel paměti</string>
+  <string name="systemui_recents_mem_display_summary">Povolit nebo zakázat ukazatel paměti v zobrazení nedávných aplikací</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive Recents</string>
-  <string name="immersive_recents_summary">Change the view of the recents screen</string>
-  <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Statusbar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Imerzivní nedávné</string>
+  <string name="immersive_recents_summary">Změna zobrazení \"Nedávné\"</string>
+  <string name="immersive_recents_dialog_title">Vyberte zobrazení nedávných</string>
+  <string name="immersive_recents_default">Výchozí</string>
+  <string name="immersive_recents_fullscreen">Celá obrazovka</string>
+  <string name="immersive_recents_statusbar">Pouze stavový řádek</string>
+  <string name="immersive_recents_navbar">Pouze navigační panel</string>
   <!-- OmniSwitch -->
-  <string name="recents_use_omniswitch_title">Use for recents</string>
-  <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
-  <string name="omniswitch_start_settings_title">Settings</string>
-  <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
-  <string name="omniswitch_first_time_title">Information</string>
-  <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
+  <string name="recents_use_omniswitch_title">Použít pro Nedávné</string>
+  <string name="recents_use_omniswitch_summary">Použít OmniSwitch namísto výchozího zobrazení nedávných aplikací</string>
+  <string name="omniswitch_start_settings_title">Nastavení</string>
+  <string name="omniswitch_start_settings_summary">Otevřít nastavení OmniSwitch</string>
+  <string name="omniswitch_first_time_title">Informace</string>
+  <string name="omniswitch_first_time_message">Ujistěte se, že máte povoleno OmniSwitch. Můžete to udělat pomocí \"Nastavení\" níže</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
   <!-- OwnROM Center -->
-  <string name="owncenter">OwnROM Center</string>
+  <string name="owncenter">Centrum OwnROM</string>
   <string name="owncenter_ota_tab">OTA</string>
   <string name="own_updater_title">Updater</string>
   <string name="own_updater_summary">Aktualizujte ROM, GApps a ostatní věci</string>
@@ -594,9 +594,9 @@
   <string name="ownrom_walls_title">OwnWalls</string>
   <string name="ownrom_walls_summary">Stahujte všechny druhy tapet</string>
   <string name="ownrom_fb_title">Facebook</string>
-  <string name="ownrom_fb_summary">Fisit and/or follow us on Facebook</string>
-  <string name="ownrom_telegram_title">Telegram Channel</string>
-  <string name="ownrom_telegram_summary">Join our Telegram channel to stay updated!</string>
+  <string name="ownrom_fb_summary">Navštivte nebo nás následujte na Facebooku</string>
+  <string name="ownrom_telegram_title">Kanál Telegram</string>
+  <string name="ownrom_telegram_summary">Připojte se k našemu kanálu Telegram!</string>
   <!-- Team -->
-  <string name="team_ownrom_title">Team</string>
+  <string name="team_ownrom_title">Tým</string>
 </resources>
