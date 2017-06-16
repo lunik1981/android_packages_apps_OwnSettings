@@ -73,62 +73,62 @@
   <!-- Status bar -->
   <!-- Tabs -->
   <string name="statusbar_icons_tab_title">Ikony</string>
-  <string name="statusbar_clock_tab">Clock</string>
-  <string name="statusbar_other_tab_title">Other</string>
+  <string name="statusbar_clock_tab">Hodiny</string>
+  <string name="statusbar_other_tab_title">Ostatní</string>
   <!-- General -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+  <string name="status_bar_toggle_brightness_summary">Umožňuje měnit nastavení jasu tažením prstu po stavové liště</string>
+  <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
+  <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených upozornění v oznamovací oblasti</string>
+  <string name="status_bar_quick_qs_pulldown_title">Rychlé stažení nabídky</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s okraj stavové lišty umožňuje rychlé vysunutí nabídky nastavení</string>
+  <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
+  <string name="status_bar_quick_qs_pulldown_left">Vlevo</string>
+  <string name="status_bar_quick_qs_pulldown_right">Vpravo</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_clock_position_title">Pozice hodin</string>
+  <string name="status_bar_clock_position_right">Vpravo</string>
+  <string name="status_bar_clock_position_left">Vlevo</string>
+  <string name="status_bar_clock_position_center">Uprostřed</string>
+  <string name="status_bar_am_pm_title">AM/PM styl</string>
+  <string name="status_bar_am_pm_info">Použít 24-hodinový formát</string>
+  <string name="status_bar_am_pm_normal">Normální</string>
+  <string name="status_bar_am_pm_small">Malé</string>
+  <string name="status_bar_am_pm_hidden">Skryté</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Battery icon</string>
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
+  <string name="status_bar_battery_category">Ikona baterie</string>
+  <string name="status_bar_battery_style_title">Styl ikony baterie</string>
+  <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
+  <string name="status_bar_battery_style_icon_landscape">Ikona na šířku</string>
+  <string name="status_bar_battery_style_circle">Kruh</string>
   <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_style_hidden">Skrytá</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+  <string name="status_bar_battery_percentage_default">Skryté</string>
+  <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+  <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
   <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Status bar icons</string>
-  <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
+  <string name="status_bar_icons_title">Ikony stavové lišty</string>
+  <string name="status_bar_icons_summary">Upravit zobrazení ikon na stavové liště</string>
   <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
-  <string name="statusbar_settings_title">StatusBar</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dvojitým poklepáním uspat</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dvojitým poklepáním na stavovou lištu vypnout obrazovku</string>
+  <string name="statusbar_settings_title">Stavová lišta</string>
   <!-- Bluetooth status -->
-  <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
-  <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
+  <string name="bluetooth_battery_title">Zobrazit stav baterie Bluetooth</string>
+  <string name="bluetooth_battery_summary">Zobrait stav baterie aktuálně připojeného bluetooth zařízení, je-li dostupné.</string>
   <!-- Network traffic -->
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="network_traffic_title">Síťový provoz</string>
+  <string name="show_network_traffic_state">Zobrazení síťového provozu na stavové liště</string>
+  <string name="show_network_traffic_unit">Zobrazit jednotky</string>
+  <string name="show_network_traffic_frequency">Interval aktualizace</string>
+  <string name="show_network_traffic_disable">Vypnuto</string>
+  <string name="show_network_traffic_up">Odchozí data</string>
+  <string name="show_network_traffic_down">Příchozí data</string>
+  <string name="show_network_traffic_all">Odchozí a příchozí data</string>
+  <string name="show_network_traffic_bit">Bitů za sekundu</string>
+  <string name="show_network_traffic_byte">Bajtů za sekundu</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
@@ -226,16 +226,16 @@
   <string name="backlight_timeout_unlimited">Nevypínat</string>
   <string name="backlight_summary_disabled">Vypnuto</string>
   <string name="backlight_summary_enabled_with_timeout">Povolit pro <xliff:g id="timeout">%s</xliff:g></string>
-  <string name="backlight_summary_enabled">Enabled</string>
+  <string name="backlight_summary_enabled">Povoleno</string>
   <!-- Navigation Bar -->
-  <string name="navbar_interface_title">Interface</string>
-  <string name="navbar_size">Bar size</string>
-  <string name="navbar_mode">Navigation mode</string>
-  <string name="navbar_visibility">Enable navigation bar</string>
-  <string name="navigationbar_settings_title">Navigation bar</string>
-  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-  <string name="navbar_general_title">Advanced</string>
-  <string name="navigation_bar_left_title">Left-handed mode</string>
+  <string name="navbar_interface_title">Rozhraní</string>
+  <string name="navbar_size">Velikost panelu</string>
+  <string name="navbar_mode">Navigační režim</string>
+  <string name="navbar_visibility">Povolit navigační panel</string>
+  <string name="navigationbar_settings_title">Navigační panel</string>
+  <string name="navigationbar_settings_summary">Upravit styl navigace a chování</string>
+  <string name="navbar_general_title">Rozšířené</string>
+  <string name="navigation_bar_left_title">Režim ovládání levou rukou</string>
   <string name="navigation_bar_left_summary">Při natočení na šířku umístit navigační lištu na levé straně obrazovky</string>
   <string name="info_pref_note_title">Poznámka</string>
   <string name="smartbar_interface">Chytrá lišta</string>
@@ -331,7 +331,7 @@
   <string name="pulse_solid_dimen_category">Nastavení režimu plné čáry</string>
   <string name="fling_lavalamp_color_from">Počáteční barva Lávové lampy</string>
   <string name="fling_lavalamp_color_to">Konečná barva Lávové lampy</string>
-  <string name="pulse_custom_buttons_opacity_title">Smartbar buttons opacity on Pulse</string>
+  <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek smartbar při pulsování</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Šířka pruhu</string>
   <string name="pulse_custom_div">Mezera pruhu</string>
