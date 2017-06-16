@@ -16,29 +16,29 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General Strings -->
-  <string name="general">General</string>
-  <string name="default_string">Default</string>
-  <string name="reset">Reset</string>
+  <string name="general">Geral</string>
+  <string name="default_string">Padrão</string>
+  <string name="reset">Redefinir</string>
   <!-- Color picker -->
-  <string name="color_picker_fragment_title">Color Picker</string>
-  <string name="apply_color_title">Apply color</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
-  <string name="edit_hex_title">HEX value</string>
-  <string name="reset_android_title">Android default</string>
+  <string name="color_picker_fragment_title">Seletor de cores</string>
+  <string name="apply_color_title">Aplicar cor</string>
+  <string name="press_color_to_apply">Pressione na cor abaixo para aplicar</string>
+  <string name="edit_hex_title">Valor HEXADECIMAL</string>
+  <string name="reset_android_title">Padrão do Android</string>
   <string name="palette_darkkat_title">OwnROM</string>
   <string name="palette_material_title">Material</string>
   <string name="palette_rgb_title">RGB</string>
   <string name="reset_color_title">Reset</string>
-  <string name="reset_darkkat_title">Customized palette</string>
+  <string name="reset_darkkat_title">Paleta personalizada</string>
   <string name="reset_theme_default_title">Theme default</string>
-  <string name="favorites_title">Favorites</string>
-  <string name="hide_favorites_title">Hide favorites</string>
-  <string name="show_favorites_title">Show favorites</string>
-  <string name="show_help_title">Show help</string>
-  <string name="hide_help_title">Hide help</string>
+  <string name="favorites_title">Favoritos</string>
+  <string name="hide_favorites_title">Ocultar favoritos</string>
+  <string name="show_favorites_title">Mostrar Favoritos</string>
+  <string name="show_help_title">Mostrar ajuda</string>
+  <string name="hide_help_title">Ocultar ajuda</string>
   <string name="empty_title">Empty</string>
   <!-- Color picker help screen -->
-  <string name="color_picker_help_screen_title">Color Picker help</string>
+  <string name="color_picker_help_screen_title">Ajuda do seletor de cores</string>
   <string name="color_picker_help_ab_title">Action bar:</string>
   <string name="color_picker_help_ab_back_title">Back button:</string>
   <string name="color_picker_help_ab_back_summary">Close the color picker without applying the new color, (cancel).\nThis has the same effect as clicking the back button on the navigation bar.</string>
