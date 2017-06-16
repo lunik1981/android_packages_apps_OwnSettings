@@ -1,0 +1,3 @@
+files:
+  - source: res/values/own_strings.xml
+    translation: res/values-%two_letters_code%/own_strings.xml
