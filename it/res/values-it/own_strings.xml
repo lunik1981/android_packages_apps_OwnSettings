@@ -16,15 +16,15 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General Strings -->
-  <string name="general">General</string>
-  <string name="default_string">Default</string>
-  <string name="reset">Reset</string>
+  <string name="general">Generale</string>
+  <string name="default_string">Predefinito</string>
+  <string name="reset">Ripristina</string>
   <!-- Color picker -->
-  <string name="color_picker_fragment_title">Color Picker</string>
-  <string name="apply_color_title">Apply color</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
-  <string name="edit_hex_title">HEX value</string>
-  <string name="reset_android_title">Android default</string>
+  <string name="color_picker_fragment_title">Selettore dei colori</string>
+  <string name="apply_color_title">Applica colore</string>
+  <string name="press_color_to_apply">Premi sul colore qui sotto per applicarlo</string>
+  <string name="edit_hex_title">Valore esadecimale</string>
+  <string name="reset_android_title">Default di Android</string>
   <string name="palette_darkkat_title">OwnROM</string>
   <string name="palette_material_title">Material</string>
   <string name="palette_rgb_title">RGB</string>
