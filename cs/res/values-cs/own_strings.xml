@@ -16,9 +16,9 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General Strings -->
-  <string name="general">General</string>
+  <string name="general">Obecné</string>
   <string name="default_string">Výchozí</string>
-  <string name="reset">Reset</string>
+  <string name="reset">Resetovat</string>
   <!-- Color picker -->
   <string name="color_picker_fragment_title">Color Picker</string>
   <string name="apply_color_title">Apply color</string>
