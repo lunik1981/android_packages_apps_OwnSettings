@@ -189,11 +189,11 @@
   <string name="hardware_keys_action_menu">Open/close menu</string>
   <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
   <string name="hardware_keys_action_search">Search assistant</string>
-  <string name="hardware_keys_action_voice_search">Voice search</string>
-  <string name="hardware_keys_action_in_app_search">In-app search</string>
-  <string name="hardware_keys_action_launch_camera">Launch camera</string>
-  <string name="hardware_keys_action_sleep">Turn screen off</string>
-  <string name="hardware_keys_action_last_app">Last app</string>
+  <string name="hardware_keys_action_voice_search">音声検索</string>
+  <string name="hardware_keys_action_in_app_search">アプリ内検索</string>
+  <string name="hardware_keys_action_launch_camera">カメラを起動</string>
+  <string name="hardware_keys_action_sleep">画面を消灯</string>
+  <string name="hardware_keys_action_last_app">直前のアプリ</string>
   <string name="hardware_keys_action_split_screen">Split screen</string>
   <string name="camera_sleep_on_release_title">Screen peek</string>
   <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
@@ -398,16 +398,16 @@
   <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
   <!-- Other Button Settings -->
   <!-- Optional screenshot type -->
-  <string name="screenshot_type_title">Screenshot type</string>
-  <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
-  <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
+  <string name="screenshot_type_title">スクリーンショットの取得方法</string>
+  <string name="screenshot_type_fullscreen">全画面を取得</string>
+  <string name="screenshot_type_partial">ドラッグした任意の範囲を取得</string>
   <!-- Screenshot delay -->
-  <string name="screenshot_options_category">Screenshot options</string>
-  <string name="screenshot_delay_title">Screenshot delay</string>
-  <string name="screenshot_delay_summary">Adjust the time for when a screenshot is captured</string>
+  <string name="screenshot_options_category">スクリーンショットのオプション</string>
+  <string name="screenshot_delay_title">スクリーンショットの遅延</string>
+  <string name="screenshot_delay_summary">スクリーンショットをキャプチャするときの時間を調整する</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
-  <string name="quick_pulldown_title">Quick Pulldown</string>
+  <string name="quick_settings_title">クイック設定</string>
+  <string name="quick_pulldown_title">クイックプルダウン</string>
   <!-- Quick Settings -->
   <string name="qs_general_tab">General</string>
   <!-- Quick Settings brightness slider -->
@@ -472,7 +472,7 @@
   <string name="toast_SlideLeftRight_animation">Slide left to right</string>
   <string name="toast_SlideRightLeft_animation">Slide right to left</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Toast icon</string>
+  <string name="toast_icon_title">トーストアイコン</string>
   <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
   <!-- ListView animation -->
   <string name="listview_animation_title">ListView animation</string>
@@ -563,7 +563,7 @@
   <!-- OmniSwitch -->
   <string name="recents_use_omniswitch_title">Use for recents</string>
   <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
-  <string name="omniswitch_start_settings_title">Settings</string>
+  <string name="omniswitch_start_settings_title">設定</string>
   <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
   <string name="omniswitch_first_time_title">Information</string>
   <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
