@@ -50,7 +50,7 @@
   <string name="color_picker_help_ab_color_apply_summary">L\'anteprima del colore è sempre visibile. \nSe il nuovo colore non è uguale a quello vecchio, l\'anteprima del colore sarà ampliata, per consentire di applicare il nuovo colore.</string>
   <string name="color_picker_help_ab_menu_title">Pulsante Menù:</string>
   <string name="color_picker_help_ab_menu_reset_title">Ripristina:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Ripristina il colore predefinito di Android o Darkkat senza applicare il nuovo colore.</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or OwnROM color without applying the new color.</string>
   <string name="color_picker_help_ab_menu_hex_title">Valore esadecimale:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Consente di visualizzare i valori esadecimali. \nI valori devono essere in formato esadecimale: \n \'#aarrggbb\' (\'alpha\' (trasparenza), \'rosso\', \'verde\' e \'blu\'). \nIl pulsante indietro chiude il campo di immissione senza impostare il valore esadecimale. \nIl pulsante imposta il valore esadecimale come nuovo colore senza applicarlo.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Mostra/nascondi preferiti:</string>
@@ -63,7 +63,7 @@
   <string name="color_picker_help_color_buttons_title">Colore bottoni:</string>
   <string name="color_picker_help_favorites_title">Preferiti:</string>
   <string name="color_picker_help_favorites_summary">I colori dei preferiti sono predefiniti. \nIl nuovo colore può essere salvato come preferito in qualsiasi momento per mezzo di una pressione prolungata (uno slot vuoto sarà sostituito da un nuovo colore preferito). \nUn click imposta il colore preferito come nuovo, senza applicarlo.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(DarkKat, Material and RGB)</string>
+  <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">Tutti i colori delle palette hanno un valore fisso. \nUn click imposta il colore preferito come nuovo, senza applicarlo.</string>
   <string name="color_picker_help_do_not_show_title">Non mostrare di nuovo</string>
   <string name="color_picker_help_button_ok_title">OK</string>
