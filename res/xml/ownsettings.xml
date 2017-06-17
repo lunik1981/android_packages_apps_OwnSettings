@@ -53,6 +53,12 @@
 		android:icon="@drawable/ic_own_recents" />
 
 	<PreferenceScreen
+		android:key="misc_settings"
+		android:title="@string/own_misc_settings"
+		android:fragment="com.own.settings.misc.MiscSettings" 
+		android:icon="@drawable/ic_own_miscsettings"/>
+
+	<PreferenceScreen
 		android:key="about"
 		android:title="@string/owncenter"
 		android:fragment="com.own.settings.owncenter.OwnROM"

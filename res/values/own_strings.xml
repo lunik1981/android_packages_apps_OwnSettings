@@ -590,6 +590,16 @@
     <string name="omniswitch_settings_title">OmniSwitch</string>
 
 
+	<!-- Misc Settings -->
+	<string name="own_misc_settings">Misc Settings</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_title">Selinux options</string>
+    <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
+    <string name="selinux_title">Selinux Mode</string>
+    <string name="selinux_permissive_title">Permissive</string>
+    <string name="selinux_enforcing_title">Enforcing</string>
+ 
+
     <!-- OwnROM Center -->
     <string name="owncenter">OwnROM Center</string>
     <string name="owncenter_ota_tab">OTA</string>

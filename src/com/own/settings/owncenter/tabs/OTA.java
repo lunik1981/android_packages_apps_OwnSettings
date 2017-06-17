@@ -39,7 +39,7 @@ public class OTA extends SettingsPreferenceFragment {
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
 	private String KEY_OWNROM_FACEBOOK = "ownrom_facebook";
 	private String KEY_OWNROM_TELEGRAM = "ownrom_telegram";
-	private String KEY_OWNROM_TRANSLATIONS = "ownrom_translations"
+	private String KEY_OWNROM_TRANSLATIONS = "ownrom_translations";
     private String KEY_OWNROM_SHARE = "ownrom_share";
     private String KEY_OWNROM_DONATE = "ownrom_donate";
 

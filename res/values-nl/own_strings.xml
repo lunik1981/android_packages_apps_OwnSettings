@@ -536,6 +536,16 @@
     <string name="omniswitch_first_time_title">Informatie</string>
     <string name="omniswitch_first_time_message">Let op! Schakel Omniswitch wel in! Dit kun je doen via de \"Instellingen\" hieronder</string>
     
+
+	<!-- Misc Settings -->
+	<string name="own_misc_settings">Extra Instellingen</string>
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_title">Selinux opties</string>
+    <string name="selinux_switch_summary">SELinux is een set van kernel en gebruikers gereedschap. Veranderingen kan ongewenst effect hebben. Gebruik op eigen risico!</string>
+    <string name="selinux_title">Selinux Modes</string>
+    <string name="selinux_permissive_title">Permissive (Tolerant)</string>
+    <string name="selinux_enforcing_title">Enforcing (afgedwongen)</string>
+    
     
     <!--OwnROM Center -->
     <string name="owncenter">OwnROM Centrum</string>
