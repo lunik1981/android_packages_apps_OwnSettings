@@ -61,6 +61,12 @@
             android:key="ownrom_telegram"
             android:title="@string/ownrom_telegram_title"
             android:summary="@string/ownrom_telegram_summary" />
+
+        <!-- OwnROM Translations -->
+        <PreferenceScreen
+            android:key="ownrom_translations"
+            android:title="@string/ownrom_translations_title"
+            android:summary="@string/ownrom_translations_summary" />
             
         <!-- OwnROM Share -->
         <PreferenceScreen

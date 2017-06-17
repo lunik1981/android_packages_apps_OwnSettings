@@ -39,6 +39,7 @@ public class OTA extends SettingsPreferenceFragment {
     private String KEY_OWNROM_GPLUS = "ownrom_google_plus";
 	private String KEY_OWNROM_FACEBOOK = "ownrom_facebook";
 	private String KEY_OWNROM_TELEGRAM = "ownrom_telegram";
+	private String KEY_OWNROM_TRANSLATIONS = "ownrom_translations"
     private String KEY_OWNROM_SHARE = "ownrom_share";
     private String KEY_OWNROM_DONATE = "ownrom_donate";
 
@@ -48,6 +49,7 @@ public class OTA extends SettingsPreferenceFragment {
     private Preference mGoogleUrl;
     private Preference mFacebookUrl;
     private Preference mTelegramUrl;
+    private Preference mTranslationsUrl;
     private Preference mShare;
     private Preference mDonateUrl;
 
@@ -62,6 +64,7 @@ public class OTA extends SettingsPreferenceFragment {
         mGoogleUrl = findPreference(KEY_OWNROM_GPLUS);
         mFacebookUrl = findPreference(KEY_OWNROM_FACEBOOK);
         mTelegramUrl = findPreference(KEY_OWNROM_TELEGRAM);
+        mTranslationsUrl = findPreference(KEY_OWNROM_TRANSLATIONS);
         mShare = findPreference(KEY_OWNROM_SHARE);
         mDonateUrl = findPreference(KEY_OWNROM_DONATE);
         
@@ -81,6 +84,8 @@ public class OTA extends SettingsPreferenceFragment {
             launchUrl("https://www.facebook.com/OwnDroid.nl/");
         } else if (preference == mTelegramUrl) {
             launchUrl("https://t.me/joinchat/AAAAAEGTudAMFfkGo4xBXQ");
+        } else if (preference == mTranslationsUrl) {
+            launchUrl("https://crowdin.com/project/ownsettings");
         } else if (preference == mShare) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
