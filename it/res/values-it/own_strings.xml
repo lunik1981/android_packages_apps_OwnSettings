@@ -50,7 +50,7 @@
   <string name="color_picker_help_ab_color_apply_summary">L\'anteprima del colore è sempre visibile. \nSe il nuovo colore non è uguale a quello vecchio, l\'anteprima del colore sarà ampliata, per consentire di applicare il nuovo colore.</string>
   <string name="color_picker_help_ab_menu_title">Pulsante Menù:</string>
   <string name="color_picker_help_ab_menu_reset_title">Ripristina:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or OwnROM color without applying the new color.</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Ripristina il nuovo colore sul colore predefinito di Android o OwnROM senza applicare il nuovo colore.</string>
   <string name="color_picker_help_ab_menu_hex_title">Valore esadecimale:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Consente di visualizzare i valori esadecimali. \nI valori devono essere in formato esadecimale: \n \'#aarrggbb\' (\'alpha\' (trasparenza), \'rosso\', \'verde\' e \'blu\'). \nIl pulsante indietro chiude il campo di immissione senza impostare il valore esadecimale. \nIl pulsante imposta il valore esadecimale come nuovo colore senza applicarlo.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Mostra/nascondi preferiti:</string>
@@ -63,7 +63,7 @@
   <string name="color_picker_help_color_buttons_title">Colore bottoni:</string>
   <string name="color_picker_help_favorites_title">Preferiti:</string>
   <string name="color_picker_help_favorites_summary">I colori dei preferiti sono predefiniti. \nIl nuovo colore può essere salvato come preferito in qualsiasi momento per mezzo di una pressione prolungata (uno slot vuoto sarà sostituito da un nuovo colore preferito). \nUn click imposta il colore preferito come nuovo, senza applicarlo.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
+  <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material e RGB)</string>
   <string name="color_picker_help_palette_summary">Tutti i colori delle palette hanno un valore fisso. \nUn click imposta il colore preferito come nuovo, senza applicarlo.</string>
   <string name="color_picker_help_do_not_show_title">Non mostrare di nuovo</string>
   <string name="color_picker_help_button_ok_title">OK</string>
@@ -72,37 +72,37 @@
   <!-- Categories -->
   <!-- Status bar -->
   <!-- Tabs -->
-  <string name="statusbar_icons_tab_title">Icons</string>
-  <string name="statusbar_clock_tab">Clock</string>
-  <string name="statusbar_other_tab_title">Other</string>
+  <string name="statusbar_icons_tab_title">Icone</string>
+  <string name="statusbar_clock_tab">Orologio</string>
+  <string name="statusbar_other_tab_title">Altro</string>
   <!-- General -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
+  <string name="status_bar_toggle_brightness_summary">Regola la luminosità facendo scorrere il dito sulla barra di stato</string>
+  <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
+  <string name="status_bar_notif_count_summary">Visualizza il numero di notifiche in sospeso</string>
+  <string name="status_bar_quick_qs_pulldown_title">Discesa rapida</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s Il bordo laterale della barra di stato mostra le Impostazioni rapide</string>
+  <string name="status_bar_quick_qs_pulldown_off">Spento</string>
+  <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
+  <string name="status_bar_quick_qs_pulldown_right">Destra</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_clock_position_title">Posizione orologio</string>
+  <string name="status_bar_clock_position_right">Destra</string>
+  <string name="status_bar_clock_position_left">Sinistra</string>
+  <string name="status_bar_clock_position_center">Centro</string>
+  <string name="status_bar_am_pm_title">Stile AM/PM</string>
+  <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
+  <string name="status_bar_am_pm_normal">Normale</string>
+  <string name="status_bar_am_pm_small">Piccolo</string>
+  <string name="status_bar_am_pm_hidden">Nascosto</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Battery icon</string>
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_category">Icona della batteria</string>
+  <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
+  <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+  <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
+  <string name="status_bar_battery_style_circle">Icona circolare</string>
+  <string name="status_bar_battery_style_text">Testo</string>
+  <string name="status_bar_battery_style_hidden">Nascosto</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Battery percentage</string>
   <string name="status_bar_battery_percentage_default">Hidden</string>
