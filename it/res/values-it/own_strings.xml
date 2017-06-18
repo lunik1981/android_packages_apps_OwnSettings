@@ -553,50 +553,50 @@
   <string name="systemui_recents_mem_display_title">Mostra utilizzo memoria</string>
   <string name="systemui_recents_mem_display_summary">Abilita o disabilita la barra Ram nella schermata app recenti</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive Recents</string>
-  <string name="immersive_recents_summary">Change the view of the recents screen</string>
-  <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Statusbar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Recenti a schermo intero</string>
+  <string name="immersive_recents_summary">Modificare la visualizzazione della schermata dei recenti</string>
+  <string name="immersive_recents_dialog_title">Seleziona l\'aspetto dei recenti</string>
+  <string name="immersive_recents_default">Predefinito</string>
+  <string name="immersive_recents_fullscreen">Schermo intero</string>
+  <string name="immersive_recents_statusbar">Solo barra di stato</string>
+  <string name="immersive_recents_navbar">Solo barra di navigazione</string>
   <!-- OmniSwitch -->
-  <string name="recents_use_omniswitch_title">Use for recents</string>
-  <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
-  <string name="omniswitch_start_settings_title">Settings</string>
-  <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
-  <string name="omniswitch_first_time_title">Information</string>
-  <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
+  <string name="recents_use_omniswitch_title">Usa per recenti</string>
+  <string name="recents_use_omniswitch_summary">Usa OmniSwitch invece di visualizzare il pannello recenti predefinito</string>
+  <string name="omniswitch_start_settings_title">Impostazioni</string>
+  <string name="omniswitch_start_settings_summary">Apri Impostazioni OmniSwitch</string>
+  <string name="omniswitch_first_time_title">Informazioni</string>
+  <string name="omniswitch_first_time_message">Assicurati di aver attivato OmniSwitch. Puoi farlo tramite \"Impostazioni\"</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
   <string name="owncenter_ota_tab">OTA</string>
-  <string name="own_updater_title">Updater</string>
-  <string name="own_updater_summary">Update your ROM, G-Apps and other stuf</string>
+  <string name="own_updater_title">Aggiornamento</string>
+  <string name="own_updater_summary">Aggiornare la ROM, G-Apps e altra roba</string>
   <string name="ownrom_maintainers">Maintainers</string>
-  <string name="ownrom_donation_link">Donate</string>
-  <string name="ownrom_donation_link_summary">Help us make OwnROM even better by donating trough PayPall</string>
+  <string name="ownrom_donation_link">Dona</string>
+  <string name="ownrom_donation_link_summary">Aiutaci a rendere ancora meglio OwnROM attraverso una donazione con PayPal</string>
   <!-- Changelog -->
-  <string name="changelog_ownrom_title">Changelog</string>
-  <string name="changelog_ownrom_error">Unable to load changelog</string>
+  <string name="changelog_ownrom_title">Registro delle modifiche</string>
+  <string name="changelog_ownrom_error">Impossibile caricare l\'elenco delle modifiche</string>
   <!-- Share OwnROM -->
-  <string name="share_ownrom_title">Share OwnROM</string>
-  <string name="share_ownrom_summary">Let others know about OwnROM</string>
-  <string name="share_message">Check out what #OwnROM is all about @ Google+: https://plus.google.com/communities/108869588356214314591</string>
-  <string name="share_chooser_title">Share OwnROM</string>
+  <string name="share_ownrom_title">Condividi OwnROM</string>
+  <string name="share_ownrom_summary">Informare gli altri su OwnROM</string>
+  <string name="share_message">Scopri ciò che #OwnROM è tutto su @ Google +: https://plus.google.com/communities/108869588356214314591</string>
+  <string name="share_chooser_title">Condividi OwnROM</string>
   <!-- OTA OwnROM -->
   <string name="ownrom_source_title">Github</string>
-  <string name="ownrom_source_summary">Visit our source git team</string>
+  <string name="ownrom_source_summary">Visit il nostro source git team</string>
   <string name="ownrom_google_plus_title">Google+</string>
-  <string name="ownrom_google_plus_summary">Visit our G+ page for support and news</string>
-  <string name="ownrom_website_title">OwnDroid Website</string>
-  <string name="ownrom_website_summary">Visit our website for downloads and updates</string>
+  <string name="ownrom_google_plus_summary">Visita la nostra pagina G + per sostenerci e per le notizie</string>
+  <string name="ownrom_website_title">Sito Web OwnDroid</string>
+  <string name="ownrom_website_summary">Visita il nostro sito per i download e gli aggiornamenti</string>
   <string name="ownrom_walls_title">OwnWalls</string>
-  <string name="ownrom_walls_summary">Download all kinds of Wallpapers</string>
+  <string name="ownrom_walls_summary">Scarica tutti i tipi di sfondi</string>
   <string name="ownrom_fb_title">Facebook</string>
-  <string name="ownrom_fb_summary">Fisit and/or follow us on Facebook</string>
-  <string name="ownrom_telegram_title">Telegram Channel</string>
-  <string name="ownrom_telegram_summary">Join our Telegram channel to stay updated!</string>
+  <string name="ownrom_fb_summary">Visita e/o seguici su Facebook</string>
+  <string name="ownrom_telegram_title">Canale Telegram</string>
+  <string name="ownrom_telegram_summary">Entra nel nostro canale Telegram per rimanere aggiornato!</string>
   <!-- Team -->
   <string name="team_ownrom_title">Team</string>
 </resources>
