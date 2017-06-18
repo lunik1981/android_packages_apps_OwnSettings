@@ -50,7 +50,7 @@
   <string name="color_picker_help_ab_color_apply_summary">Barevný náhled je vždy viditelný.\nPokud nová barva není rovná staré barvě, barevný náhled bude rozšířen, aby mohla být použíta nová barvu.</string>
   <string name="color_picker_help_ab_menu_title">Tlačítko Nabídka:</string>
   <string name="color_picker_help_ab_menu_reset_title">Resetovat:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or OwnROM color without applying the new color.</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Resetuje novou barvu na barvu výchozí Android nebo OwnROM bez použití nové barvy.</string>
   <string name="color_picker_help_ab_menu_hex_title">HEX hodnota:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Zobrazuje hexadecimální hodnoty. \nHex musí být v hex barevném formátu: \n\'#aarrggbb\', (\'alpha\' (průhlednost), \'červená\', \'zelená\' a \'modrá\'). \nTlačítko zpět zavře hex vstupní pole bez nastavení hex hodnoty. \nPoužítí tlačítka nastaví novou hex hodnotu bez použití nové barvy.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Zobrazit/skrýt oblíbené položky:</string>
@@ -63,7 +63,7 @@
   <string name="color_picker_help_color_buttons_title">Barva tlačítek:</string>
   <string name="color_picker_help_favorites_title">Oblíbené:</string>
   <string name="color_picker_help_favorites_summary">Oblíbené položky jsou ve výchozím nastavení.\nNovou barvu lze kdykoliv uložit jako oblíbenou, klepněte na tlačítko (prázdné pole není nahrazeno novou oblíbenou barvu).\nDotykem nastavíte svou oblíbenou barvu jako novou barvu bez jeho použití.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
+  <string name="color_picker_help_palette_title">Paleta barev: \n(OwnROM, Material a RGB)</string>
   <string name="color_picker_help_palette_summary">Všechny barvy palety mají pevnou hodnotu.\nKlepnutím nastavíte oblíbenou barvu jako novou barvu bez jejího použití.</string>
   <string name="color_picker_help_do_not_show_title">Již znovu nezobrazovat</string>
   <string name="color_picker_help_button_ok_title">OK</string>
