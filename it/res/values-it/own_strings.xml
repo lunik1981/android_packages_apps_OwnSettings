@@ -16,18 +16,18 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General Strings -->
-  <string name="general">Generale</string>
+  <string name="general">Generali</string>
   <string name="default_string">Predefinito</string>
-  <string name="reset">Ripristina</string>
+  <string name="reset">Ripristino</string>
   <!-- Color picker -->
   <string name="color_picker_fragment_title">Selettore dei colori</string>
   <string name="apply_color_title">Applica colore</string>
   <string name="press_color_to_apply">Premi sul colore qui sotto per applicarlo</string>
   <string name="edit_hex_title">Valore esadecimale</string>
-  <string name="reset_android_title">Default di Android</string>
+  <string name="reset_android_title">Predefinito di Android</string>
   <string name="palette_darkkat_title">OwnROM</string>
   <string name="palette_material_title">Material</string>
-  <string name="palette_rgb_title">RGB</string>
+  <string name="palette_rgb_title">RGB (Red, Green, Blue)</string>
   <string name="reset_color_title">Ripristina</string>
   <string name="reset_darkkat_title">Tavolozza colori personalizzata</string>
   <string name="reset_theme_default_title">Tema predefinito</string>
@@ -569,12 +569,12 @@
   <string name="omniswitch_first_time_message">Assicurati di aver attivato OmniSwitch. Puoi farlo tramite \"Impostazioni\"</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
   <!-- Misc Settings -->
-  <string name="own_misc_settings">Misc Settings</string>
+  <string name="own_misc_settings">Varie</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Selinux options</string>
-  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
+  <string name="selinux_switch_title">Opzioni Selinux</string>
+  <string name="selinux_switch_summary">SELinux è un set di impostazioni per kernel. Modificando esso si possono trarre effetti indesiderati. Usalo a tuo rischio</string>
   <string name="selinux_title">Selinux Mode</string>
-  <string name="selinux_permissive_title">Permissive</string>
+  <string name="selinux_permissive_title">Permessi</string>
   <string name="selinux_enforcing_title">Enforcing</string>
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
@@ -605,8 +605,8 @@
   <string name="ownrom_fb_summary">Visita e/o seguici su Facebook</string>
   <string name="ownrom_telegram_title">Canale Telegram</string>
   <string name="ownrom_telegram_summary">Entra nel nostro canale Telegram per rimanere aggiornato!</string>
-  <string name="ownrom_translations_title">Crowdin translations</string>
-  <string name="ownrom_translations_summary">Help us translate OwnROM to your desired language</string>
+  <string name="ownrom_translations_title">Traduzione Crowding</string>
+  <string name="ownrom_translations_summary">Aiutaci a tradurre OwnRom nella tua lingua</string>
   <!-- Team -->
   <string name="team_ownrom_title">Team</string>
 </resources>
