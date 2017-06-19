@@ -63,7 +63,7 @@
   <string name="color_picker_help_color_buttons_title">Barva tlačítek:</string>
   <string name="color_picker_help_favorites_title">Oblíbené:</string>
   <string name="color_picker_help_favorites_summary">Oblíbené položky jsou ve výchozím nastavení.\nNovou barvu lze kdykoliv uložit jako oblíbenou, klepněte na tlačítko (prázdné pole není nahrazeno novou oblíbenou barvu).\nDotykem nastavíte svou oblíbenou barvu jako novou barvu bez jeho použití.</string>
-  <string name="color_picker_help_palette_title">Paleta: \n(OwnROM, Material and RGB)</string>
+  <string name="color_picker_help_palette_title">Paleta barev: \n(OwnROM, Material a RGB)</string>
   <string name="color_picker_help_palette_summary">Všechny barvy palety mají pevnou hodnotu.\nKlepnutím nastavíte oblíbenou barvu jako novou barvu bez jejího použití.</string>
   <string name="color_picker_help_do_not_show_title">Již znovu nezobrazovat</string>
   <string name="color_picker_help_button_ok_title">OK</string>
@@ -568,6 +568,14 @@
   <string name="omniswitch_first_time_title">Informace</string>
   <string name="omniswitch_first_time_message">Ujistěte se, že máte povoleno OmniSwitch. Můžete to udělat pomocí \"Nastavení\" níže</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
+  <!-- Misc Settings -->
+  <string name="own_misc_settings">Misc Settings</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Selinux options</string>
+  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
+  <string name="selinux_title">Selinux Mode</string>
+  <string name="selinux_permissive_title">Permissive</string>
+  <string name="selinux_enforcing_title">Enforcing</string>
   <!-- OwnROM Center -->
   <string name="owncenter">Centrum OwnROM</string>
   <string name="owncenter_ota_tab">OTA</string>
@@ -597,6 +605,8 @@
   <string name="ownrom_fb_summary">Navštivte nebo nás následujte na Facebooku</string>
   <string name="ownrom_telegram_title">Kanál Telegram</string>
   <string name="ownrom_telegram_summary">Připojte se k našemu kanálu Telegram!</string>
+  <string name="ownrom_translations_title">Crowdin translations</string>
+  <string name="ownrom_translations_summary">Help us translate OwnROM to your desired language</string>
   <!-- Team -->
   <string name="team_ownrom_title">Tým</string>
 </resources>
