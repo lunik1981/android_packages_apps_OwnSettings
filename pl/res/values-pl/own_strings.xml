@@ -109,26 +109,26 @@
   <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
   <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
   <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Status bar icons</string>
-  <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
+  <string name="status_bar_icons_title">Ikony paska statusu</string>
+  <string name="status_bar_icons_summary">Wybierz, które ikony będą wyświetlane w pasku statusu</string>
   <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
-  <string name="statusbar_settings_title">StatusBar</string>
+  <string name="status_bar_double_tap_to_sleep_title">Stuknij dwukrotnie aby uśpić</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Puknij dwukrotnie w dowolnym miejscu paska statusu, aby zablokować ekran</string>
+  <string name="statusbar_settings_title">Pasek statusu</string>
   <!-- Bluetooth status -->
-  <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
-  <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
+  <string name="bluetooth_battery_title">Pokaż stan baterii urządzenia Bluetooth</string>
+  <string name="bluetooth_battery_summary">Pokaż stan baterii aktualnie podłączonego urządzenia poprzez Bluetooth, jeśli jest to możliwe.</string>
   <!-- Network traffic -->
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="network_traffic_title">Monitor Sieci</string>
+  <string name="show_network_traffic_state">Pokaz Monitor Sieci na pasku statusu</string>
+  <string name="show_network_traffic_unit">Pokaż jednostki</string>
+  <string name="show_network_traffic_frequency">Interwał odświeżania</string>
+  <string name="show_network_traffic_disable">Wyłącz</string>
+  <string name="show_network_traffic_up">Wysyłane</string>
+  <string name="show_network_traffic_down">Pobierane</string>
+  <string name="show_network_traffic_all">Pobierane i Wysyłane</string>
+  <string name="show_network_traffic_bit">Bity na sekundę</string>
+  <string name="show_network_traffic_byte">Bajty na sekundę</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
