@@ -569,13 +569,13 @@
   <string name="omniswitch_first_time_message">Ujistěte se, že máte povoleno OmniSwitch. Můžete to udělat pomocí \"Nastavení\" níže</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
   <!-- Misc Settings -->
-  <string name="own_misc_settings">Misc Settings</string>
+  <string name="own_misc_settings">Různá nastavení</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Selinux options</string>
-  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects.Needs root to work, use at your own risk</string>
-  <string name="selinux_title">Selinux Mode</string>
-  <string name="selinux_permissive_title">Permissive</string>
-  <string name="selinux_enforcing_title">Enforcing</string>
+  <string name="selinux_switch_title">Možnosti SELinux</string>
+  <string name="selinux_switch_summary">SELinux je soubor změn na linuxovém jádře a způsob přidělování zdrojů pro danou aplikaci. Změna režimu může způsobit nežádoucí chování. Je zapotřebí root přístup. Použití je na vlastní nebezpečí</string>
+  <string name="selinux_title">SELinux režim</string>
+  <string name="selinux_permissive_title">Mírné</string>
+  <string name="selinux_enforcing_title">Vynucené</string>
   <!-- OwnROM Center -->
   <string name="owncenter">Centrum OwnROM</string>
   <string name="owncenter_ota_tab">OTA</string>
@@ -605,8 +605,8 @@
   <string name="ownrom_fb_summary">Navštivte nebo nás následujte na Facebooku</string>
   <string name="ownrom_telegram_title">Kanál Telegram</string>
   <string name="ownrom_telegram_summary">Připojte se k našemu kanálu Telegram!</string>
-  <string name="ownrom_translations_title">Crowdin translations</string>
-  <string name="ownrom_translations_summary">Help us translate OwnROM to your desired language</string>
+  <string name="ownrom_translations_title">Překlady Crowdin</string>
+  <string name="ownrom_translations_summary">Pomozte nám přeložit OwnROM do požadovaného jazyka</string>
   <!-- Team -->
   <string name="team_ownrom_title">Tým</string>
 </resources>
