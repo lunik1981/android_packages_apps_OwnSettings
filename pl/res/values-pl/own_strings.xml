@@ -77,37 +77,37 @@
   <string name="statusbar_other_tab_title">\"Inne\"</string>
   <!-- General -->
   <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+  <string name="status_bar_toggle_brightness_summary">Kontroluj jasność przesuwając palcec wzdłuż pasta statusu</string>
   <string name="status_bar_notif_count_title">Pokaż licznik powiadomień</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="status_bar_notif_count_summary">Wyświetl liczbę oczekujących powiadomień</string>
+  <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s krawędź paska stanu rozwija szybkie ustawienia</string>
   <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_quick_qs_pulldown_left">Z lewej strony</string>
+  <string name="status_bar_quick_qs_pulldown_right">Z prawej strony</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_clock_position_title">Pozycja zegara</string>
+  <string name="status_bar_clock_position_right">Z prawej strony</string>
+  <string name="status_bar_clock_position_left">Z lewej strony</string>
+  <string name="status_bar_clock_position_center">Wyśrodkowany</string>
+  <string name="status_bar_am_pm_title">Styl AM/PM</string>
+  <string name="status_bar_am_pm_info">24-godzinny zegar jest aktywny</string>
+  <string name="status_bar_am_pm_normal">Domyślny</string>
+  <string name="status_bar_am_pm_small">Mały</string>
+  <string name="status_bar_am_pm_hidden">Ukryty</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Battery icon</string>
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_category">Ikona baterii</string>
+  <string name="status_bar_battery_style_title">Styl wskaźnika stanu baterii</string>
+  <string name="status_bar_battery_style_icon_portrait">Ikona pionowa</string>
+  <string name="status_bar_battery_style_icon_landscape">Ikona pozioma</string>
+  <string name="status_bar_battery_style_circle">Kołko</string>
+  <string name="status_bar_battery_style_text">Napis</string>
+  <string name="status_bar_battery_style_hidden">Ukryty</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Procent baterii</string>
+  <string name="status_bar_battery_percentage_default">Ukryty</string>
+  <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+  <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Status bar icons</string>
   <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
