@@ -50,7 +50,7 @@
   <string name="color_picker_help_ab_color_apply_summary">Podgląd kolorów jest zawsze widoczny. \nJeżeli nowy kolor nie jest taki sam jak stary, podgląd koloru zostanie rozszerzony, aby umożliwić zastosowanie nowego koloru.</string>
   <string name="color_picker_help_ab_menu_title">Przycisk Menu: </string>
   <string name="color_picker_help_ab_menu_reset_title">Resetuj</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or OwnROM color without applying the new color.</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Resetuje nowy kolor do domyślnego koloru systemu Android lub OwnROM bez zastosowania nowego koloru.</string>
   <string name="color_picker_help_ab_menu_hex_title">Wartość szesnastkowa:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Pokazuje pole wprowadzania szesnastkowego. \nWartości szesnastkowe muszą być w formacie:\n \'#aarrggbb\': (\'alfa\' [przezroczystość], \'czerwony\', \'zielony\' i \'niebieski\'). \nPrzycisk \'Wstecz\' zamyka pole tekstowe bez wprowadzania zmian. \nPrzycisk \'Zastosuj\' ustawia wartość jako nowy kolor bez jego zastosowania.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Pokaż/ukryj ulubione: </string>
@@ -78,7 +78,7 @@
   <!-- General -->
   <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
   <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-  <string name="status_bar_notif_count_title">Show notification count</string>
+  <string name="status_bar_notif_count_title">Pokaż licznik powiadomień</string>
   <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
   <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
