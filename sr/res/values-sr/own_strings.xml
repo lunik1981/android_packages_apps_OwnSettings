@@ -568,6 +568,14 @@
   <string name="omniswitch_first_time_title">Information</string>
   <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
+  <!-- Misc Settings -->
+  <string name="own_misc_settings">Misc Settings</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Selinux options</string>
+  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
+  <string name="selinux_title">Selinux Mode</string>
+  <string name="selinux_permissive_title">Permissive</string>
+  <string name="selinux_enforcing_title">Enforcing</string>
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
   <string name="owncenter_ota_tab">OTA</string>
@@ -597,6 +605,8 @@
   <string name="ownrom_fb_summary">Fisit and/or follow us on Facebook</string>
   <string name="ownrom_telegram_title">Telegram Channel</string>
   <string name="ownrom_telegram_summary">Join our Telegram channel to stay updated!</string>
+  <string name="ownrom_translations_title">Crowdin translations</string>
+  <string name="ownrom_translations_summary">Help us translate OwnROM to your desired language</string>
   <!-- Team -->
   <string name="team_ownrom_title">Team</string>
 </resources>
