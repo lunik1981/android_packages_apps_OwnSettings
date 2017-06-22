@@ -28,15 +28,15 @@
   <string name="palette_darkkat_title">OwnROM</string>
   <string name="palette_material_title">Material</string>
   <string name="palette_rgb_title">RGB</string>
-  <string name="reset_color_title">Reset</string>
+  <string name="reset_color_title">Redefinir</string>
   <string name="reset_darkkat_title">Paleta personalizada</string>
-  <string name="reset_theme_default_title">Theme default</string>
+  <string name="reset_theme_default_title">Tema padrão</string>
   <string name="favorites_title">Favoritos</string>
   <string name="hide_favorites_title">Ocultar favoritos</string>
   <string name="show_favorites_title">Mostrar Favoritos</string>
   <string name="show_help_title">Mostrar ajuda</string>
   <string name="hide_help_title">Ocultar ajuda</string>
-  <string name="empty_title">Empty</string>
+  <string name="empty_title">Vazio</string>
   <!-- Color picker help screen -->
   <string name="color_picker_help_screen_title">Ajuda do seletor de cores</string>
   <string name="color_picker_help_ab_title">Barra de ação:</string>
@@ -44,73 +44,73 @@
   <string name="color_picker_help_ab_back_summary">Fechar o seletor de cores sem aplicar a nova cor, (cancela).\nIsto tem o mesmo efeito que clicar no botão voltar na barra de navegação.</string>
   <string name="color_picker_help_ab_name_title">Título:</string>
   <string name="color_picker_help_ab_name_summary">Mostra apenas o título, sem funções adicionais</string>
-  <string name="color_picker_help_ab_hex_title">Hex value:</string>
-  <string name="color_picker_help_ab_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
+  <string name="color_picker_help_ab_hex_title">Valor Hex:</string>
+  <string name="color_picker_help_ab_hex_summary">Mostra o campo de entrada hexadecimal.\nOs valores devem estar no formato hexadecimal das cores:\n\'#aarrggbb\', (\'alpha\' (transparência), \'vermelho\', \'verde\' e \'azul\').\nO botão voltar fecha o campo de entrada sem definir o valor hexadecimal.\nO botão aplicar define o novo valor hexadecimal como a nova cor, porém sem aplicá-la.</string>
   <string name="color_picker_help_ab_color_apply_title">Visualizar e aplicar cor:</string>
-  <string name="color_picker_help_ab_color_apply_summary">The color preview is always visible.\nIf the new color doesn\'t equals the old color, the color preview will be expanded, to allow apply the new color.</string>
+  <string name="color_picker_help_ab_color_apply_summary">A pré-visualização de cores é sempre visível. \n Se a nova cor não é igual a cor antiga, a visualização de cores será expandida, para permitir aplicar a nova cor.</string>
   <string name="color_picker_help_ab_menu_title">Botão menu:</string>
-  <string name="color_picker_help_ab_menu_reset_title">Reset:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or Darkkat color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_hex_title">Hex value:</string>
-  <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
+  <string name="color_picker_help_ab_menu_reset_title">Redefinir:</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Redefine a nova cor para o padrão do Android ou OwnROM sem aplicar a nova cor.</string>
+  <string name="color_picker_help_ab_menu_hex_title">Valor Hex:</string>
+  <string name="color_picker_help_ab_menu_hex_summary">Mostra o campo de entrada hexadecimal.\nOs valores devem estar no formato hexadecimal das cores:\n\'#aarrggbb\', (\'alpha\' (transparência), \'vermelho\', \'verde\' e \'azul\').\nO botão voltar fecha o campo de entrada sem definir o valor hexadecimal.\nO botão aplicar define o novo valor hexadecimal como a nova cor, porém sem aplicá-la.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Mostrar/ocultar favoritos:</string>
   <string name="color_picker_help_ab_menu_favorites_summary">Mostrar/ocultar favoritos.\nOcultando os favoritos não redefinirá as cores favoritas.</string>
   <string name="color_picker_help_ab_menu_help_title">Ajuda:</string>
   <string name="color_picker_help_ab_menu_help_summary">Mostra esta tela de ajuda.</string>
   <string name="color_picker_help_colors_title">Cores:</string>
   <string name="color_picker_help_picker_view_title">Painel de cor:</string>
-  <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
-  <string name="color_picker_help_color_buttons_title">Color buttons:</string>
-  <string name="color_picker_help_favorites_title">Favorites:</string>
-  <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
-  <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
+  <string name="color_picker_help_picker_view_summary">Escolha uma cor para definir uma nova cor sem aplicar a nova cor.\nA gama de cores pode ser alterada usando o controle deslizante no lado direito</string>
+  <string name="color_picker_help_color_buttons_title">Cor dos botões:</string>
+  <string name="color_picker_help_favorites_title">Favoritos:</string>
+  <string name="color_picker_help_favorites_summary">Os favoritos são vazios por padrão.\nA nova cor pode ser salva como favorita a qualquer momento por meio de um clique longo, (um favorito vazio será substituído pela nova cor).\nUm clique define a cor favorita como uma nova cor, sem aplicar a nova cor.</string>
+  <string name="color_picker_help_palette_title">Paleta:\n(OwnROM, Material e RGB)</string>
+  <string name="color_picker_help_palette_summary">Todas as cores da paleta têm um valor fixo.\nUm clique define a cor favorita como uma nova cor, sem aplicar a nova cor.</string>
+  <string name="color_picker_help_do_not_show_title">Não mostrar novamente</string>
   <string name="color_picker_help_button_ok_title">OK</string>
   <!-- OwnSettings -->
-  <string name="ownsettings_title">OwnSettings</string>
+  <string name="ownsettings_title">Configurações Own</string>
   <!-- Categories -->
   <!-- Status bar -->
   <!-- Tabs -->
-  <string name="statusbar_icons_tab_title">Icons</string>
-  <string name="statusbar_clock_tab">Clock</string>
-  <string name="statusbar_other_tab_title">Other</string>
+  <string name="statusbar_icons_tab_title">Ícones</string>
+  <string name="statusbar_clock_tab">Relógio</string>
+  <string name="statusbar_other_tab_title">Outro</string>
   <!-- General -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_toggle_brightness">Controle de brilho</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando pela barra de status</string>
+  <string name="status_bar_notif_count_title">Mostrar contador de notificação</string>
+  <string name="status_bar_notif_count_summary">Exibe o número de notificações pendentes</string>
+  <string name="status_bar_quick_qs_pulldown_title">Deslocamento rápido</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s a borda da barra de status puxa as Configurações Rápidas</string>
+  <string name="status_bar_quick_qs_pulldown_off">Desativado</string>
+  <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
+  <string name="status_bar_quick_qs_pulldown_right">Direita</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+  <string name="status_bar_clock_position_title">Posição do relógio</string>
+  <string name="status_bar_clock_position_right">Direita</string>
+  <string name="status_bar_clock_position_left">Esquerda</string>
+  <string name="status_bar_clock_position_center">Centro</string>
+  <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+  <string name="status_bar_am_pm_info">O formato de relógio 24 horas está ativado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_am_pm_small">Pequeno</string>
+  <string name="status_bar_am_pm_hidden">Oculto</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Battery icon</string>
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_category">Ícone da bateria</string>
+  <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
+  <string name="status_bar_battery_style_icon_portrait">Ícone em retrato</string>
+  <string name="status_bar_battery_style_icon_landscape">Ícone em paisagem</string>
+  <string name="status_bar_battery_style_circle">Círculo</string>
+  <string name="status_bar_battery_style_text">Texto</string>
+  <string name="status_bar_battery_style_hidden">Oculto</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+  <string name="status_bar_battery_percentage_default">Oculto</string>
+  <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+  <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
   <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Status bar icons</string>
-  <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
+  <string name="status_bar_icons_title">Ícones da barra de status</string>
+  <string name="status_bar_icons_summary">Controle quais ícones são mostrados na barra de status</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
   <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
@@ -568,6 +568,14 @@
   <string name="omniswitch_first_time_title">Information</string>
   <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
+  <!-- Misc Settings -->
+  <string name="own_misc_settings">Misc Settings</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Selinux options</string>
+  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects.Needs root to work, use at your own risk</string>
+  <string name="selinux_title">Selinux Mode</string>
+  <string name="selinux_permissive_title">Permissive</string>
+  <string name="selinux_enforcing_title">Enforcing</string>
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
   <string name="owncenter_ota_tab">OTA</string>
@@ -597,6 +605,8 @@
   <string name="ownrom_fb_summary">Fisit and/or follow us on Facebook</string>
   <string name="ownrom_telegram_title">Telegram Channel</string>
   <string name="ownrom_telegram_summary">Join our Telegram channel to stay updated!</string>
+  <string name="ownrom_translations_title">Traduções do Crowdin</string>
+  <string name="ownrom_translations_summary">Ajude-nos a traduzir o OwnROM para o seu idioma desejado</string>
   <!-- Team -->
-  <string name="team_ownrom_title">Team</string>
+  <string name="team_ownrom_title">Time</string>
 </resources>
