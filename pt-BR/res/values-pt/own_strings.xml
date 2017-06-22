@@ -80,36 +80,36 @@
   <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando pela barra de status</string>
   <string name="status_bar_notif_count_title">Mostrar contador de notificação</string>
   <string name="status_bar_notif_count_summary">Exibe o número de notificações pendentes</string>
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_quick_qs_pulldown_title">Deslocamento rápido</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s a borda da barra de status puxa as Configurações Rápidas</string>
+  <string name="status_bar_quick_qs_pulldown_off">Desativado</string>
+  <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
+  <string name="status_bar_quick_qs_pulldown_right">Direita</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+  <string name="status_bar_clock_position_title">Posição do relógio</string>
+  <string name="status_bar_clock_position_right">Direita</string>
+  <string name="status_bar_clock_position_left">Esquerda</string>
+  <string name="status_bar_clock_position_center">Centro</string>
+  <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+  <string name="status_bar_am_pm_info">O formato de relógio 24 horas está ativado</string>
   <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_am_pm_small">Pequeno</string>
+  <string name="status_bar_am_pm_hidden">Oculto</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Battery icon</string>
-  <string name="status_bar_battery_style_title">Battery status style</string>
-  <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-  <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-  <string name="status_bar_battery_style_circle">Circle</string>
-  <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_category">Ícone da bateria</string>
+  <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
+  <string name="status_bar_battery_style_icon_portrait">Ícone em retrato</string>
+  <string name="status_bar_battery_style_icon_landscape">Ícone em paisagem</string>
+  <string name="status_bar_battery_style_circle">Círculo</string>
+  <string name="status_bar_battery_style_text">Texto</string>
+  <string name="status_bar_battery_style_hidden">Oculto</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+  <string name="status_bar_battery_percentage_default">Oculto</string>
+  <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+  <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
   <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Status bar icons</string>
+  <string name="status_bar_icons_title">Ícones da barra de status</string>
   <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
