@@ -208,15 +208,15 @@
   <string name="power_end_call_title">Encerrar chamada</string>
   <string name="power_end_call_summary">Pressionar o botão de ligar/desligar encerrará a chamada atual</string>
   <string name="swap_volume_buttons_title">Reorientar</string>
-  <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-  <string name="button_wake_title">Wake up device</string>
-  <string name="button_wake_title_summary">Wake up device by pressing one of the volume buttons</string>
-  <string name="home_answer_call_title">Answer call</string>
-  <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
-  <string name="kill_app_longpress_back">Kill app back button</string>
-  <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+  <string name="swap_volume_buttons_summary">Inverter os botões de volume quando virar a tela</string>
+  <string name="button_wake_title">Acordar o dispositivo</string>
+  <string name="button_wake_title_summary">Acorde o dispositivo pressionando um dos botões de volume</string>
+  <string name="home_answer_call_title">Atender chamada</string>
+  <string name="home_answer_call_summary">Pressionar o botão home irá atender a chamada</string>
+  <string name="kill_app_longpress_back">Fechar aplicativo com o botão voltar</string>
+  <string name="kill_app_longpress_back_summary">Finalize o aplicativo em primeiro plano com um toque longo no botão voltar</string>
   <!-- Key backlight -->
-  <string name="button_backlight_title">Backlight</string>
+  <string name="button_backlight_title">Luz de fundo</string>
   <string name="button_backlight_summary">Customize button backlight settings</string>
   <string name="button_backlight_enabled">Illuminate buttons</string>
   <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
