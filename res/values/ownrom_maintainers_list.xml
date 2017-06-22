@@ -41,6 +41,8 @@
     <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string> 
 
     <!-- LG -->
+    <string name="device_lg_h850">G5 intl (H850)</string>
+    <string name="device_lg_h850_summary">Mark V (OwnDroid)</string>
     <string name="device_lg_d852">G3 (D852)</string>
     <string name="device_lg_d852_summary">Victor Linfield (vilinfield)</string>
     <string name="device_lg_d855">G3 (D855)</string>
