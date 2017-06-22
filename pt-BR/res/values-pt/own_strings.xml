@@ -608,5 +608,5 @@
   <string name="ownrom_translations_title">Crowdin translations</string>
   <string name="ownrom_translations_summary">Help us translate OwnROM to your desired language</string>
   <!-- Team -->
-  <string name="team_ownrom_title">Team</string>
+  <string name="team_ownrom_title">Time</string>
 </resources>
