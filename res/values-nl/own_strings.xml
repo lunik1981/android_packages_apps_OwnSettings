@@ -152,6 +152,17 @@
     <string name="battery_bar_blend_color_reverse_title">Draai kleur richting</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Vol &#8594; Leeg: rood &#8592; groen &#8592; blauw &#8592; rood</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Vol &#8594; Leeg: rood &#8594; groen &#8594; blauw &#8594; rood</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Status Balk Ticker</string>
+    <string name="ticker_screen_summary">Customize de ticker style</string>
+    <string name="ticker_summary">Schakel de status balk ticker in</string>
+    <string name="ticker_restore_defaults_title">Herstel standaard waardes</string>
+    <string name="icon_title">Icoon</string>
+    <string name="colors_title">Kleuren</string>
+    <string name="values_restored_title">Waardes hersteld</string>
+    <string name="ticker_disabled">Geen ticker</string>
+    <string name="ticker_enabled">Notificatie ticker</string>
+    <string name="ticker_media_enabled">Notificatie en muziek ticker</string>
 
 
 	<!-- Button Settings -->
