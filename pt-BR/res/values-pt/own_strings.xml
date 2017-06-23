@@ -544,38 +544,38 @@
   <!-- Recents Settings -->
   <string name="recents_settings_title">Aplicativos Recentes</string>
   <string name="general_recents_tab">Geral</string>
-  <string name="omniswitch_tab">Omniswitch</string>
+  <string name="omniswitch_tab">OmniSwitch</string>
   <!-- Hide Apps from Recents -->
-  <string name="hide_apps_from_recents_title">Hidden apps</string>
-  <string name="hide_from_recents_add_app">Add App</string>
-  <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
+  <string name="hide_apps_from_recents_title">Aplicativos ocultos</string>
+  <string name="hide_from_recents_add_app">Adicionar aplicativo</string>
+  <string name="hide_apps_from_recents_summary">Escolha quais aplicativos para excluir do painel recentes</string>
   <!-- Recents MEM Bar -->
-  <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
-  <string name="systemui_recents_mem_display_summary">Enable Disable Ram bar in recent app view</string>
+  <string name="systemui_recents_mem_display_title">Mostrar barra de memória</string>
+  <string name="systemui_recents_mem_display_summary">Habilitar ou Desabilitar a barra de memória RAM na visão de aplicativos recentes</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive Recents</string>
-  <string name="immersive_recents_summary">Change the view of the recents screen</string>
-  <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Statusbar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Recentes Imersivo</string>
+  <string name="immersive_recents_summary">Altera a exibição da tela de recentes</string>
+  <string name="immersive_recents_dialog_title">Selecione a visualização de recentes</string>
+  <string name="immersive_recents_default">Padrão</string>
+  <string name="immersive_recents_fullscreen">Tela cheia</string>
+  <string name="immersive_recents_statusbar">Apenas a Barra de status</string>
+  <string name="immersive_recents_navbar">Apenas a Barra de navegação</string>
   <!-- OmniSwitch -->
-  <string name="recents_use_omniswitch_title">Use for recents</string>
-  <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
-  <string name="omniswitch_start_settings_title">Settings</string>
-  <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
-  <string name="omniswitch_first_time_title">Information</string>
-  <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
+  <string name="recents_use_omniswitch_title">Use para os recentes</string>
+  <string name="recents_use_omniswitch_summary">Usar o OmniSwitch em vez de visualização de recentes padrão</string>
+  <string name="omniswitch_start_settings_title">Configurações</string>
+  <string name="omniswitch_start_settings_summary">Abrir as configurações do OmniSwitch</string>
+  <string name="omniswitch_first_time_title">Informação</string>
+  <string name="omniswitch_first_time_message">Certifique-se de que você tenha ativado o OmniSwitch. Você pode fazer isso usando \"Configurações\" abaixo</string>
   <string name="omniswitch_settings_title">OmniSwitch</string>
   <!-- Misc Settings -->
-  <string name="own_misc_settings">Misc Settings</string>
+  <string name="own_misc_settings">Configurações Diversas</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Selinux options</string>
-  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects.Needs root to work, use at your own risk</string>
-  <string name="selinux_title">Selinux Mode</string>
-  <string name="selinux_permissive_title">Permissive</string>
-  <string name="selinux_enforcing_title">Enforcing</string>
+  <string name="selinux_switch_title">Opções do SELinux</string>
+  <string name="selinux_switch_summary">SELinux é um conjunto de modificações do kernel e ferramentas de espaço de usuário. Alterando modos pode causar efeitos indesejados. É necessário root para funcionar, use por sua conta em risco</string>
+  <string name="selinux_title">Modo do SElinux</string>
+  <string name="selinux_permissive_title">Permissivo</string>
+  <string name="selinux_enforcing_title">Impondo</string>
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
   <string name="owncenter_ota_tab">OTA</string>
