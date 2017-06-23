@@ -339,15 +339,15 @@
   <string name="pulse_empty_block_size">Espaçamento do bloco</string>
   <!-- Navbar height -->
   <string name="navigation_bar_size_title">Tamanho da barra</string>
-  <string name="portrait_title">Portrait height</string>
-  <string name="land_vert_title">Landscape width</string>
-  <string name="land_hor_title">Landscape height</string>
-  <string name="positive_done">Done</string>
+  <string name="portrait_title">Altura em retrato</string>
+  <string name="land_vert_title">Largura em paisagem</string>
+  <string name="land_hor_title">Altura em paisagem</string>
+  <string name="positive_done">Feito</string>
   <!-- SmartBar -->
-  <string name="smartbar_category">Smartbar</string>
-  <string name="smartbar_settings_title">Smartbar settings</string>
-  <string name="smartbar_editor_title">Toggle button editor</string>
-  <string name="smartbar_editor_summary">Medium press and drag to change position. Long press to show edit menu. Button position may be changed while menu is showing.</string>
+  <string name="smartbar_category">Barra Inteligente</string>
+  <string name="smartbar_settings_title">Configurações da Barra Inteligente</string>
+  <string name="smartbar_editor_title">Editor do botão de alternância</string>
+  <string name="smartbar_editor_summary">Pressão média e arraste para trocar a posição. Pressão longa para mostrar o menu de edição. A posição do botão pode ser alterada enquanto o menu está sendo mostrado.</string>
   <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
   <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
   <string name="smartbar_right">Right</string>
