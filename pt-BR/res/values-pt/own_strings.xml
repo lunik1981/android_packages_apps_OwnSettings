@@ -514,10 +514,10 @@
   <string name="power_menu_animation_xylon">Voar</string>
   <string name="power_menu_animation_slide">Deslizar</string>
   <string name="power_menu_animation_turn">Virar</string>
-  <string name="power_menu_animation_fly">Glow</string>
+  <string name="power_menu_animation_fly">Brilho</string>
   <string name="power_menu_animation_card">3D</string>
-  <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-  <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+  <string name="power_menu_animation_translucent_top">Translúcido (superior)</string>
+  <string name="power_menu_animation_translucent_bottom">Translúcido (inferior)</string>
   <!-- Tiles animation style  -->
   <string name="qs_tiles">QS Tiles</string>
   <string name="qs_tile_animation_style_title">Animation style</string>
