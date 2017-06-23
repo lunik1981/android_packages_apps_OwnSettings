@@ -415,31 +415,31 @@
   <string name="qs_brightness_slider_summary">Mostrar um controle deslizante de brilho no painel de configurações rápidas</string>
   <!-- Quick Settings brightness icon -->
   <string name="brightness_icon_title">Ícone do brilho</string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_summary">Mostra um ícone de brilho à esquerda do controle de brilho para ajustar o auto-brilho</string>
   <!-- Notification Drawer Settings -->
-  <string name="notification_drawer_settings_title">Notification drawer</string>
-  <string name="drawer_messages_tab_title">Messages</string>
+  <string name="notification_drawer_settings_title">Gaveta de notificação</string>
+  <string name="drawer_messages_tab_title">Mensagens</string>
   <!-- Force expanded notifications -->
-  <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
-  <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+  <string name="force_expanded_notifications_title">Forçar notificações expandidas</string>
+  <string name="force_expanded_notifications_summary">Disponível apenas para aplicativos que suportam notificações expandidas</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
-  <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+  <string name="disable_immersive_message_title">Desabilitar Mensagens do Modo Imersivo</string>
+  <string name="disable_immersive_message_summary">Isto irá ocultar todas as Mensagens de Modo Imersivo</string>
   <!-- Animation Settings -->
-  <string name="animation_settings_title">Animations</string>
-  <string name="system_animation_tab">System</string>
-  <string name="toast_animation_tab">Toast</string>
-  <string name="listview_animation_tab">Listview</string>
-  <string name="power_menu_animation_tab">Power menu</string>
-  <string name="qs_animation_tab">Quick Settings</string>
+  <string name="animation_settings_title">Animações</string>
+  <string name="system_animation_tab">Sistema</string>
+  <string name="toast_animation_tab">Toast (Aviso na tela)</string>
+  <string name="listview_animation_tab">Visualização em Lista</string>
+  <string name="power_menu_animation_tab">Menu do botão liga/desliga</string>
+  <string name="qs_animation_tab">Configurações Rápidas</string>
   <!-- Disable animations -->
-  <string name="disable_animations">Disable animations</string>
-  <string name="disable_animations_summary">Disables transition animations such as when launching an app</string>
+  <string name="disable_animations">Desabilitar animações</string>
+  <string name="disable_animations_summary">Desabilita as animações de transição, como ao iniciar um aplicativo</string>
   <!-- AOKP custom system animations -->
-  <string name="animation_title">Animations</string>
-  <string name="system_animation_title">System animations</string>
-  <string name="activity_open_title">Activity open animation</string>
-  <string name="activity_close_title">Activity close animation</string>
+  <string name="animation_title">Animações</string>
+  <string name="system_animation_title">Animações do sistema</string>
+  <string name="activity_open_title">Animação ao abrir atividade</string>
+  <string name="activity_close_title">Animação ao fechar atividade</string>
   <string name="task_open_title">Task open animation</string>
   <string name="task_open_behind_title">Task open behind animation</string>
   <string name="task_close_title">Task close animation</string>
