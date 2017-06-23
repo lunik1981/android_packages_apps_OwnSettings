@@ -113,40 +113,40 @@
   <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
-  <string name="statusbar_settings_title">StatusBar</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Doppelt auf die Statusleiste tippen, um das Display auzuschalten</string>
+  <string name="statusbar_settings_title">Statusleiste</string>
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
   <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
   <!-- Network traffic -->
-  <string name="network_traffic_title">Network traffic</string>
+  <string name="network_traffic_title">Netzwerkverkehr</string>
   <string name="show_network_traffic_state">Status bar traffic monitor</string>
-  <string name="show_network_traffic_unit">Display unit</string>
-  <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
-  <string name="show_network_traffic_all">Outgoing and incoming</string>
-  <string name="show_network_traffic_bit">Bits per second</string>
-  <string name="show_network_traffic_byte">Bytes per second</string>
+  <string name="show_network_traffic_unit">Anzeigegröße</string>
+  <string name="show_network_traffic_frequency">Aktualisierungs-Intervall</string>
+  <string name="show_network_traffic_disable">Deaktiviert</string>
+  <string name="show_network_traffic_up">Ausgehend</string>
+  <string name="show_network_traffic_down">Eingehend</string>
+  <string name="show_network_traffic_all">Ausgehend und eingehend</string>
+  <string name="show_network_traffic_bit">Bits pro Sekunde</string>
+  <string name="show_network_traffic_byte">Bytes pro Sekunde</string>
   <string name="show_network_traffic_500">500 ms</string>
   <string name="show_network_traffic_1000">1000 ms</string>
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
-  <string name="network_traffic_autohide">Auto hide</string>
+  <string name="network_traffic_autohide">Automatisch ausblenden</string>
   <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow_title">Hide arrows</string>
+  <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
+  <string name="network_traffic_hidearrow_title">Pfeile ausblenden</string>
   <string name="network_traffic_hidearrow_summary">Hide arrows in traffic indicator</string>
-  <string name="network_traffic_color_style">Color style</string>
-  <string name="network_traffic_color_reset">Reset color</string>
+  <string name="network_traffic_color_style">Farbstil</string>
+  <string name="network_traffic_color_reset">Farbauswahl zurücksetzen</string>
   <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
   <!-- Battery Bar -->
-  <string name="battery_bar_title">Battery bar</string>
-  <string name="battery_bar">Battery bar location</string>
-  <string name="battery_bar_no_navbar">Battery bar location</string>
-  <string name="battery_bar_location_hide">Hide</string>
-  <string name="battery_bar_location_statusbar">Statusbar</string>
+  <string name="battery_bar_title">Batterie Leiste</string>
+  <string name="battery_bar">Position der Akkuleiste</string>
+  <string name="battery_bar_no_navbar">Position der Akkuleiste</string>
+  <string name="battery_bar_location_hide">Ausblenden</string>
+  <string name="battery_bar_location_statusbar">Statusleiste</string>
   <string name="battery_bar_location_top_navbar">Top of navbar</string>
   <string name="battery_bar_location_bottom_navbar">Bottom of navbar</string>
   <string name="battery_bar_color">Battery bar color</string>
@@ -156,9 +156,9 @@
   <string name="battery_bar_style_title">Battery bar alignment</string>
   <string name="battery_bar_thickness_title">Battery bar thickness</string>
   <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_style_regular">Regular</string>
-  <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
-  <string name="battery_bar_style_reversed">Reversed</string>
+  <string name="battery_bar_style_regular">Standard</string>
+  <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
+  <string name="battery_bar_style_reversed">Umgekehrt</string>
   <string name="battery_bar_use_charging_color">Custom charging color</string>
   <string name="battery_bar_blend_color_title">Blend colors</string>
   <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
@@ -166,7 +166,7 @@
   <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
   <!-- Button Settings -->
-  <string name="button_settings_title">Buttons</string>
+  <string name="button_settings_title">Tasten</string>
   <string name="button_navigation_tab">Navigation</string>
   <string name="button_power_tab">Power Button</string>
   <string name="button_volume_tab">Volume Buttons</string>
