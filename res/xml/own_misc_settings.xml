@@ -17,17 +17,37 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/own_misc_settings">
 
+     <PreferenceCategory
+             android:key="selinux_category"
+             android:title="@string/selinux_category_title">
+             
+		<!-- SELinux -->
+			<Preference
+				android:key="selinux_switch"
+				android:title="@string/selinux_switch_title"
+				android:summary="@string/selinux_switch_summary"
+				android:selectable="false"/>
 
-    <!-- SELinux -->
-        <Preference
-            android:key="selinux_switch"
-            android:title="@string/selinux_switch_title"
-            android:summary="@string/selinux_switch_summary"
-            android:selectable="false"/>
+			<SwitchPreference
+				android:key="selinux"
+				android:title="@string/selinux_title"
+				android:defaultValue="false" />
 
-        <SwitchPreference
-            android:key="selinux"
-            android:title="@string/selinux_title"
-            android:defaultValue="false" />
+	</PreferenceCategory>
+
+     <PreferenceCategory
+             android:key="dashboard_category"
+             android:title="@string/dashboard_category_title">
+
+			<ListPreference
+                android:key="dashboard_columns"
+                android:title="@string/dashboard_columns_title"
+                android:dialogTitle="@string/dashboard_columns_dialog_title"
+                android:entries="@array/dashboard_columns_entries"
+                android:entryValues="@array/dashboard_columns_values"
+                android:summary="@string/dashboard_columns_summary"
+                android:persistent="false" />
+
+	</PreferenceCategory>         
 
 </PreferenceScreen>

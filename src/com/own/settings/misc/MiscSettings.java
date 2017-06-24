@@ -37,6 +37,8 @@ import dalvik.system.VMRuntime;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.accessibility.ToggleFontSizePreferenceFragment;
+import com.android.settings.dashboard.DashboardSummary;
 
 import java.util.List;
 import com.android.settings.Utils;
@@ -53,10 +55,12 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 public class MiscSettings extends SettingsPreferenceFragment  implements OnPreferenceChangeListener{
 
-private static final String SELINUX = "selinux";
+	private static final String SELINUX = "selinux";
 
-
-private SwitchPreference mSelinux;
+	private static final String KEY_DASHBOARD_COLUMNS = "dashboard_columns";
+	
+	private ListPreference mDashboardColumns;
+	private SwitchPreference mSelinux;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,6 +80,12 @@ private SwitchPreference mSelinux;
             mSelinux.setChecked(false);
             mSelinux.setSummary(R.string.selinux_permissive_title);
          	}
+
+			mDashboardColumns = (ListPreference) findPreference(KEY_DASHBOARD_COLUMNS);
+			mDashboardColumns.setValue(String.valueOf(Settings.System.getInt(
+					getContentResolver(), Settings.System.DASHBOARD_COLUMNS, DashboardSummary.mNumColumns)));
+			mDashboardColumns.setSummary(mDashboardColumns.getEntry());
+			mDashboardColumns.setOnPreferenceChangeListener(this);
 
 		}
 
@@ -108,9 +118,14 @@ private SwitchPreference mSelinux;
                 setSelinuxEnabled("false");
                 mSelinux.setSummary(R.string.selinux_permissive_title);
             }
+        }else if (preference == mDashboardColumns) {
+            Settings.System.putInt(getContentResolver(), Settings.System.DASHBOARD_COLUMNS,
+                    Integer.valueOf((String) value));
+            mDashboardColumns.setValue(String.valueOf(value));
+            mDashboardColumns.setSummary(mDashboardColumns.getEntry());
             return true;
-         }
+        }         
         return false;
-     } 
-     
+    }
+ 
 }

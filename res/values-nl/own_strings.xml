@@ -549,7 +549,7 @@
 	<string name="recents_clear_all_location_bottom_right">Onder rechts</string>
 	<string name="recents_clear_all_location_bottom_left">Onder links</string>
 	<string name="recents_clear_all_location_bottom_center">Onder midden</string>
-	<string name="recents_clear_all_title">Sluit alles</string>
+	<string name="recents_clear_all_title">Sluit alles knop</string>
 	<string name="recents_animations_title">Recente apps</string>
 	<string name="recents_anim_title">Recente apps animaties</string>
 	<string name="recents_anim_summary">Pas de vetraging van de "Sluit recente apps" knop animaties aan en zijn acites</string>
@@ -570,7 +570,13 @@
     <string name="selinux_title">Selinux Modes</string>
     <string name="selinux_permissive_title">Permissive (Tolerant)</string>
     <string name="selinux_enforcing_title">Enforcing (afgedwongen)</string>
-    
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Dashboard Kolommen</string>
+    <string name="dashboard_columns_summary">Verander het aantal kolommen dat zichtbaar is in het dashboard (Instellingen)</string>
+    <string name="dashboard_columns_dialog_title">Selcteer het aantal</string>
+    <string name="dashboard_columns_default">1 (2 in landschap)</string>
+    <string name="dashboard_columns_two">2 (3 in landschap)</string>
+    <string name="dashboard_columns_three">3 (4 in landschap)</string>
     
     <!--OwnROM Center -->
     <string name="owncenter">OwnROM Centrum</string>
