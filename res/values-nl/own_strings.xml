@@ -539,6 +539,20 @@
     <string name="immersive_recents_default">Standaard</string>
     <string name="immersive_recents_statusbar">Alleen statusbalk</string>
     <string name="immersive_recents_navbar">Alleen navigatie balk</string>
+    <!-- Clear all recents button/fab -->
+	<string name="show_clear_all_recents_button_title">Sluit alle apps knop</string>
+	<string name="show_clear_all_recents_button_summary">Laat knop zien</string>
+	<string name="recents_clear_all_location_title">Knop locatie</string>
+	<string name="recents_clear_all_location_top_right">Boven rechts</string>
+	<string name="recents_clear_all_location_top_left">Boven links</string>
+	<string name="recents_clear_all_location_top_center">Boven midden</string>	
+	<string name="recents_clear_all_location_bottom_right">Onder rechts</string>
+	<string name="recents_clear_all_location_bottom_left">Onder links</string>
+	<string name="recents_clear_all_location_bottom_center">Onder midden</string>
+	<string name="recents_clear_all_title">Sluit alles</string>
+	<string name="recents_animations_title">Recente apps</string>
+	<string name="recents_anim_title">Recente apps animaties</string>
+	<string name="recents_anim_summary">Pas de vetraging van de "Sluit recente apps" knop animaties aan en zijn acites</string>
     <!-- OmniSwitch -->
     <string name="recents_use_omniswitch_title">Stel in als recente apps scherm</string>
     <string name="recents_use_omniswitch_summary">Gebruik Omniswitch als standaard recente apps wisselaar</string>
