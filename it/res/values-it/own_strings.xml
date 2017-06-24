@@ -572,7 +572,7 @@
   <string name="own_misc_settings">Varie</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">Opzioni Selinux</string>
-  <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects.Needs root to work, use at your own risk</string>
+  <string name="selinux_switch_summary">SELinux è un set di modifiche del kernel. Modificandolo si possono ottenere effetti indesiderati. Per funzionare necessita del root, usalo a tuo rischio</string>
   <string name="selinux_title">Selinux Mode</string>
   <string name="selinux_permissive_title">Permessi</string>
   <string name="selinux_enforcing_title">Enforcing</string>
