@@ -472,16 +472,16 @@
   <string name="toast_SlideLeftRight_animation">Przesunięcie z lewej do prawej</string>
   <string name="toast_SlideRightLeft_animation">Przesunięcie z prawej do lewej</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Toast icon</string>
-  <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+  <string name="toast_icon_title">Ikona w dymku powiadomień</string>
+  <string name="toast_icon_summary">Wyświetl ikonę aplikacji w dymku</string>
   <!-- ListView animation -->
-  <string name="listview_animation_title">ListView animation</string>
-  <string name="listview_off">Default</string>
-  <string name="listview_wave_left">Wave (left)</string>
-  <string name="listview_wave_right">Wave (right)</string>
-  <string name="listview_alpha">Alpha</string>
-  <string name="listview_scale">Scale</string>
-  <string name="listview_stack_top">Stack (top)</string>
+  <string name="listview_animation_title">Animacja ListView</string>
+  <string name="listview_off">Domyślnie</string>
+  <string name="listview_wave_left">Fala (lewo)</string>
+  <string name="listview_wave_right">Fala (prawo)</string>
+  <string name="listview_alpha">Przezroczystość</string>
+  <string name="listview_scale">Rozmiar</string>
+  <string name="listview_stack_top">Stos (góra)</string>
   <string name="listview_stack_bottom">Stack (bottom)</string>
   <string name="listview_unfold">Unfold</string>
   <string name="listview_fold">Fold</string>
@@ -536,8 +536,8 @@
   <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
   <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
   <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Przewidywanie</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Oczekiwanie / Przestrzelenie</string>
   <string name="qs_set_animation_style">%1$s</string>
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
