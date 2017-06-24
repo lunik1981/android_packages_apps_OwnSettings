@@ -542,12 +542,12 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Recents Settings -->
-  <string name="recents_settings_title">Recents Apps</string>
-  <string name="general_recents_tab">General</string>
-  <string name="omniswitch_tab">Omniswitch</string>
+  <string name="recents_settings_title">Ostatnie aplikacje</string>
+  <string name="general_recents_tab">Ogólne</string>
+  <string name="omniswitch_tab">OmniSwitch</string>
   <!-- Hide Apps from Recents -->
-  <string name="hide_apps_from_recents_title">Hidden apps</string>
-  <string name="hide_from_recents_add_app">Add App</string>
+  <string name="hide_apps_from_recents_title">Ukryte aplikacje</string>
+  <string name="hide_from_recents_add_app">Dodaj aplikację</string>
   <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
   <!-- Recents MEM Bar -->
   <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
