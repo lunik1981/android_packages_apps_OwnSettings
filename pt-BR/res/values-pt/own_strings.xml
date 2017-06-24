@@ -165,6 +165,19 @@
   <string name="battery_bar_blend_color_reverse_title">Inverter a direção de cor</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Cheio &#8594; vazio: vermelho &#8592; verde &#8592; azul &#8592; vermelho</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Cheio &#8594; vazio: vermelho &#8594; verde &#8594; azul &#8594; vermelho</string>
+  <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_title">Status Bar Ticker</string>
+  <string name="ticker_screen_summary">Customize the ticker style</string>
+  <string name="ticker_summary">Enable the status bar ticker</string>
+  <string name="ticker_restore_defaults_title">Restore defaults</string>
+  <string name="text_title">Text</string>
+  <string name="icon_title">Icon</string>
+  <string name="colors_title">Colors</string>
+  <string name="values_restored_title">Values restored</string>
+  <string name="ticker_disabled">No ticker</string>
+  <string name="ticker_enabled">Notification ticker</string>
+  <string name="ticker_media_enabled">Notifications and music ticker</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Botões</string>
   <string name="button_navigation_tab">Navegação</string>
@@ -560,6 +573,20 @@
   <string name="immersive_recents_fullscreen">Tela cheia</string>
   <string name="immersive_recents_statusbar">Apenas a Barra de status</string>
   <string name="immersive_recents_navbar">Apenas a Barra de navegação</string>
+  <!-- Clear all recents button/fab -->
+  <string name="show_clear_all_recents_button_title">Clear all button</string>
+  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+  <string name="recents_clear_all_location_title">Clear all location</string>
+  <string name="recents_clear_all_location_top_right">Top right</string>
+  <string name="recents_clear_all_location_top_left">Top left</string>
+  <string name="recents_clear_all_location_top_center">Top center</string>
+  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="recents_clear_all_title">Clear All</string>
+  <string name="rr_recents_animations_title">Recents</string>
+  <string name="recents_anim_title">Recents Animations</string>
+  <string name="recents_anim_summary">Customize the Delay of Recents window and its actions</string>
   <!-- OmniSwitch -->
   <string name="recents_use_omniswitch_title">Use para os recentes</string>
   <string name="recents_use_omniswitch_summary">Usar o OmniSwitch em vez de visualização de recentes padrão</string>
@@ -571,11 +598,20 @@
   <!-- Misc Settings -->
   <string name="own_misc_settings">Configurações Diversas</string>
   <!-- Selinux Switch -->
+  <string name="selinux_category_title">Selinux</string>
   <string name="selinux_switch_title">Opções do SELinux</string>
   <string name="selinux_switch_summary">SELinux é um conjunto de modificações do kernel e ferramentas de espaço de usuário. Alterando modos pode causar efeitos indesejados. É necessário root para funcionar, use por sua conta em risco</string>
   <string name="selinux_title">Modo do SElinux</string>
   <string name="selinux_permissive_title">Permissivo</string>
   <string name="selinux_enforcing_title">Impondo</string>
+  <!-- Dashboard columns -->
+  <string name="dashboard_category_title">Dashboard</string>
+  <string name="dashboard_columns_title">Dashboard Columns</string>
+  <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard (Settings)</string>
+  <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
+  <string name="dashboard_columns_default">One (two landscape)</string>
+  <string name="dashboard_columns_two">Two (three landscape)</string>
+  <string name="dashboard_columns_three">Three (four landscape)</string>
   <!-- OwnROM Center -->
   <string name="owncenter">Centro OwnROM</string>
   <string name="owncenter_ota_tab">OTA</string>
