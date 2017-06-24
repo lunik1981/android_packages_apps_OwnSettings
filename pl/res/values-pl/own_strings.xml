@@ -26,7 +26,7 @@
   <string name="edit_hex_title">Wartość szesnastkowa</string>
   <string name="reset_android_title">Domyślne Androida</string>
   <string name="palette_darkkat_title">OwnROM</string>
-  <string name="palette_material_title">Material</string>
+  <string name="palette_material_title">Materialistyczny</string>
   <string name="palette_rgb_title">RGB</string>
   <string name="reset_color_title">Resetuj</string>
   <string name="reset_darkkat_title">Niestandardowe palety</string>
@@ -41,7 +41,7 @@
   <string name="color_picker_help_screen_title">Pomoc - wybór koloru</string>
   <string name="color_picker_help_ab_title">Pasek akcji:</string>
   <string name="color_picker_help_ab_back_title">Przycisk Wstecz:</string>
-  <string name="color_picker_help_ab_back_summary">Zamknij próbnik kolorów bez wprowadzania zmian. \nDaje taki sam efekt, jak kliknięcie przycisku Wstecz.</string>
+  <string name="color_picker_help_ab_back_summary">Zamknij próbnik kolorów bez wprowadzania zmian (anuluj). \n To daje taki sam efekt, jak kliknięcie przycisku Wstecz.</string>
   <string name="color_picker_help_ab_name_title">Tytuł:</string>
   <string name="color_picker_help_ab_name_summary">Pokazuje tylko tytuł, nie dodatkowe funkcje</string>
   <string name="color_picker_help_ab_hex_title">Wartość szesnastkowa:</string>
@@ -54,12 +54,12 @@
   <string name="color_picker_help_ab_menu_hex_title">Wartość szesnastkowa:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Pokazuje pole wprowadzania szesnastkowego. \nWartości szesnastkowe muszą być w formacie:\n \'#aarrggbb\': (\'alfa\' [przezroczystość], \'czerwony\', \'zielony\' i \'niebieski\'). \nPrzycisk \'Wstecz\' zamyka pole tekstowe bez wprowadzania zmian. \nPrzycisk \'Zastosuj\' ustawia wartość jako nowy kolor bez jego zastosowania.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Pokaż/ukryj ulubione: </string>
-  <string name="color_picker_help_ab_menu_favorites_summary">Pokazuje/ukrywa ulubione. \nUkrycie ulubionych nie zresetuje ulubione kolory.</string>
+  <string name="color_picker_help_ab_menu_favorites_summary">Pokazuje/ukrywa ulubione. \nUkrycie ulubionych nie zresetuje ulubionych kolorów.</string>
   <string name="color_picker_help_ab_menu_help_title">Pomoc</string>
   <string name="color_picker_help_ab_menu_help_summary">Pokaż/ukryj ten ekran pomocy.</string>
-  <string name="color_picker_help_colors_title">Kolor:</string>
+  <string name="color_picker_help_colors_title">Kolory:</string>
   <string name="color_picker_help_picker_view_title">Kolor panelu:</string>
-  <string name="color_picker_help_picker_view_summary">Wybierz kolor aby ustawić nowy kolor bez stosowania nowego koloru.\nZakres koloru może być zmieniony za pomoc suwaka, który znajduje się po prawej stronie</string>
+  <string name="color_picker_help_picker_view_summary">Wybierz kolor aby ustawić nowy kolor bez zastosowania.\nZakres koloru może być zmieniony za pomocą suwaka, który znajduje się po prawej stronie</string>
   <string name="color_picker_help_color_buttons_title">Kolor przycisków:</string>
   <string name="color_picker_help_favorites_title">Ulubione</string>
   <string name="color_picker_help_favorites_summary">Ulubione sa puste domyślnie.\nNowy kolor może być zapisany jako ulubiony w dowolnej chwili poprzez dłuższe kliknięcie,(nie pusty ulubiony zostanie nadpisany przez nowy kolor).\nKliknięcie ustawia ulubiony kolor jako nowy kolor bez stosowania nowego koloru.</string>
