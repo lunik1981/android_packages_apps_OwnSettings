@@ -165,6 +165,19 @@
   <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
+  <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_title">Status Bar Ticker</string>
+  <string name="ticker_screen_summary">Customize the ticker style</string>
+  <string name="ticker_summary">Enable the status bar ticker</string>
+  <string name="ticker_restore_defaults_title">Restore defaults</string>
+  <string name="text_title">Text</string>
+  <string name="icon_title">Icon</string>
+  <string name="colors_title">Colors</string>
+  <string name="values_restored_title">Values restored</string>
+  <string name="ticker_disabled">No ticker</string>
+  <string name="ticker_enabled">Notification ticker</string>
+  <string name="ticker_media_enabled">Notifications and music ticker</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Tasten</string>
   <string name="button_navigation_tab">Navigation</string>
@@ -560,6 +573,20 @@
   <string name="immersive_recents_fullscreen">Fullscreen</string>
   <string name="immersive_recents_statusbar">Statusbar only</string>
   <string name="immersive_recents_navbar">Navbar only</string>
+  <!-- Clear all recents button/fab -->
+  <string name="show_clear_all_recents_button_title">Clear all button</string>
+  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+  <string name="recents_clear_all_location_title">Clear all location</string>
+  <string name="recents_clear_all_location_top_right">Top right</string>
+  <string name="recents_clear_all_location_top_left">Top left</string>
+  <string name="recents_clear_all_location_top_center">Top center</string>
+  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="recents_clear_all_title">Clear All</string>
+  <string name="rr_recents_animations_title">Recents</string>
+  <string name="recents_anim_title">Recents Animations</string>
+  <string name="recents_anim_summary">Customize the Delay of Recents window and its actions</string>
   <!-- OmniSwitch -->
   <string name="recents_use_omniswitch_title">Use for recents</string>
   <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
@@ -571,11 +598,20 @@
   <!-- Misc Settings -->
   <string name="own_misc_settings">Misc Settings</string>
   <!-- Selinux Switch -->
+  <string name="selinux_category_title">Selinux</string>
   <string name="selinux_switch_title">Selinux options</string>
   <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects.Needs root to work, use at your own risk</string>
   <string name="selinux_title">Selinux Mode</string>
   <string name="selinux_permissive_title">Permissive</string>
   <string name="selinux_enforcing_title">Enforcing</string>
+  <!-- Dashboard columns -->
+  <string name="dashboard_category_title">Dashboard</string>
+  <string name="dashboard_columns_title">Dashboard Columns</string>
+  <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard (Settings)</string>
+  <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
+  <string name="dashboard_columns_default">One (two landscape)</string>
+  <string name="dashboard_columns_two">Two (three landscape)</string>
+  <string name="dashboard_columns_three">Three (four landscape)</string>
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
   <string name="owncenter_ota_tab">OTA</string>
