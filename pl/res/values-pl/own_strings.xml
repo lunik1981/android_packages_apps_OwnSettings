@@ -62,19 +62,19 @@
   <string name="color_picker_help_picker_view_summary">Wybierz kolor aby ustawić nowy kolor bez zastosowania.\nZakres koloru może być zmieniony za pomocą suwaka, który znajduje się po prawej stronie</string>
   <string name="color_picker_help_color_buttons_title">Kolor przycisków:</string>
   <string name="color_picker_help_favorites_title">Ulubione</string>
-  <string name="color_picker_help_favorites_summary">Ulubione sa puste domyślnie.\nNowy kolor może być zapisany jako ulubiony w dowolnej chwili poprzez dłuższe kliknięcie,(nie pusty ulubiony zostanie nadpisany przez nowy kolor).\nKliknięcie ustawia ulubiony kolor jako nowy kolor bez stosowania nowego koloru.</string>
+  <string name="color_picker_help_favorites_summary">Ulubione są puste domyślnie.\n Nowy kolor może być zapisany jako ulubiony w dowolnej chwili poprzez dłuższe kliknięcie (nie pusty ulubiony zostanie nadpisany przez nowy kolor).\n Kliknięcie ustawia ulubiony kolor jako nowy kolor bez stosowania nowego koloru.</string>
   <string name="color_picker_help_palette_title">Paleta: \n(RR, Material and RGB)</string>
-  <string name="color_picker_help_palette_summary">Wszystkie palety kolorów mają stałą wartość. \nKliknięcie ustawia ulubiony kolor jako nowy kolor, bez stosowania nowego koloru.</string>
-  <string name="color_picker_help_do_not_show_title">Nie pokazuj więcej</string>
+  <string name="color_picker_help_palette_summary">Wszystkie palety kolorów mają stałą wartość. \n Kliknięcie ustawia ulubiony kolor jako nowy kolor, bez stosowania nowego koloru.</string>
+  <string name="color_picker_help_do_not_show_title">Nie wyświetlaj ponownie</string>
   <string name="color_picker_help_button_ok_title">Ok</string>
   <!-- OwnSettings -->
   <string name="ownsettings_title">OwnSettings</string>
   <!-- Categories -->
   <!-- Status bar -->
   <!-- Tabs -->
-  <string name="statusbar_icons_tab_title">Icons:</string>
-  <string name="statusbar_clock_tab">Zegary</string>
-  <string name="statusbar_other_tab_title">\"Inne\"</string>
+  <string name="statusbar_icons_tab_title">Ikony</string>
+  <string name="statusbar_clock_tab">Zegar</string>
+  <string name="statusbar_other_tab_title">Inne</string>
   <!-- General -->
   <string name="status_bar_toggle_brightness">Sterowanie jasnością</string>
   <string name="status_bar_toggle_brightness_summary">Kontroluj jasność przesuwając palcec wzdłuż pasta statusu</string>
@@ -82,14 +82,14 @@
   <string name="status_bar_notif_count_summary">Wyświetl liczbę oczekujących powiadomień</string>
   <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s krawędź paska stanu rozwija szybkie ustawienia</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
+  <string name="status_bar_quick_qs_pulldown_off">Wyłączony</string>
   <string name="status_bar_quick_qs_pulldown_left">Z lewej strony</string>
   <string name="status_bar_quick_qs_pulldown_right">Z prawej strony</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Pozycja zegara</string>
   <string name="status_bar_clock_position_right">Z prawej strony</string>
   <string name="status_bar_clock_position_left">Z lewej strony</string>
-  <string name="status_bar_clock_position_center">Wyśrodkowany</string>
+  <string name="status_bar_clock_position_center">Środek</string>
   <string name="status_bar_am_pm_title">Styl AM/PM</string>
   <string name="status_bar_am_pm_info">24-godzinny zegar jest aktywny</string>
   <string name="status_bar_am_pm_normal">Domyślny</string>
@@ -119,14 +119,14 @@
   <string name="bluetooth_battery_title">Pokaż stan baterii urządzenia Bluetooth</string>
   <string name="bluetooth_battery_summary">Pokaż stan baterii aktualnie podłączonego urządzenia poprzez Bluetooth, jeśli jest to możliwe.</string>
   <!-- Network traffic -->
-  <string name="network_traffic_title">Monitor Sieci</string>
-  <string name="show_network_traffic_state">Pokaz Monitor Sieci na pasku statusu</string>
+  <string name="network_traffic_title">Monitor ruchu sieciowego</string>
+  <string name="show_network_traffic_state">Monitor ruchu sieciowego na pasku stanu</string>
   <string name="show_network_traffic_unit">Pokaż jednostki</string>
-  <string name="show_network_traffic_frequency">Interwał odświeżania</string>
+  <string name="show_network_traffic_frequency">Częstotliwość odświeżania</string>
   <string name="show_network_traffic_disable">Wyłącz</string>
   <string name="show_network_traffic_up">Wysyłane</string>
   <string name="show_network_traffic_down">Pobierane</string>
-  <string name="show_network_traffic_all">Pobierane i Wysyłane</string>
+  <string name="show_network_traffic_all">Wysyłane i odbierane</string>
   <string name="show_network_traffic_bit">Bity na sekundę</string>
   <string name="show_network_traffic_byte">Bajty na sekundę</string>
   <string name="show_network_traffic_500">500 ms</string>
