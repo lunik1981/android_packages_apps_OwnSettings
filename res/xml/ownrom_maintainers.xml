@@ -35,6 +35,19 @@
             
     </PreferenceCategory>  
 
+    <!-- GOOGLE -->
+    <PreferenceCategory
+        android:title="@string/device_category_google_title">
+
+        <Preference
+            android:id="@+id/device_google_mako"
+            android:key="mako_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_google_mako"
+            android:summary="@string/device_google_mako_summary" />
+
+    </PreferenceCategory> 
+    
     <!-- LG -->
     <PreferenceCategory
         android:title="@string/device_category_lg_title">
@@ -142,12 +155,6 @@
             android:summary="@string/device_xiaomi_armani_summary" />  
             
     </PreferenceCategory>
-    
-    
-    <!-- GOOGLE 
-    <PreferenceCategory
-        android:title="@string/device_category_google_title">
-    </PreferenceCategory> -->
         
     <!-- ANDROİD ONE
     <PreferenceCategory

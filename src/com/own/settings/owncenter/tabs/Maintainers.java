@@ -36,6 +36,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_ONEPLUS3_MAINTAINER_PLUS_LINK = "oneplus3_maintainer_plus_link";
 	private String KEY_ONEPLUS2_MAINTAINER_PLUS_LINK = "oneplus2_maintainer_plus_link";
 	
+	// Google
+	private String KEY_MAKO_MAINTAINER_PLUS_LINK = "mako_maintainer_plus_link";
+	
 	// LG
 	private String KEY_H850_MAINTAINER_PLUS_LINK = "h850_maintainer_plus_link";
 	private String KEY_D852_MAINTAINER_PLUS_LINK = "d852_maintainer_plus_link";
@@ -59,6 +62,9 @@ public class Maintainers extends SettingsPreferenceFragment {
 	// OnePlus
 	private Preference mOneplus3PlusUrl;
 	private Preference mOneplus2PlusUrl;
+	
+	// Google
+	private Preference mMakoPlusUrl;
 		
 	// LG
 	private Preference mH850PlusUrl;
@@ -88,6 +94,9 @@ public class Maintainers extends SettingsPreferenceFragment {
         // OnePlus
         mOneplus3PlusUrl = findPreference(KEY_ONEPLUS3_MAINTAINER_PLUS_LINK);
         mOneplus2PlusUrl = findPreference(KEY_ONEPLUS2_MAINTAINER_PLUS_LINK);
+        
+        // Google
+        mMakoPlusUrl = findPreference(KEY_MAKO_MAINTAINER_PLUS_LINK);
         
         // LG
         mH850PlusUrl = findPreference(KEY_H850_MAINTAINER_PLUS_LINK);
@@ -119,7 +128,11 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/+MarkVisser10021991");
 		} else if (preference == mOneplus2PlusUrl) {
 			launchUrl("https://plus.google.com/+MuhammadHamzaMZO");
-			           
+
+		// Google
+		} else if (preference == mMakoPlusUrl) {
+			launchUrl("https://plus.google.com/+VictorLinfield");
+			
 		// LG
 		} else if (preference == mH850PlusUrl) {
 			launchUrl("https://plus.google.com/+MarkVisser10021991");
