@@ -166,18 +166,18 @@
   <string name="battery_bar_blend_color_reverse_summary_off">Cheio &#8594; vazio: vermelho &#8592; verde &#8592; azul &#8592; vermelho</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Cheio &#8594; vazio: vermelho &#8594; verde &#8594; azul &#8594; vermelho</string>
   <!-- Status Bar Ticker -->
-  <string name="ticker_screen_title">Ticker</string>
-  <string name="ticker_title">Status Bar Ticker</string>
-  <string name="ticker_screen_summary">Customize the ticker style</string>
-  <string name="ticker_summary">Enable the status bar ticker</string>
+  <string name="ticker_screen_title">Notificação Ticker</string>
+  <string name="ticker_title">Barra de Status Ticker</string>
+  <string name="ticker_screen_summary">Personalize o estilo da notificação ticker</string>
+  <string name="ticker_summary">Habilitar a barra de status ticker</string>
   <string name="ticker_restore_defaults_title">Restaurar para o padrão</string>
   <string name="text_title">Texto</string>
   <string name="icon_title">Ícone</string>
   <string name="colors_title">Cores</string>
   <string name="values_restored_title">Valores restaurados</string>
-  <string name="ticker_disabled">No ticker</string>
-  <string name="ticker_enabled">Notification ticker</string>
-  <string name="ticker_media_enabled">Notifications and music ticker</string>
+  <string name="ticker_disabled">Sem ticker</string>
+  <string name="ticker_enabled">Notificação ticker</string>
+  <string name="ticker_media_enabled">Notificações e toque do ticker</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Botões</string>
   <string name="button_navigation_tab">Navegação</string>
