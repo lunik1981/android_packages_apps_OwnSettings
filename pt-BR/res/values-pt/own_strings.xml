@@ -170,11 +170,11 @@
   <string name="ticker_title">Status Bar Ticker</string>
   <string name="ticker_screen_summary">Customize the ticker style</string>
   <string name="ticker_summary">Enable the status bar ticker</string>
-  <string name="ticker_restore_defaults_title">Restore defaults</string>
-  <string name="text_title">Text</string>
-  <string name="icon_title">Icon</string>
-  <string name="colors_title">Colors</string>
-  <string name="values_restored_title">Values restored</string>
+  <string name="ticker_restore_defaults_title">Restaurar para o padrão</string>
+  <string name="text_title">Texto</string>
+  <string name="icon_title">Ícone</string>
+  <string name="colors_title">Cores</string>
+  <string name="values_restored_title">Valores restaurados</string>
   <string name="ticker_disabled">No ticker</string>
   <string name="ticker_enabled">Notification ticker</string>
   <string name="ticker_media_enabled">Notifications and music ticker</string>
@@ -574,17 +574,17 @@
   <string name="immersive_recents_statusbar">Apenas a Barra de status</string>
   <string name="immersive_recents_navbar">Apenas a Barra de navegação</string>
   <!-- Clear all recents button/fab -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear All</string>
-  <string name="rr_recents_animations_title">Recents</string>
+  <string name="show_clear_all_recents_button_title">Botão limpar tudo</string>
+  <string name="show_clear_all_recents_button_summary">Mostrar botão limpar tudo</string>
+  <string name="recents_clear_all_location_title">Localização do botão limpar tudo</string>
+  <string name="recents_clear_all_location_top_right">Canto superior direito</string>
+  <string name="recents_clear_all_location_top_left">Canto superior esquerdo</string>
+  <string name="recents_clear_all_location_top_center">Superior no centro</string>
+  <string name="recents_clear_all_location_bottom_right">Canto inferior direito</string>
+  <string name="recents_clear_all_location_bottom_left">Canto inferior esquerdo</string>
+  <string name="recents_clear_all_location_bottom_center">Inferior no centro</string>
+  <string name="recents_clear_all_title">Limpar Tudo</string>
+  <string name="rr_recents_animations_title">Recentes</string>
   <string name="recents_anim_title">Recents Animations</string>
   <string name="recents_anim_summary">Customize the Delay of Recents window and its actions</string>
   <!-- OmniSwitch -->
