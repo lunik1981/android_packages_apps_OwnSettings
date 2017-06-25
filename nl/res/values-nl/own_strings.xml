@@ -40,9 +40,9 @@
   <!-- Color picker help screen -->
   <string name="color_picker_help_screen_title">Kleurkiezer help</string>
   <string name="color_picker_help_ab_title">Action bar:</string>
-  <string name="color_picker_help_ab_back_title">Back button:</string>
+  <string name="color_picker_help_ab_back_title">Terug knop:</string>
   <string name="color_picker_help_ab_back_summary">Sluit de kleurkiezer zonder kleur toe te passen (annuleren).\nDe terugknop op de navigatiebalk heeft hetzelfde effect.</string>
-  <string name="color_picker_help_ab_name_title">Title:</string>
+  <string name="color_picker_help_ab_name_title">Titel:</string>
   <string name="color_picker_help_ab_name_summary">Toont enkel de titel, geen extra functies</string>
   <string name="color_picker_help_ab_hex_title">HEX-waarde:</string>
   <string name="color_picker_help_ab_hex_summary">Toont het Hex-invoerveld.\nHEX-waarden moeten in het Hex-kleurenformaat staan:\n\'#aarrggbb\', (\'alfa\' (transparant), \'rood\', \'groen\' en \'blauw\').\nDe terugknop sluit het invoerveld zonder de waarde in te stellen.\nDe toepassingsknop stelt de waarde in als nieuwe kleur zonder de nieuwe kleur toe te passen.</string>
@@ -53,16 +53,16 @@
   <string name="color_picker_help_ab_menu_reset_summary">Herstelt de nieuwe kleur naar standaard, zonder deze toe te passen.</string>
   <string name="color_picker_help_ab_menu_hex_title">HEX-waarde:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
+  <string name="color_picker_help_ab_menu_favorites_title">Toon/verberg favorieten:</string>
   <string name="color_picker_help_ab_menu_favorites_summary">Shows/hides the favorites.\nHiding the favorites will not reset the favorite colors.</string>
   <string name="color_picker_help_ab_menu_help_title">Help:</string>
-  <string name="color_picker_help_ab_menu_help_summary">Shows this help screen.</string>
-  <string name="color_picker_help_colors_title">Colors:</string>
+  <string name="color_picker_help_ab_menu_help_summary">Toont dit help scherm.</string>
+  <string name="color_picker_help_colors_title">Kleuren:</string>
   <string name="color_picker_help_picker_view_title">Color panel:</string>
   <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
-  <string name="color_picker_help_color_buttons_title">Color buttons:</string>
-  <string name="color_picker_help_favorites_title">Favorites:</string>
-  <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
+  <string name="color_picker_help_color_buttons_title">Kleur knoppen:</string>
+  <string name="color_picker_help_favorites_title">Favorieten:</string>
+  <string name="color_picker_help_favorites_summary">Favorieten zijn standaard leeg.\nDe nieuwe kleur kan altijd worden opgeslagen als favoriet met een lange klik, (een niet-lege favoriet zal worden overschreven door de nieuwe kleur).\nMet een klik stel je de favoriete kleur in als nieuwe kleur zonder de nieuw kleur toe te passen.</string>
   <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
   <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
