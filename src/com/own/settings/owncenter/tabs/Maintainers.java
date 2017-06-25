@@ -52,6 +52,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_ATHENE_MAINTAINER_PLUS_LINK = "athene_maintainer_plus_link";
 
 	// Xiaomi
+	private String KEY_KENZO_MAINTAINER_PLUS_LINK = "kenzo_maintainer_plus_link";
 	private String KEY_ARMANI_MAINTAINER_PLUS_LINK = "armani_maintainer_plus_link";
 	
 	// OnePlus
@@ -74,6 +75,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private Preference mAthenePlusUrl;
 
 	// Xiaomi
+	private Preference mKenzoPlusUrl;
 	private Preference mArmaniPlusUrl;
 	
 	
@@ -102,6 +104,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         mAthenePlusUrl = findPreference(KEY_ATHENE_MAINTAINER_PLUS_LINK);
         
         // Xiaomi
+        mKenzoPlusUrl = findPreference(KEY_KENZO_MAINTAINER_PLUS_LINK);
         mArmaniPlusUrl = findPreference(KEY_ARMANI_MAINTAINER_PLUS_LINK);
         
     }
@@ -140,6 +143,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/114912018259767227558");
 
 		// Xiaomi
+		} else if (preference == mKenzoPlusUrl) {
+			launchUrl("https://plus.google.com/+KrittinKalra");
 		} else if (preference == mArmaniPlusUrl) {
 			launchUrl("https://plus.google.com/+SujitRoyKumar");
 										

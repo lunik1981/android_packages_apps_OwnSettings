@@ -65,6 +65,8 @@
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
 
 	<!-- XIAOMI -->
+    <string name="device_xiaomi_kenzo">Redmi Note 3 (Kenzo)</string>
+    <string name="device_xiaomi_kenzo_summary">Krittin (androbada525)</string>   
     <string name="device_xiaomi_armani">Redmi 1s (Armani)</string>
     <string name="device_xiaomi_armani_summary">Sujit Roy (sujitroy)</string>    
     
