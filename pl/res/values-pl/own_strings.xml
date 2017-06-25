@@ -176,8 +176,8 @@
   <string name="colors_title">Kolory</string>
   <string name="values_restored_title">Przywrócono wartości</string>
   <string name="ticker_disabled">Bez zegara</string>
-  <string name="ticker_enabled">Notification ticker</string>
-  <string name="ticker_media_enabled">Notifications and music ticker</string>
+  <string name="ticker_enabled">Zegar powiadomień</string>
+  <string name="ticker_media_enabled">Zegar powiadomień i muzyki</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Przyciski</string>
   <string name="button_navigation_tab">Nawigacja</string>
@@ -574,19 +574,19 @@
   <string name="immersive_recents_statusbar">Tylko pasek statusu</string>
   <string name="immersive_recents_navbar">Tylko pasek nawigacji</string>
   <!-- Clear all recents button/fab -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear All</string>
-  <string name="rr_recents_animations_title">Recents</string>
-  <string name="recents_anim_title">Recents Animations</string>
-  <string name="recents_anim_summary">Customize the Delay of Recents window and its actions</string>
+  <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
+  <string name="show_clear_all_recents_button_summary">Pokazuj przycisk \"Wyczyść wszystkie ostatnie aplikacje\"</string>
+  <string name="recents_clear_all_location_title">Pozycja przycisku \"Wyczyść wszystkie\"</string>
+  <string name="recents_clear_all_location_top_right">Prawy górny róg</string>
+  <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
+  <string name="recents_clear_all_location_top_center">Środkowy górny</string>
+  <string name="recents_clear_all_location_bottom_right">Prawy dolny róg</string>
+  <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
+  <string name="recents_clear_all_location_bottom_center">Środkowy dolny</string>
+  <string name="recents_clear_all_title">Wyczyść wszystko</string>
+  <string name="rr_recents_animations_title">Ostatnio uruchomione</string>
+  <string name="recents_anim_title">Animacja ostatnich aplikacji</string>
+  <string name="recents_anim_summary">Dostosuj opóźnienie okna ostatnich aplikacji i jego działanie</string>
   <!-- OmniSwitch -->
   <string name="recents_use_omniswitch_title">Używaj dla ostatnich aplikacji</string>
   <string name="recents_use_omniswitch_summary">Użyj OmniSwitch zamiast domyślnego okna</string>
@@ -598,20 +598,20 @@
   <!-- Misc Settings -->
   <string name="own_misc_settings">Inne ustawienia</string>
   <!-- Selinux Switch -->
-  <string name="selinux_category_title">Selinux</string>
+  <string name="selinux_category_title">SELinux</string>
   <string name="selinux_switch_title">Opcje SELinux</string>
   <string name="selinux_switch_summary">SELinux to zestaw modyfikacji jądra i narzędzi przestrzeni użytkownika. Zmiana trybu może spowodować niepożądane działania. Używasz tylko na własne ryzyko</string>
   <string name="selinux_title">Tryb SELinux</string>
   <string name="selinux_permissive_title">Pobłażliwy</string>
   <string name="selinux_enforcing_title">Restrykcyjny</string>
   <!-- Dashboard columns -->
-  <string name="dashboard_category_title">Dashboard</string>
-  <string name="dashboard_columns_title">Dashboard Columns</string>
-  <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard (Settings)</string>
-  <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
-  <string name="dashboard_columns_default">One (two landscape)</string>
-  <string name="dashboard_columns_two">Two (three landscape)</string>
-  <string name="dashboard_columns_three">Three (four landscape)</string>
+  <string name="dashboard_category_title">Panel ustawień</string>
+  <string name="dashboard_columns_title">Kolumny panelu ustawień</string>
+  <string name="dashboard_columns_summary">Zmień ilość kolumn wyświetlanych w ustawieniach</string>
+  <string name="dashboard_columns_dialog_title">Wybierz kolumny ustawień</string>
+  <string name="dashboard_columns_default">Jedna (dwie poziomo)</string>
+  <string name="dashboard_columns_two">Dwie (trzy poziomo)</string>
+  <string name="dashboard_columns_three">Trzy (cztery poziomo)</string>
   <!-- OwnROM Center -->
   <string name="owncenter">Centrum OwnROM</string>
   <string name="owncenter_ota_tab">OTA</string>
