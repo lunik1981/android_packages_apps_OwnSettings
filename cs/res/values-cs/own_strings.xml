@@ -606,12 +606,12 @@
   <string name="selinux_enforcing_title">Vynucené</string>
   <!-- Dashboard columns -->
   <string name="dashboard_category_title">Hlavní nabídka</string>
-  <string name="dashboard_columns_title">Dashboard Columns</string>
-  <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard (Settings)</string>
-  <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
-  <string name="dashboard_columns_default">One (two landscape)</string>
-  <string name="dashboard_columns_two">Two (three landscape)</string>
-  <string name="dashboard_columns_three">Three (four landscape)</string>
+  <string name="dashboard_columns_title">Sloupce hlavní nabídky</string>
+  <string name="dashboard_columns_summary">Změna počtu zobrazených sloupců v nastavení hlavní nabidky (Nastavení)</string>
+  <string name="dashboard_columns_dialog_title">Výběr sloupců hlavní nabídky</string>
+  <string name="dashboard_columns_default">Jeden (dva na šířku)</string>
+  <string name="dashboard_columns_two">Dva (tři na šířku)</string>
+  <string name="dashboard_columns_three">Tři (čtyři na šířku)</string>
   <!-- OwnROM Center -->
   <string name="owncenter">Centrum OwnROM</string>
   <string name="owncenter_ota_tab">OTA</string>
