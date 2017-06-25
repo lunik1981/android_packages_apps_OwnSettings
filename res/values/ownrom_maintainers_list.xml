@@ -66,7 +66,9 @@
 
 	<!-- XIAOMI -->
     <string name="device_xiaomi_kenzo">Redmi Note 3 (Kenzo)</string>
-    <string name="device_xiaomi_kenzo_summary">Krittin (androbada525)</string>   
+    <string name="device_xiaomi_kenzo_summary">Krittin (androbada525)</string>
+    <string name="device_xiaomi_cancro">Mi3-Mi4 (Cancro)</string>
+    <string name="device_xiaomi_cancro_summary">Nguyen Thinh (Thinhx2)</string>  
     <string name="device_xiaomi_armani">Redmi 1s (Armani)</string>
     <string name="device_xiaomi_armani_summary">Sujit Roy (sujitroy)</string>    
     

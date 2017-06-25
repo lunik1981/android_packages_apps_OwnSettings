@@ -53,6 +53,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 
 	// Xiaomi
 	private String KEY_KENZO_MAINTAINER_PLUS_LINK = "kenzo_maintainer_plus_link";
+	private String KEY_CANCRO_MAINTAINER_PLUS_LINK = "cancro_maintainer_plus_link";
 	private String KEY_ARMANI_MAINTAINER_PLUS_LINK = "armani_maintainer_plus_link";
 	
 	// OnePlus
@@ -76,8 +77,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 
 	// Xiaomi
 	private Preference mKenzoPlusUrl;
+	private Preference mCancroPlusUrl;
 	private Preference mArmaniPlusUrl;
-	
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -105,6 +106,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // Xiaomi
         mKenzoPlusUrl = findPreference(KEY_KENZO_MAINTAINER_PLUS_LINK);
+        mArmaniPlusUrl = findPreference(KEY_CANCRO_MAINTAINER_PLUS_LINK);
         mArmaniPlusUrl = findPreference(KEY_ARMANI_MAINTAINER_PLUS_LINK);
         
     }
@@ -145,6 +147,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// Xiaomi
 		} else if (preference == mKenzoPlusUrl) {
 			launchUrl("https://plus.google.com/+KrittinKalra");
+		} else if (preference == mCancroPlusUrl) {
+			launchUrl("https://plus.google.com/107725359306238016073?hl=vi");
 		} else if (preference == mArmaniPlusUrl) {
 			launchUrl("https://plus.google.com/+SujitRoyKumar");
 										
