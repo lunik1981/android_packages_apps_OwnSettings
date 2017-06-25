@@ -625,9 +625,9 @@
   <string name="changelog_ownrom_error">Não é possível carregar o registro de alterações</string>
   <!-- Share OwnROM -->
   <string name="share_ownrom_title">Compartilhar OwnROM</string>
-  <string name="share_ownrom_summary">Deixe outros saibam sobre a OwnROM</string>
+  <string name="share_ownrom_summary">Deixe que outros saibam sobre a OwnROM</string>
   <string name="share_message">Confira sobre o que é a #OwnROM @ Google+: https://plus.google.com/communities/108869588356214314591</string>
-  <string name="share_chooser_title">Compartilhar OwnROM</string>
+  <string name="share_chooser_title">Compartilhe o OwnROM</string>
   <!-- OTA OwnROM -->
   <string name="ownrom_source_title">GitHub</string>
   <string name="ownrom_source_summary">Visite nossa fonte e equipe git</string>
