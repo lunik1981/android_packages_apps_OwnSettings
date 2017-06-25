@@ -166,18 +166,18 @@
   <string name="battery_bar_blend_color_reverse_summary_off">Nabito &#8594; Vybito: červená &#8592; zelená &#8592; modrá &#8592; červená</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Nabito &#8594; Vybito: červená &#8594; zelená &#8594; modrá &#8594; červená</string>
   <!-- Status Bar Ticker -->
-  <string name="ticker_screen_title">Ticker</string>
-  <string name="ticker_title">Status Bar Ticker</string>
-  <string name="ticker_screen_summary">Customize the ticker style</string>
-  <string name="ticker_summary">Enable the status bar ticker</string>
-  <string name="ticker_restore_defaults_title">Restore defaults</string>
+  <string name="ticker_screen_title">Oznámení</string>
+  <string name="ticker_title">Oznámení ve stavové liště</string>
+  <string name="ticker_screen_summary">Upravit styl oznámení ve stavové liště</string>
+  <string name="ticker_summary">Povolit oznámení ve stavové liště</string>
+  <string name="ticker_restore_defaults_title">Obnovit výchozí nastavení</string>
   <string name="text_title">Text</string>
-  <string name="icon_title">Icon</string>
-  <string name="colors_title">Colors</string>
-  <string name="values_restored_title">Values restored</string>
-  <string name="ticker_disabled">No ticker</string>
-  <string name="ticker_enabled">Notification ticker</string>
-  <string name="ticker_media_enabled">Notifications and music ticker</string>
+  <string name="icon_title">Ikona</string>
+  <string name="colors_title">Barvy</string>
+  <string name="values_restored_title">Hodnoty obnoveny</string>
+  <string name="ticker_disabled">Žádné oznámení</string>
+  <string name="ticker_enabled">Notifikační oznámení</string>
+  <string name="ticker_media_enabled">Notifikační a hudební oznámení</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Tlačítka</string>
   <string name="button_navigation_tab">Navigace</string>
@@ -574,19 +574,19 @@
   <string name="immersive_recents_statusbar">Pouze stavový řádek</string>
   <string name="immersive_recents_navbar">Pouze navigační panel</string>
   <!-- Clear all recents button/fab -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear All</string>
-  <string name="rr_recents_animations_title">Recents</string>
-  <string name="recents_anim_title">Recents Animations</string>
-  <string name="recents_anim_summary">Customize the Delay of Recents window and its actions</string>
+  <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
+  <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
+  <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
+  <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+  <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+  <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
+  <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
+  <string name="recents_clear_all_title">Vyčistit vše</string>
+  <string name="rr_recents_animations_title">Nedávné</string>
+  <string name="recents_anim_title">Animace nedávných aplikací</string>
+  <string name="recents_anim_summary">Přizpůsobit okno zpoždění nedávných a jeho akcí</string>
   <!-- OmniSwitch -->
   <string name="recents_use_omniswitch_title">Použít pro Nedávné</string>
   <string name="recents_use_omniswitch_summary">Použít OmniSwitch namísto výchozího zobrazení nedávných aplikací</string>
@@ -598,14 +598,14 @@
   <!-- Misc Settings -->
   <string name="own_misc_settings">Různá nastavení</string>
   <!-- Selinux Switch -->
-  <string name="selinux_category_title">Selinux</string>
+  <string name="selinux_category_title">SELinux</string>
   <string name="selinux_switch_title">Možnosti SELinux</string>
   <string name="selinux_switch_summary">SELinux je soubor změn na linuxovém jádře a způsob přidělování zdrojů pro danou aplikaci. Změna režimu může způsobit nežádoucí chování. Je zapotřebí root přístup. Použití je na vlastní nebezpečí</string>
   <string name="selinux_title">SELinux režim</string>
   <string name="selinux_permissive_title">Mírné</string>
   <string name="selinux_enforcing_title">Vynucené</string>
   <!-- Dashboard columns -->
-  <string name="dashboard_category_title">Dashboard</string>
+  <string name="dashboard_category_title">Hlavní nabídka</string>
   <string name="dashboard_columns_title">Dashboard Columns</string>
   <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard (Settings)</string>
   <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
