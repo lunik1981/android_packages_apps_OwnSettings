@@ -166,7 +166,7 @@
   <string name="battery_bar_blend_color_reverse_summary_off">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
   <!-- Status Bar Ticker -->
-  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_screen_title">Styl powiadomień</string>
   <string name="ticker_title">Status Bar Ticker</string>
   <string name="ticker_screen_summary">Customize the ticker style</string>
   <string name="ticker_summary">Enable the status bar ticker</string>
