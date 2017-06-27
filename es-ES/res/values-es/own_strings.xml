@@ -50,10 +50,10 @@
   <string name="color_picker_help_ab_color_apply_summary">La previsualización de color es siempre visible. \nSi el nuevo color no es igual el color antiguo, se ampliará la vista previa de color, para permitir aplicar el nuevo color.</string>
   <string name="color_picker_help_ab_menu_title">Botón menú:</string>
   <string name="color_picker_help_ab_menu_reset_title">Restablecer:</string>
-  <string name="color_picker_help_ab_menu_reset_summary">Resets the new color to the default Android or OwnROM color without applying the new color.</string>
+  <string name="color_picker_help_ab_menu_reset_summary">Se restablece el color nuevo al Android por defecto o OwnRom sin aplicar el color nuevo.</string>
   <string name="color_picker_help_ab_menu_hex_title">Valor Hex:</string>
   <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
-  <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
+  <string name="color_picker_help_ab_menu_favorites_title">Muestra/esconde los favoritos:</string>
   <string name="color_picker_help_ab_menu_favorites_summary">Shows/hides the favorites.\nHiding the favorites will not reset the favorite colors.</string>
   <string name="color_picker_help_ab_menu_help_title">Help:</string>
   <string name="color_picker_help_ab_menu_help_summary">Shows this help screen.</string>
