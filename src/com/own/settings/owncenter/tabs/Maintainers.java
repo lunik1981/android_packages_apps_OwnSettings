@@ -115,7 +115,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // Xiaomi
         mKenzoPlusUrl = findPreference(KEY_KENZO_MAINTAINER_PLUS_LINK);
-        mArmaniPlusUrl = findPreference(KEY_CANCRO_MAINTAINER_PLUS_LINK);
+        mCancroPlusUrl = findPreference(KEY_CANCRO_MAINTAINER_PLUS_LINK);
         mArmaniPlusUrl = findPreference(KEY_ARMANI_MAINTAINER_PLUS_LINK);
         
     }
