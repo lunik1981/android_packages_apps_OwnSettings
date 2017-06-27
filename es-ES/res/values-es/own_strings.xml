@@ -64,33 +64,33 @@
   <string name="color_picker_help_favorites_title">Favoritos:</string>
   <string name="color_picker_help_favorites_summary">Favoritos están vacíos por defecto. \nEl nuevo color puede ser guardado como favoritos en cualquier momento mediante un largo clic, (un espacio no lleno sera sobrescrito con el nuevo color). \nUn clic establece el color favorito como color de nuevo, sin aplicar el nuevo color.</string>
   <string name="color_picker_help_palette_title">Paleta: \n(OwnROM, Material y RGB)</string>
-  <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
-  <string name="color_picker_help_button_ok_title">OK</string>
+  <string name="color_picker_help_palette_summary">Los colores de la paleta tienen un valor fijo.\nUn clic establecerá el color favorito, sin aplicar el color nuevo.</string>
+  <string name="color_picker_help_do_not_show_title">No mostrar de nuevo</string>
+  <string name="color_picker_help_button_ok_title">Aceptar</string>
   <!-- OwnSettings -->
-  <string name="ownsettings_title">OwnSettings</string>
+  <string name="ownsettings_title">Ajustes de Own</string>
   <!-- Categories -->
   <!-- Status bar -->
   <!-- Tabs -->
-  <string name="statusbar_icons_tab_title">Icons</string>
-  <string name="statusbar_clock_tab">Clock</string>
-  <string name="statusbar_other_tab_title">Other</string>
+  <string name="statusbar_icons_tab_title">Iconos</string>
+  <string name="statusbar_clock_tab">Reloj</string>
+  <string name="statusbar_other_tab_title">Otro</string>
   <!-- General -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
+  <string name="status_bar_toggle_brightness">Control de brillo</string>
   <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
   <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes</string>
+  <string name="status_bar_quick_qs_pulldown_title">Despliegue rápido</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s borde de la barra de estado despliega hacia abajo de configuración rápida</string>
+  <string name="status_bar_quick_qs_pulldown_off">Desactivado</string>
+  <string name="status_bar_quick_qs_pulldown_left">Izquierdo</string>
+  <string name="status_bar_quick_qs_pulldown_right">Derecho</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
+  <string name="status_bar_clock_position_title">Posición del reloj</string>
+  <string name="status_bar_clock_position_right">Derecho</string>
+  <string name="status_bar_clock_position_left">Izquierdo</string>
+  <string name="status_bar_clock_position_center">Centrado</string>
+  <string name="status_bar_am_pm_title">Formato AM/PM</string>
   <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
   <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Small</string>
