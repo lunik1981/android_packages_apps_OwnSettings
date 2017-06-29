@@ -103,6 +103,12 @@
   <string name="status_bar_battery_style_circle">Kruh</string>
   <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Skrytá</string>
+  <!-- Status bar - Battery custom charging symbol -->
+  <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
+  <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
+  <string name="text_charging_symbol_default">Disabled</string>
+  <string name="text_charging_symbol_flash">Flash</string>
+  <string name="text_charging_symbol_tilde">Tilde</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Procenta baterie</string>
   <string name="status_bar_battery_percentage_default">Skryté</string>
@@ -178,6 +184,10 @@
   <string name="ticker_disabled">Žádné oznámení</string>
   <string name="ticker_enabled">Notifikační oznámení</string>
   <string name="ticker_media_enabled">Notifikační a hudební oznámení</string>
+  <!-- Data/Wifi activity arrows -->
+  <string name="data_wifi_category_title">Data/WiFi Icon</string>
+  <string name="data_wifi_activity_arrows_title">Show data/wifi activity</string>
+  <string name="data_wifi_activity_arrows_summary">Display data/wifi activity arrows</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Tlačítka</string>
   <string name="button_navigation_tab">Navigace</string>
