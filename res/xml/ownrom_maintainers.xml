@@ -126,6 +126,13 @@
             android:icon="@drawable/phone_tint"
             android:title="@string/device_motorola_athene"
             android:summary="@string/device_motorola_athene_summary" />  
+
+        <Preference
+            android:id="@+id/device_motorola_titan"
+            android:key="titan_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_motorola_titan"
+            android:summary="@string/device_motorola_titan_summary" /> 
             
     </PreferenceCategory>  
 

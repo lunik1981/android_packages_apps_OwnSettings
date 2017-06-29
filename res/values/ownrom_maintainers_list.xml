@@ -67,6 +67,8 @@
     <string name="device_motorola_athene_summary">Rajat Gupta (tywinlannister7)</string>
     <string name="device_motorola_potter">G5 Plus (Potter)</string>
     <string name="device_motorola_potter_summary">Nick v Bokhorst (GtrCraft)</string>
+    <string name="device_motorola_titan">G 2014 (Titan)</string>
+    <string name="device_motorola_titan_summary">Pongo (Jackcicci)</string>
 
 	<!-- XIAOMI -->
     <string name="device_xiaomi_kenzo">Redmi Note 3 (Kenzo)</string>
