@@ -169,6 +169,10 @@
     <string name="ticker_disabled">Geen ticker</string>
     <string name="ticker_enabled">Notificatie ticker</string>
     <string name="ticker_media_enabled">Notificatie en muziek ticker</string>
+    <!-- Data/Wifi activity arrows -->
+    <string name="data_wifi_category_title">Data/WiFi Icoon</string>
+    <string name="data_wifi_activity_arrows_title">Laat data/wifi activiteit zien</string>
+    <string name="data_wifi_activity_arrows_summary">Schakel data/wifi activiteits peilen in</string>
 
 
 	<!-- Button Settings -->

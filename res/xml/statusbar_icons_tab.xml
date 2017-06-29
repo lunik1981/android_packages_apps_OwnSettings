@@ -70,5 +70,16 @@
 			android:defaultValue="false" />
 
 	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/data_wifi_category_title">
+
+        <com.own.settings.javas.SystemSettingSwitchPreference
+            android:key="data_activity_arrows"
+            android:title="@string/data_wifi_activity_arrows_title"
+            android:summary="@string/data_wifi_activity_arrows_summary"
+            android:defaultValue="true"/>
+
+	</PreferenceCategory>
 	
 </PreferenceScreen>

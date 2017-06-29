@@ -188,6 +188,10 @@
     <string name="ticker_disabled">No ticker</string>
     <string name="ticker_enabled">Notification ticker</string>
     <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <!-- Data/Wifi activity arrows -->
+    <string name="data_wifi_category_title">Data/WiFi Icon</string>
+    <string name="data_wifi_activity_arrows_title">Show data/wifi activity</string>
+    <string name="data_wifi_activity_arrows_summary">Display data/wifi activity arrows</string>
 
 
 	<!-- Button Settings -->
