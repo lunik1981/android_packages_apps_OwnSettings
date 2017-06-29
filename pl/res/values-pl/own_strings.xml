@@ -103,6 +103,12 @@
   <string name="status_bar_battery_style_circle">Kołko</string>
   <string name="status_bar_battery_style_text">Napis</string>
   <string name="status_bar_battery_style_hidden">Ukryty</string>
+  <!-- Status bar - Battery custom charging symbol -->
+  <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
+  <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
+  <string name="text_charging_symbol_default">Disabled</string>
+  <string name="text_charging_symbol_flash">Flash</string>
+  <string name="text_charging_symbol_tilde">Tilde</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Procent baterii</string>
   <string name="status_bar_battery_percentage_default">Ukryty</string>
@@ -178,6 +184,10 @@
   <string name="ticker_disabled">Bez powiadomień na pasku statusu</string>
   <string name="ticker_enabled">Powiadomienia na pasku statusu</string>
   <string name="ticker_media_enabled">Powiadomienia i muzyka na pasku statusu</string>
+  <!-- Data/Wifi activity arrows -->
+  <string name="data_wifi_category_title">Data/WiFi Icon</string>
+  <string name="data_wifi_activity_arrows_title">Show data/wifi activity</string>
+  <string name="data_wifi_activity_arrows_summary">Display data/wifi activity arrows</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Przyciski</string>
   <string name="button_navigation_tab">Nawigacja</string>
