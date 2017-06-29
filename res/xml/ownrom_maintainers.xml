@@ -141,6 +141,13 @@
         android:title="@string/device_category_xiaomi_title">
 
         <Preference
+            android:id="@+id/device_xiaomi_mido"
+            android:key="mido_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_xiaomi_mido"
+            android:summary="@string/device_xiaomi_mido_summary" />  
+
+        <Preference
             android:id="@+id/device_xiaomi_kenzo"
             android:key="kenzo_maintainer_plus_link"
             android:icon="@drawable/phone_tint"

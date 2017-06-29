@@ -56,6 +56,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_TITAN_MAINTAINER_PLUS_LINK = "titan_maintainer_plus_link";
 	
 	// Xiaomi
+	private String KEY_MIDO_MAINTAINER_PLUS_LINK = "mido_maintainer_plus_link";
 	private String KEY_KENZO_MAINTAINER_PLUS_LINK = "kenzo_maintainer_plus_link";
 	private String KEY_CANCRO_MAINTAINER_PLUS_LINK = "cancro_maintainer_plus_link";
 	private String KEY_ARMANI_MAINTAINER_PLUS_LINK = "armani_maintainer_plus_link";
@@ -84,6 +85,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private Preference mTitanPlusUrl;
 
 	// Xiaomi
+	private Preference mMidoPlusUrl;
 	private Preference mKenzoPlusUrl;
 	private Preference mCancroPlusUrl;
 	private Preference mArmaniPlusUrl;
@@ -117,6 +119,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         mTitanPlusUrl = findPreference(KEY_TITAN_MAINTAINER_PLUS_LINK);
         
         // Xiaomi
+        mMidoPlusUrl = findPreference(KEY_MIDO_MAINTAINER_PLUS_LINK);
         mKenzoPlusUrl = findPreference(KEY_KENZO_MAINTAINER_PLUS_LINK);
         mCancroPlusUrl = findPreference(KEY_CANCRO_MAINTAINER_PLUS_LINK);
         mArmaniPlusUrl = findPreference(KEY_ARMANI_MAINTAINER_PLUS_LINK);
@@ -163,6 +166,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/u/0/118405882948543782913");
 			
 		// Xiaomi
+		} else if (preference == mMidoPlusUrl) {
+			launchUrl("https://plus.google.com/112075683094247160085?hl=tr");
 		} else if (preference == mKenzoPlusUrl) {
 			launchUrl("https://plus.google.com/+KrittinKalra");
 		} else if (preference == mCancroPlusUrl) {

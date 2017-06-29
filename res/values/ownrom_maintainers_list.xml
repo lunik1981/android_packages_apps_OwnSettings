@@ -71,6 +71,8 @@
     <string name="device_motorola_titan_summary">Pongo (Jackcicci)</string>
 
 	<!-- XIAOMI -->
+    <string name="device_xiaomi_mido">Redmi Note 4 (Mido)</string>
+    <string name="device_xiaomi_mido_summary">Vimal (Vimalraj1)</string> 
     <string name="device_xiaomi_kenzo">Redmi Note 3 (Kenzo)</string>
     <string name="device_xiaomi_kenzo_summary">Krittin (androbada525)</string>
     <string name="device_xiaomi_cancro">Mi3-Mi4 (Cancro)</string>
