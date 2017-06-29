@@ -96,6 +96,12 @@
     <string name="status_bar_battery_style_icon_landscape">Icoon landschap</string>
     <string name="status_bar_battery_style_circle">Circel</string>
     <string name="status_bar_battery_style_hidden">Verborgen</string>
+    <!-- Status bar - Battery custom charging symbol -->
+    <string name="text_charging_symbol_title">Oplaad symbool</string>
+    <string name="text_charging_symbol_dialog">Stel een symbool voor het opladen, zichtbaar bij de battery</string>
+    <string name="text_charging_symbol_default">Uitgeschakeld</string>
+    <string name="text_charging_symbol_flash">bliksemschicht</string>
+    <string name="text_charging_symbol_tilde">Tilde</string>
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Batterij percentage</string>
     <string name="status_bar_battery_percentage_default">Verborgen</string>

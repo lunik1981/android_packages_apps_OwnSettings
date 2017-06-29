@@ -52,6 +52,7 @@ public class IconSettings extends SettingsPreferenceFragment implements
 
     private CMSystemSettingListPreference mStatusBarBattery;
     private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
+    private ListPreference mTextChargingSymbol;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -64,6 +65,14 @@ public class IconSettings extends SettingsPreferenceFragment implements
 
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(0));
+        
+        mTextChargingSymbol = (ListPreference) findPreference(TEXT_CHARGING_SYMBOL);
+        int textChargingSymbolValue = Settings.Secure.getInt(resolver,
+                Settings.Secure.TEXT_CHARGING_SYMBOL, 0);
+        mTextChargingSymbol.setValue(Integer.toString(textChargingSymbolValue));
+        mTextChargingSymbol.setSummary(mTextChargingSymbol.getEntry());
+        mTextChargingSymbol.setOnPreferenceChangeListener(this);
+
 
     }
 
@@ -73,16 +82,28 @@ public class IconSettings extends SettingsPreferenceFragment implements
             int batteryStyle = Integer.valueOf((String) newValue);
             enableStatusBarBatteryDependents(batteryStyle);
             return true;
-          }
+        } else if (preference == mTextChargingSymbol) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mTextChargingSymbol.findIndexOfValue((String) newValue);
+            Settings.Secure.putInt(resolver,
+                    Settings.Secure.TEXT_CHARGING_SYMBOL, val);
+            mTextChargingSymbol.setSummary(mTextChargingSymbol.getEntries()[index]);
+            return true;
+        }
         return false;
     }
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
-        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
-                batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
+        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN) {
             mStatusBarBatteryShowPercent.setEnabled(false);
+            mQsBatteryTitle.setEnabled(false);
+            mTextChargingSymbol.setEnabled(false);
+        } else if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
+            mStatusBarBatteryShowPercent.setEnabled(false);
+            mTextChargingSymbol.setEnabled(true);
         } else {
             mStatusBarBatteryShowPercent.setEnabled(true);
+            mTextChargingSymbol.setEnabled(false);
         }
     }
 
