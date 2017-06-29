@@ -166,18 +166,18 @@
   <string name="battery_bar_blend_color_reverse_summary_off">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
   <!-- Status Bar Ticker -->
-  <string name="ticker_screen_title">Pasek powiadomień</string>
-  <string name="ticker_title">Zegar paska statusu</string>
-  <string name="ticker_screen_summary">Dostosuj styl zegara</string>
+  <string name="ticker_screen_title">Powiadomienia w pasku statusu</string>
+  <string name="ticker_title">Powiadomienia w pasku statusu</string>
+  <string name="ticker_screen_summary">Dostosuj styl powiadomień na pasku statusu</string>
   <string name="ticker_summary">Włącz zegar na pasku statusu</string>
   <string name="ticker_restore_defaults_title">Przywróć domyślne ustawienia</string>
   <string name="text_title">Tekst</string>
   <string name="icon_title">Ikona</string>
   <string name="colors_title">Kolory</string>
   <string name="values_restored_title">Przywrócono wartości</string>
-  <string name="ticker_disabled">Bez zegara</string>
-  <string name="ticker_enabled">Zegar powiadomień</string>
-  <string name="ticker_media_enabled">Zegar powiadomień i muzyki</string>
+  <string name="ticker_disabled">Bez powiadomień na pasku statusu</string>
+  <string name="ticker_enabled">Powiadomienia na pasku statusu</string>
+  <string name="ticker_media_enabled">Powiadomienia i muzyka na pasku statusu</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Przyciski</string>
   <string name="button_navigation_tab">Nawigacja</string>
