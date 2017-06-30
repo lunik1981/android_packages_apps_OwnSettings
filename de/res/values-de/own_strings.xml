@@ -89,15 +89,15 @@
   <string name="status_bar_clock_position_title">Position der Uhr</string>
   <string name="status_bar_clock_position_right">Rechts</string>
   <string name="status_bar_clock_position_left">Links</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="status_bar_am_pm_normal">Normal</string>
-  <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_clock_position_center">Mittig</string>
+  <string name="status_bar_am_pm_title">AM/PM-Format</string>
+  <string name="status_bar_am_pm_info">24-Stunden-Format ist aktiviert</string>
+  <string name="status_bar_am_pm_normal">Normale Schriftgröße</string>
+  <string name="status_bar_am_pm_small">Klein</string>
+  <string name="status_bar_am_pm_hidden">Ausgeblendet</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Battery icon</string>
-  <string name="status_bar_battery_style_title">Battery status style</string>
+  <string name="status_bar_battery_category">Akku-Symbol</string>
+  <string name="status_bar_battery_style_title">Aussehen der Akkustandsanzeige</string>
   <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
   <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
   <string name="status_bar_battery_style_circle">Circle</string>
