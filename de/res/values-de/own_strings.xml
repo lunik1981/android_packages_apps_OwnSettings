@@ -96,7 +96,7 @@
   <string name="status_bar_am_pm_small">Klein</string>
   <string name="status_bar_am_pm_hidden">Ausgeblendet</string>
   <!-- Status bar - Battery -->
-  <string name="status_bar_battery_category">Akku-Symbol</string>
+  <string name="status_bar_battery_category">Akkustandsanzeige</string>
   <string name="status_bar_battery_style_title">Aussehen der Akkustandsanzeige</string>
   <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
   <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
