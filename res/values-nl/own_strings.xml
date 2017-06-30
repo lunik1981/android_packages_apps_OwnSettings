@@ -419,7 +419,11 @@
     <string name="brightness_icon_summary">Laat een icoon zien rechts van de slider, hiermee kan je autmatische helderheid aan/uit zetten</string>
     <!-- Quick settings tiles -->
     <string name="sysui_qqs_count_title">Tegel grootte</string>
- 
+    <!-- QS Rows & Collumns -->
+    <string name="qs_rows_portrait_title">Rijen (portret)</string>
+    <string name="qs_rows_landscape_title">Rijen (landschap)</string>
+    <string name="qs_columns_title">Colommen</string>
+
 
 	<!-- Notification Drawer Settings -->
 	<string name="notification_drawer_settings_title">Meldingspaneel</string>
