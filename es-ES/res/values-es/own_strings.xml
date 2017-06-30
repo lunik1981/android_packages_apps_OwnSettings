@@ -142,13 +142,13 @@
   <string name="network_traffic_autohide">Auto hide</string>
   <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
   <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_hidearrow_title">Hide arrows</string>
-  <string name="network_traffic_hidearrow_summary">Hide arrows in traffic indicator</string>
-  <string name="network_traffic_color_style">Color style</string>
-  <string name="network_traffic_color_reset">Reset color</string>
-  <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+  <string name="network_traffic_hidearrow_title">Ocultar flechas</string>
+  <string name="network_traffic_hidearrow_summary">Ocultar flechas de indicadores de tráfico</string>
+  <string name="network_traffic_color_style">Estilo de color</string>
+  <string name="network_traffic_color_reset">Restablecer color</string>
+  <string name="network_traffic_color_reset_message">¿Restablecer el color predeterminado?</string>
   <!-- Battery Bar -->
-  <string name="battery_bar_title">Battery bar</string>
+  <string name="battery_bar_title">Barra de batería</string>
   <string name="battery_bar">Battery bar location</string>
   <string name="battery_bar_no_navbar">Battery bar location</string>
   <string name="battery_bar_location_hide">Hide</string>
