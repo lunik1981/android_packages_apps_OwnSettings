@@ -160,13 +160,13 @@
   <string name="battery_bar_battery_low_color">Farbe der Akkuleiste bei niedrigem Akkustand</string>
   <string name="battery_bar_cat">Stil der Akkuleiste</string>
   <string name="battery_bar_style_title">Ausrichtung der Akkuleiste</string>
-  <string name="battery_bar_thickness_title">Battery bar thickness</string>
-  <string name="battery_bar_animate_title">Charging animation</string>
+  <string name="battery_bar_thickness_title">Stärke der Akkuleiste</string>
+  <string name="battery_bar_animate_title">Animation beim Laden</string>
   <string name="battery_bar_style_regular">Standard</string>
   <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
   <string name="battery_bar_style_reversed">Umgekehrt</string>
-  <string name="battery_bar_use_charging_color">Custom charging color</string>
-  <string name="battery_bar_blend_color_title">Blend colors</string>
+  <string name="battery_bar_use_charging_color">Benutzerdefinierte Farbe beim Laden</string>
+  <string name="battery_bar_blend_color_title">Farben mischen</string>
   <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
   <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
@@ -179,9 +179,9 @@
   <string name="ticker_restore_defaults_title">Restore defaults</string>
   <string name="text_title">Text</string>
   <string name="icon_title">Icon</string>
-  <string name="colors_title">Colors</string>
-  <string name="values_restored_title">Values restored</string>
-  <string name="ticker_disabled">No ticker</string>
+  <string name="colors_title">Farben</string>
+  <string name="values_restored_title">Werte wiederhergestellt</string>
+  <string name="ticker_disabled">Benachrichtigungs-Ticker ausgeschaltet</string>
   <string name="ticker_enabled">Notification ticker</string>
   <string name="ticker_media_enabled">Notifications and music ticker</string>
   <!-- Data/Wifi activity arrows -->
