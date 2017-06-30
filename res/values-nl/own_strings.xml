@@ -173,7 +173,10 @@
     <string name="data_wifi_category_title">Data/WiFi Icoon</string>
     <string name="data_wifi_activity_arrows_title">Laat data/wifi activiteit zien</string>
     <string name="data_wifi_activity_arrows_summary">Schakel data/wifi activiteits peilen in</string>
-
+    <!-- VoLTE icon -->
+    <string name="volte_icon_title">VoLTE icoon</string>
+    <string name="volte_icon_summary">Laat, wanneer beschikbaar, het VoLTE icoon zien</string>
+    
 
 	<!-- Button Settings -->
 	<string name="button_settings_title">Knoppen</string>
