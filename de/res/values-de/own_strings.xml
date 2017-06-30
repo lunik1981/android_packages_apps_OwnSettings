@@ -153,12 +153,12 @@
   <string name="battery_bar_no_navbar">Position der Akkuleiste</string>
   <string name="battery_bar_location_hide">Ausblenden</string>
   <string name="battery_bar_location_statusbar">Statusleiste</string>
-  <string name="battery_bar_location_top_navbar">Top of navbar</string>
-  <string name="battery_bar_location_bottom_navbar">Bottom of navbar</string>
+  <string name="battery_bar_location_top_navbar">Über der Navigationsleiste</string>
+  <string name="battery_bar_location_bottom_navbar">Unter der Navigationsleiste</string>
   <string name="battery_bar_color">Farbe der Akkuleiste</string>
   <string name="battery_bar_charging_color">Farbe der Akkuleiste beim Ladevorgang</string>
-  <string name="battery_bar_battery_low_color">Battery bar low battery color</string>
-  <string name="battery_bar_cat">Battery bar style</string>
+  <string name="battery_bar_battery_low_color">Farbe der Akkuleiste bei niedrigem Akkustand</string>
+  <string name="battery_bar_cat">Stil der Akkuleiste</string>
   <string name="battery_bar_style_title">Battery bar alignment</string>
   <string name="battery_bar_thickness_title">Battery bar thickness</string>
   <string name="battery_bar_animate_title">Charging animation</string>
