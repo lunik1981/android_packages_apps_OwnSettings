@@ -181,8 +181,8 @@
   <string name="icon_title">Icon</string>
   <string name="colors_title">Farben</string>
   <string name="values_restored_title">Werte wiederhergestellt</string>
-  <string name="ticker_disabled">Benachrichtigungs-Ticker ausgeschaltet</string>
-  <string name="ticker_enabled">Notification ticker</string>
+  <string name="ticker_disabled">Ticker aus</string>
+  <string name="ticker_enabled">Ticker eingeschaltet</string>
   <string name="ticker_media_enabled">Notifications and music ticker</string>
   <!-- Data/Wifi activity arrows -->
   <string name="data_wifi_category_title">Data/WiFi Icon</string>
