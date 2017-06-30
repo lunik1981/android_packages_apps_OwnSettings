@@ -448,8 +448,6 @@
 	<!-- Quick Settings -->
 	<string name="quick_settings_title">Quick Settings</string>
 	<string name="quick_pulldown_title">Quick Pulldown</string>
-
-	<!-- Quick Settings -->
 	<string name="qs_general_tab">General</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
@@ -457,11 +455,13 @@
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Brightness icon</string>
     <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+    <!-- Quick settings tiles size -->
+    <string name="sysui_qqs_count_title">QS tiles size</string>
 
 
-	<!-- Notification Drawer Settings -->
-	<string name="notification_drawer_settings_title">Notification drawer</string>
-	<string name="drawer_messages_tab_title">Messages</string>
+   <!-- Notification Drawer Settings -->
+   <string name="notification_drawer_settings_title">Notification drawer</string>
+   <string name="drawer_messages_tab_title">Messages</string>
    <!-- Force expanded notifications -->
    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
