@@ -82,7 +82,7 @@ public class QSGeneral extends SettingsPreferenceFragment implements
 
         mQsColumns = (ListPreference) findPreference(PREF_COLUMNS);
         int columnsQs = Settings.Secure.getInt(resolver,
-                 Settings.Secure.QS_COLUMNS, 3);
+                 Settings.Secure.QS_COLUMNS, 4);
         mQsColumns.setValue(String.valueOf(columnsQs));
         mQsColumns.setSummary(mQsColumns.getEntry());
         mQsColumns.setOnPreferenceChangeListener(this);
