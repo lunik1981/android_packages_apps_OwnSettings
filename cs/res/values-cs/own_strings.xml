@@ -354,7 +354,7 @@
   <string name="pulse_solid_dimen_category">Nastavení režimu plné čáry</string>
   <string name="fling_lavalamp_color_from">Počáteční barva Lávové lampy</string>
   <string name="fling_lavalamp_color_to">Konečná barva Lávové lampy</string>
-  <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek smartbar při pulsování</string>
+  <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek chytré lišty při pulsování</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Šířka pruhu</string>
   <string name="pulse_custom_div">Mezera pruhu</string>
@@ -392,13 +392,13 @@
   <string name="smartbar_ime_action_dynamic">Šipky vstupu/médií</string>
   <string name="smartbar_backup_current_config_title">Uložit profil</string>
   <string name="smartbar_restore_config_title">Obnovit profil</string>
-  <string name="smartbar_config_name_edit_dialog_title">Název profilu Smartbar</string>
+  <string name="smartbar_config_name_edit_dialog_title">Název profilu chytré lišty</string>
   <string name="smartbar_config_name_edit_dialog_message">Zadejte jméno nebo ponechte prázdné</string>
-  <string name="smartbar_config_dialog_title">Profily Smartbar</string>
-  <string name="smartbar_config_backup_success_toast">Smartbar profil byl úspěšně uložen</string>
-  <string name="smartbar_config_restore_success_toast">Smartbar profil byl úspěšně obnoven</string>
-  <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu Smartbar</string>
-  <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu Smartbar</string>
+  <string name="smartbar_config_dialog_title">Profily chytré lišty</string>
+  <string name="smartbar_config_backup_success_toast">Profil chytré lišty byl úspěšně uložen</string>
+  <string name="smartbar_config_restore_success_toast">Profil chytré lišty byl úspěšně obnoven</string>
+  <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu chytré lišty</string>
+  <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu chytré lišty</string>
   <string name="smartbar_doubletap_sleep_title">Uspat dvojím poklepáním</string>
   <string name="smartbar_doubletap_sleep_summary">Dvojím poklepáním na prázdné místo stavové lišty vypnete obrazovku</string>
   <string name="one_handed_mode_title">Režim jedné ruky</string>
