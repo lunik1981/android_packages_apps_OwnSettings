@@ -105,17 +105,17 @@
   <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
   <!-- Status bar - Battery custom charging symbol -->
   <string name="text_charging_symbol_title">Benutzerdefiniertes Ladesymbol für Text</string>
-  <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
-  <string name="text_charging_symbol_default">Disabled</string>
-  <string name="text_charging_symbol_flash">Flash</string>
+  <string name="text_charging_symbol_dialog">Benutzerdefiniertes Ladesymbol neben der Akkustandsanzeige in Prozent</string>
+  <string name="text_charging_symbol_default">Ausgeschaltet</string>
+  <string name="text_charging_symbol_flash">Blitz</string>
   <string name="text_charging_symbol_tilde">Tilde</string>
   <!-- Status bar - Battery percentage -->
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+  <string name="status_bar_battery_percentage_title">Akkustand in Prozent</string>
+  <string name="status_bar_battery_percentage_default">Ausgeblendet</string>
+  <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
+  <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
   <!-- Status bar - icon blacklist -->
-  <string name="status_bar_icons_title">Status bar icons</string>
+  <string name="status_bar_icons_title">Statusleistensymbole</string>
   <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Doppelt Tippen für Schlafmodus</string>
