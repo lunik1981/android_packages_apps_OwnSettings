@@ -65,7 +65,7 @@
   <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
   <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
+  <string name="color_picker_help_do_not_show_title">Nicht noch einmal anzeigen</string>
   <string name="color_picker_help_button_ok_title">OK</string>
   <!-- OwnSettings -->
   <string name="ownsettings_title">OwnSettings</string>
@@ -73,10 +73,10 @@
   <!-- Status bar -->
   <!-- Tabs -->
   <string name="statusbar_icons_tab_title">Icons</string>
-  <string name="statusbar_clock_tab">Clock</string>
-  <string name="statusbar_other_tab_title">Other</string>
+  <string name="statusbar_clock_tab">Uhr</string>
+  <string name="statusbar_other_tab_title">Verschiedenes</string>
   <!-- General -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
+  <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
   <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
   <string name="status_bar_notif_count_title">Show notification count</string>
   <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
