@@ -475,12 +475,12 @@
   <string name="animation_duration_title">Animation duration</string>
   <string name="title_animation_no_override">Prevent app overrides</string>
   <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-  <string name="animation_duration_default">Default</string>
+  <string name="animation_duration_default">Voreinstellung</string>
   <!-- Toast Animation -->
   <string name="toast_animation_title">Toast animation</string>
-  <string name="toast_none_animation">None</string>
-  <string name="toast_default_animation">Default</string>
-  <string name="toast_fade_animation">Fade</string>
+  <string name="toast_none_animation">Keine</string>
+  <string name="toast_default_animation">Voreinstellung</string>
+  <string name="toast_fade_animation">Ausblenden</string>
   <string name="toast_SlideRight_animation">Slide right</string>
   <string name="toast_SlideLeft_animation">Slide left</string>
   <string name="toast_Xylon_animation">Xylon</string>
