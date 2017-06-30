@@ -41,9 +41,11 @@
     <string name="device_oneplus_oneplus2_summary">Muhammad Hamza (MZO9400)</string> 
 
     <!-- GOOGLE -->
+    <string name="device_google_angler">Nexus 6p (Angler)</string>
+    <string name="device_google_angler_summary">Matthijs Markvoort (mmarkvoort)</string>
     <string name="device_google_mako">Nexus 4 (Mako)</string>
     <string name="device_google_mako_summary">Victor Linfield (vilinfield)</string>
-
+    
     <!-- LG -->
     <string name="device_lg_h850">G5 intl (H850)</string>
     <string name="device_lg_h850_summary">Mark V (OwnDroid)</string>

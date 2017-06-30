@@ -40,6 +40,13 @@
         android:title="@string/device_category_google_title">
 
         <Preference
+            android:id="@+id/device_google_angler"
+            android:key="angler_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_google_angler"
+            android:summary="@string/device_google_angler_summary" />
+            
+        <Preference
             android:id="@+id/device_google_mako"
             android:key="mako_maintainer_plus_link"
             android:icon="@drawable/phone_tint"
