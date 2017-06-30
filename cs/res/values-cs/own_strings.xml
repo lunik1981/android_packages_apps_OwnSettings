@@ -444,11 +444,11 @@
   <string name="brightness_icon_title">Ikona jasu</string>
   <string name="brightness_icon_summary">Zobrazit ikonu jasu nalevo od posuvníku</string>
   <!-- Quick settings tiles size -->
-  <string name="sysui_qqs_count_title">Small QS tiles count</string>
+  <string name="sysui_qqs_count_title">Počet malých dlaždic QS</string>
   <!-- QS Rows & Collumns -->
-  <string name="qs_rows_portrait_title">Rows (portrait)</string>
-  <string name="qs_rows_landscape_title">Rows (landscape)</string>
-  <string name="qs_columns_title">Columns</string>
+  <string name="qs_rows_portrait_title">Řádky (na výšku)</string>
+  <string name="qs_rows_landscape_title">Řádky (na šířku)</string>
+  <string name="qs_columns_title">Sloupce</string>
   <!-- Notification Drawer Settings -->
   <string name="notification_drawer_settings_title">Oznamovací oblast</string>
   <string name="drawer_messages_tab_title">Zprávy</string>
@@ -659,8 +659,8 @@
   <string name="ownrom_walls_summary">Stahujte všechny druhy tapet</string>
   <string name="ownrom_fb_title">Facebook</string>
   <string name="ownrom_fb_summary">Navštivte nebo nás následujte na Facebooku</string>
-  <string name="ownrom_telegram_title">OwnROM Telegram</string>
-  <string name="ownrom_telegram_summary">Join our Telegram group to stay updated and file feature requests!</string>
+  <string name="ownrom_telegram_title">Telegram OwnROM</string>
+  <string name="ownrom_telegram_summary">Připojte se k naší skupině Telegram OwnROM!</string>
   <string name="ownrom_translations_title">Překlady Crowdin</string>
   <string name="ownrom_translations_summary">Pomozte nám přeložit OwnROM do požadovaného jazyka</string>
   <!-- Team -->
