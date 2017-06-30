@@ -418,7 +418,7 @@
     <string name="brightness_icon_title">Helderheid icoon</string>
     <string name="brightness_icon_summary">Laat een icoon zien rechts van de slider, hiermee kan je autmatische helderheid aan/uit zetten</string>
     <!-- Quick settings tiles -->
-    <string name="sysui_qqs_count_title">Tegel grootte</string>
+    <string name="sysui_qqs_count_title">Kleine tegels aantal</string>
     <!-- QS Rows & Collumns -->
     <string name="qs_rows_portrait_title">Rijen (portret)</string>
     <string name="qs_rows_landscape_title">Rijen (landschap)</string>

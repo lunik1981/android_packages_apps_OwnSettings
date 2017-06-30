@@ -45,6 +45,13 @@
             android:icon="@drawable/phone_tint"
             android:title="@string/device_google_angler"
             android:summary="@string/device_google_angler_summary" />
+
+        <Preference
+            android:id="@+id/device_google_bullhead"
+            android:key="bullhead_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_google_bullhead"
+            android:summary="@string/device_google_bullhead_summary" />
             
         <Preference
             android:id="@+id/device_google_mako"
@@ -143,6 +150,19 @@
             
     </PreferenceCategory>  
 
+    <!-- SONY -->
+    <PreferenceCategory
+        android:title="@string/device_category_sony_title">
+
+        <Preference
+            android:id="@+id/device_sony_honami"
+            android:key="honami_maintainer_plus_link"
+            android:icon="@drawable/phone_tint"
+            android:title="@string/device_sony_honami"
+            android:summary="@string/device_sony_honami_summary" />  
+            
+    </PreferenceCategory> 
+
     <!-- XIAOMI   -->
     <PreferenceCategory
         android:title="@string/device_category_xiaomi_title">
@@ -176,7 +196,8 @@
             android:summary="@string/device_xiaomi_armani_summary" />  
             
     </PreferenceCategory>
-        
+    
+
     <!-- ANDROİD ONE
     <PreferenceCategory
         android:title="@string/device_category_one_title">
@@ -226,11 +247,6 @@
     <PreferenceCategory
         android:title="@string/device_category_samsung_title">
     </PreferenceCategory>  -->
-
-    <!-- SONY
-    <PreferenceCategory
-        android:title="@string/device_category_sony_title">
-    </PreferenceCategory> -->
 
     <!-- WİLEYFOX
     <PreferenceCategory

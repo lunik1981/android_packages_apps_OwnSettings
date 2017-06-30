@@ -43,6 +43,8 @@
     <!-- GOOGLE -->
     <string name="device_google_angler">Nexus 6p (Angler)</string>
     <string name="device_google_angler_summary">Matthijs Markvoort (mmarkvoort)</string>
+    <string name="device_google_bullhead">Nexus 5x (Bullhead)</string>
+    <string name="device_google_bullhead_summary">Akash Srivastava (markakash)</string>
     <string name="device_google_mako">Nexus 4 (Mako)</string>
     <string name="device_google_mako_summary">Victor Linfield (vilinfield)</string>
     
@@ -72,6 +74,10 @@
     <string name="device_motorola_titan">G 2014 (Titan)</string>
     <string name="device_motorola_titan_summary">Pongo (Jackcicci)</string>
 
+    <!-- SONY -->
+    <string name="device_sony_honami">Xperia Z1 (Honami)</string>
+    <string name="device_sony_honami_summary">Akash Srivastava (markakash)</string>
+
 	<!-- XIAOMI -->
     <string name="device_xiaomi_mido">Redmi Note 4 (Mido)</string>
     <string name="device_xiaomi_mido_summary">Vimal (Vimalraj1)</string> 
@@ -81,7 +87,7 @@
     <string name="device_xiaomi_cancro_summary">Nguyen Thinh (Thinhx2)</string>  
     <string name="device_xiaomi_armani">Redmi 1s (Armani)</string>
     <string name="device_xiaomi_armani_summary">Sujit Roy (sujitroy)</string>    
-    
+
     <!-- ANDROİD ONE -->
 
     <!-- BQ -->
@@ -103,8 +109,6 @@
     <!-- OPPO -->
 
     <!-- SAMSUNG -->
-
-    <!-- SONY -->
 
     <!-- WİLEYFOX -->
 

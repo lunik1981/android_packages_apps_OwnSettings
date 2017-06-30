@@ -38,6 +38,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// Google
 	private String KEY_ANGLER_MAINTAINER_PLUS_LINK = "angler_maintainer_plus_link";
+	private String KEY_BULLHEAD_MAINTAINER_PLUS_LINK = "bullhead_maintainer_plus_link";
 	private String KEY_MAKO_MAINTAINER_PLUS_LINK = "mako_maintainer_plus_link";
 	
 	// LG
@@ -55,7 +56,10 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private String KEY_POTTER_MAINTAINER_PLUS_LINK = "potter_maintainer_plus_link";
 	private String KEY_ATHENE_MAINTAINER_PLUS_LINK = "athene_maintainer_plus_link";
 	private String KEY_TITAN_MAINTAINER_PLUS_LINK = "titan_maintainer_plus_link";
-	
+
+	// Sony
+	private String KEY_HONAMI_MAINTAINER_PLUS_LINK = "honami_maintainer_plus_link";
+
 	// Xiaomi
 	private String KEY_MIDO_MAINTAINER_PLUS_LINK = "mido_maintainer_plus_link";
 	private String KEY_KENZO_MAINTAINER_PLUS_LINK = "kenzo_maintainer_plus_link";
@@ -68,6 +72,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 	
 	// Google
 	private Preference mAnglerPlusUrl;
+	private Preference mBullheadPlusUrl;
 	private Preference mMakoPlusUrl;
 		
 	// LG
@@ -86,11 +91,15 @@ public class Maintainers extends SettingsPreferenceFragment {
 	private Preference mAthenePlusUrl;
 	private Preference mTitanPlusUrl;
 
+	// Sony
+	private Preference mHonamiPlusUrl;
+	
 	// Xiaomi
 	private Preference mMidoPlusUrl;
 	private Preference mKenzoPlusUrl;
 	private Preference mCancroPlusUrl;
 	private Preference mArmaniPlusUrl;
+	
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -103,6 +112,7 @@ public class Maintainers extends SettingsPreferenceFragment {
         
         // Google
         mAnglerPlusUrl = findPreference(KEY_ANGLER_MAINTAINER_PLUS_LINK);
+        mBullheadPlusUrl = findPreference(KEY_BULLHEAD_MAINTAINER_PLUS_LINK);
         mMakoPlusUrl = findPreference(KEY_MAKO_MAINTAINER_PLUS_LINK);
         
         // LG
@@ -120,7 +130,10 @@ public class Maintainers extends SettingsPreferenceFragment {
         mPotterPlusUrl = findPreference(KEY_POTTER_MAINTAINER_PLUS_LINK);
         mAthenePlusUrl = findPreference(KEY_ATHENE_MAINTAINER_PLUS_LINK);
         mTitanPlusUrl = findPreference(KEY_TITAN_MAINTAINER_PLUS_LINK);
-        
+
+		// Sony
+		mHonamiPlusUrl = findPreference(KEY_HONAMI_MAINTAINER_PLUS_LINK);
+
         // Xiaomi
         mMidoPlusUrl = findPreference(KEY_MIDO_MAINTAINER_PLUS_LINK);
         mKenzoPlusUrl = findPreference(KEY_KENZO_MAINTAINER_PLUS_LINK);
@@ -141,6 +154,8 @@ public class Maintainers extends SettingsPreferenceFragment {
 		// Google
 		} else if (preference == mAnglerPlusUrl) {
 			launchUrl("https://plus.google.com/111706744947764135950");
+		} else if (preference == mBullheadPlusUrl) {
+			launchUrl("https://plus.google.com/+AkashSrivastava1926");
 		} else if (preference == mMakoPlusUrl) {
 			launchUrl("https://plus.google.com/+VictorLinfield");
 			
@@ -169,7 +184,11 @@ public class Maintainers extends SettingsPreferenceFragment {
 			launchUrl("https://plus.google.com/114912018259767227558");
 		} else if (preference == mTitanPlusUrl) {
 			launchUrl("https://plus.google.com/u/0/118405882948543782913");
-			
+
+		// Sony
+		} else if (preference == mHonamiPlusUrl) {
+			launchUrl("https://plus.google.com/+AkashSrivastava1926");
+
 		// Xiaomi
 		} else if (preference == mMidoPlusUrl) {
 			launchUrl("https://plus.google.com/112075683094247160085?hl=tr");
