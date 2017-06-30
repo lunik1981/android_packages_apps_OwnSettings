@@ -581,7 +581,7 @@
   <string name="immersive_recents_dialog_title">Vyberte zobrazení nedávných</string>
   <string name="immersive_recents_default">Výchozí</string>
   <string name="immersive_recents_fullscreen">Celá obrazovka</string>
-  <string name="immersive_recents_statusbar">Pouze stavový řádek</string>
+  <string name="immersive_recents_statusbar">Pouze stavová lišta</string>
   <string name="immersive_recents_navbar">Pouze navigační panel</string>
   <!-- Clear all recents button/fab -->
   <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
