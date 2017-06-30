@@ -83,7 +83,7 @@ public class OTA extends SettingsPreferenceFragment {
         } else if (preference == mFacebookUrl) {
             launchUrl("https://www.facebook.com/OwnDroid.nl/");
         } else if (preference == mTelegramUrl) {
-            launchUrl("https://t.me/joinchat/AAAAAEGTudAMFfkGo4xBXQ");
+            launchUrl("https://t.me/OwnROM");
         } else if (preference == mTranslationsUrl) {
             launchUrl("https://crowdin.com/project/ownsettings");
         } else if (preference == mShare) {

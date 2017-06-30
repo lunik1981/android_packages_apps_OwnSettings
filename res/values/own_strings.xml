@@ -673,8 +673,8 @@
     <string name="ownrom_walls_summary">Download all kinds of Wallpapers</string>
     <string name="ownrom_fb_title">Facebook</string>
     <string name="ownrom_fb_summary">Fisit and/or follow us on Facebook</string>
-    <string name="ownrom_telegram_title">Telegram Channel</string>
-    <string name="ownrom_telegram_summary">Join our Telegram channel to stay updated!</string>
+    <string name="ownrom_telegram_title">OwnROM Telegram</string>
+    <string name="ownrom_telegram_summary">Join our Telegram group to stay updated and file feature requests!</string>
     <string name="ownrom_translations_title">Crowdin translations</string>
     <string name="ownrom_translations_summary">Help us translate OwnROM to your desired language</string>
     <!-- Team -->
