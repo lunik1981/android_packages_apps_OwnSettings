@@ -16,23 +16,23 @@
 
 package com.own.settings.statusbar.tabs;
 
- import android.os.Bundle;
- import android.content.Intent;
- import android.content.pm.PackageManager;
- import android.content.pm.ResolveInfo;
- import android.content.res.Configuration;
- import android.content.ContentResolver;
- import android.content.res.Resources;
- import android.support.v7.preference.ListPreference;
- import android.support.v7.preference.Preference;
- import android.support.v7.preference.PreferenceCategory;
- import android.support.v7.preference.PreferenceScreen;
- import android.support.v7.preference.Preference.OnPreferenceChangeListener;
- import android.support.v14.preference.SwitchPreference;
- import android.text.format.DateFormat;
- import android.provider.Settings;
- import android.os.UserHandle;
- import android.view.View;
+import android.os.Bundle;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.content.res.Configuration;
+import android.content.ContentResolver;
+import android.content.res.Resources;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
+import android.text.format.DateFormat;
+import android.provider.Settings;
+import android.os.UserHandle;
+import android.view.View;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 

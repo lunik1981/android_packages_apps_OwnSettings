@@ -176,7 +176,9 @@
     <!-- VoLTE icon -->
     <string name="volte_icon_title">VoLTE icoon</string>
     <string name="volte_icon_summary">Laat, wanneer beschikbaar, het VoLTE icoon zien</string>
-    
+    <string name="show_4g_title">Laat 4G zien</string>
+    <string name="show_4g_summary">Laat 4G icoon zien in plaats van LTE</string>
+
 
 	<!-- Button Settings -->
 	<string name="button_settings_title">Knoppen</string>
