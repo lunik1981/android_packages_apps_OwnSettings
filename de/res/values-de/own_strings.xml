@@ -659,8 +659,8 @@
   <string name="ownrom_walls_summary">Herunterladen aller Arten von Hintergrundbildern</string>
   <string name="ownrom_fb_title">Facebook</string>
   <string name="ownrom_fb_summary">Besuche und/oder Folge uns auf Facebook</string>
-  <string name="ownrom_telegram_title">OwnROM-Telegramm-Gruppe</string>
-  <string name="ownrom_telegram_summary">Trete unserer Telegramm-Gruppe bei, um ständig über die neuesten Entwicklungen informiert zu sein!</string>
+  <string name="ownrom_telegram_title">OwnROM-Telegram-Gruppe</string>
+  <string name="ownrom_telegram_summary">Werde Mitglied der Telegram-Gruppe, um ständig über die neuesten Entwicklungen informiert zu sein!</string>
   <string name="ownrom_translations_title">Crowdin Übersetzung prüfen</string>
   <string name="ownrom_translations_summary">Hilf uns dabei OwnROM in Deine gewünschte Sprache zu übersetzen</string>
   <!-- Team -->
