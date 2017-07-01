@@ -298,12 +298,12 @@
   <string name="fling_long_swipe_left">Langes Wischen nach links</string>
   <string name="fling_right_up_swipe">Nach oben wischen (rechte Seite)</string>
   <string name="fling_left_up_swipe">Nach oben wischen (linke Seite)</string>
-  <string name="fling_single_tap">Einfaches Tippen rechts</string>
-  <string name="fling_double_tap">Doppeltes Tippen rechts</string>
+  <string name="fling_single_tap">Einfaches Tippen (rechte Seite)</string>
+  <string name="fling_double_tap">Doppeltes Tippen (rechte Seite)</string>
   <string name="fling_long_press">Lange Gedrückthalten (rechte Seite)</string>
   <string name="fling_single_left_tap">Einfaches Tippen (linke Seite)</string>
   <string name="fling_double_left_tap">Doppelt Tippen (linke Seite)</string>
-  <string name="fling_long_left_press">Long press left</string>
+  <string name="fling_long_left_press">Lange Gedrückthalten (linke Seite)</string>
   <string name="long_swipe_portrait_title">Portrait</string>
   <string name="long_swipe_landscape_title">Landscape</string>
   <string name="portrait_right_swipe_title">Portrait right swipe</string>
