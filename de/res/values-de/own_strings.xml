@@ -60,7 +60,7 @@
   <string name="color_picker_help_colors_title">Farbe:</string>
   <string name="color_picker_help_picker_view_title">Farbfeld:</string>
   <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
-  <string name="color_picker_help_color_buttons_title">Color buttons:</string>
+  <string name="color_picker_help_color_buttons_title">Farbauswahlflächen:</string>
   <string name="color_picker_help_favorites_title">Favoriten:</string>
   <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
   <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
@@ -143,10 +143,10 @@
   <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
   <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
   <string name="network_traffic_hidearrow_title">Pfeile ausblenden</string>
-  <string name="network_traffic_hidearrow_summary">Hide arrows in traffic indicator</string>
+  <string name="network_traffic_hidearrow_summary">Verbirgt die Pfeile des Netzwerkverkehrs</string>
   <string name="network_traffic_color_style">Farbstil</string>
   <string name="network_traffic_color_reset">Farbauswahl zurücksetzen</string>
-  <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+  <string name="network_traffic_color_reset_message">Farbe des Netzwerkmonitors auf die Voreinstellung zurücksetzen?</string>
   <!-- Battery Bar -->
   <string name="battery_bar_title">Batterie Leiste</string>
   <string name="battery_bar">Position der Akkuleiste</string>
@@ -172,7 +172,7 @@
   <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
   <!-- Status Bar Ticker -->
-  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_screen_title">Benachrichtigungsticker</string>
   <string name="ticker_title">Status Bar Ticker</string>
   <string name="ticker_screen_summary">Customize the ticker style</string>
   <string name="ticker_summary">Enable the status bar ticker</string>
