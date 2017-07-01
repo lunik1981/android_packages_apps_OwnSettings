@@ -104,7 +104,7 @@
   <string name="status_bar_battery_style_text">Texto</string>
   <string name="status_bar_battery_style_hidden">Oculto</string>
   <!-- Status bar - Battery custom charging symbol -->
-  <string name="text_charging_symbol_title">Icone de carregamento personalizado para o estilo texto</string>
+  <string name="text_charging_symbol_title">Ícone de carregamento personalizado para o estilo texto</string>
   <string name="text_charging_symbol_dialog">Ícone de carregamento personalizado perto do texto de bateria</string>
   <string name="text_charging_symbol_default">Desabilitado</string>
   <string name="text_charging_symbol_flash">Flash</string>
@@ -448,7 +448,7 @@
   <!-- QS Rows & Collumns -->
   <string name="qs_rows_portrait_title">Rows (portrait)</string>
   <string name="qs_rows_landscape_title">Rows (landscape)</string>
-  <string name="qs_columns_title">Columns</string>
+  <string name="qs_columns_title">Colunas</string>
   <!-- Notification Drawer Settings -->
   <string name="notification_drawer_settings_title">Gaveta de notificação</string>
   <string name="drawer_messages_tab_title">Mensagens</string>
@@ -644,7 +644,7 @@
   <string name="changelog_ownrom_title">Registo de Alterações</string>
   <string name="changelog_ownrom_error">Não é possível carregar o registro de alterações</string>
   <!-- Share OwnROM -->
-  <string name="share_ownrom_title">Compartilhar OwnROM</string>
+  <string name="share_ownrom_title">Compartilhe o OwnROM</string>
   <string name="share_ownrom_summary">Deixe que outros saibam sobre a OwnROM</string>
   <string name="share_message">Confira sobre o que é a #OwnROM @ Google+: https://plus.google.com/communities/108869588356214314591</string>
   <string name="share_chooser_title">Compartilhe o OwnROM</string>
@@ -660,7 +660,7 @@
   <string name="ownrom_fb_title">Facebook</string>
   <string name="ownrom_fb_summary">Visite e/ou siga-nos no Facebook</string>
   <string name="ownrom_telegram_title">OwnROM Telegram</string>
-  <string name="ownrom_telegram_summary">Join our Telegram group to stay updated and file feature requests!</string>
+  <string name="ownrom_telegram_summary">Junte-se ao nosso grupo do Telegram para ficar atualizado e solicitar recursos!</string>
   <string name="ownrom_translations_title">Traduções do Crowdin</string>
   <string name="ownrom_translations_summary">Ajude-nos a traduzir o OwnROM para o seu idioma desejado</string>
   <!-- Team -->
