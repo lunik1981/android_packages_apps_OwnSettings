@@ -189,10 +189,10 @@
   <string name="data_wifi_activity_arrows_title">Daten/Wifi-Aktivität anzeigen</string>
   <string name="data_wifi_activity_arrows_summary">Pfeile für Daten/WIFI-Aktivität anzeigen</string>
   <!-- VoLTE icon -->
-  <string name="volte_icon_title">VoLTE icon</string>
-  <string name="volte_icon_summary">Display VoLTE icon when available</string>
-  <string name="show_4g_title">Show 4G</string>
-  <string name="show_4g_summary">Show 4g instead of LTE in signal icons</string>
+  <string name="volte_icon_title">VoLTE-Symbol</string>
+  <string name="volte_icon_summary">VoLTE-Symbol anzeigen, wenn verfügbar</string>
+  <string name="show_4g_title">4G-Empfangssymbol anzeigen</string>
+  <string name="show_4g_summary">4G- anstelle von LTE-Empfangssymbolen anzeigen</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Tasten</string>
   <string name="button_navigation_tab">Navigation</string>
@@ -200,12 +200,12 @@
   <string name="button_volume_tab">Lautstärke-Tasten</string>
   <string name="button_other_tab">Sonstiges</string>
   <string name="softkeys_title">Software Navigation</string>
-  <string name="hardware_keys">Hardware Navigation</string>
+  <string name="hardware_keys">Steuerung mit den Navigationstasten</string>
   <!-- Button settings -->
-  <string name="hardware_keys_power_key_title">Power button</string>
-  <string name="hardware_keys_home_key_title">Home button</string>
-  <string name="hardware_keys_back_key_title">Back button</string>
-  <string name="hardware_keys_menu_key_title">Menu button</string>
+  <string name="hardware_keys_power_key_title">Ein-/Aus-Taste</string>
+  <string name="hardware_keys_home_key_title">Home-Taste</string>
+  <string name="hardware_keys_back_key_title">Zurück-Taste</string>
+  <string name="hardware_keys_menu_key_title">Menü-Taste</string>
   <string name="hardware_keys_assist_key_title">Search button</string>
   <string name="hardware_keys_appswitch_key_title">Recents button</string>
   <string name="hardware_keys_camera_key_title">Camera button</string>
