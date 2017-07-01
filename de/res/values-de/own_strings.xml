@@ -638,16 +638,16 @@
   <string name="own_updater_title">Updater</string>
   <string name="own_updater_summary">Update your ROM, G-Apps and other stuf</string>
   <string name="ownrom_maintainers">Maintainers</string>
-  <string name="ownrom_donation_link">Donate</string>
+  <string name="ownrom_donation_link">Spenden</string>
   <string name="ownrom_donation_link_summary">Help us make OwnROM even better by donating trough PayPall</string>
   <!-- Changelog -->
-  <string name="changelog_ownrom_title">Changelog</string>
-  <string name="changelog_ownrom_error">Unable to load changelog</string>
+  <string name="changelog_ownrom_title">Änderungsliste</string>
+  <string name="changelog_ownrom_error">Laden der Änderungsliste fehlgeschlagen</string>
   <!-- Share OwnROM -->
-  <string name="share_ownrom_title">Share OwnROM</string>
-  <string name="share_ownrom_summary">Let others know about OwnROM</string>
+  <string name="share_ownrom_title">OwnROM bekannt machen</string>
+  <string name="share_ownrom_summary">Lass andere von OwnROM wissen</string>
   <string name="share_message">Check out what #OwnROM is all about @ Google+: https://plus.google.com/communities/108869588356214314591</string>
-  <string name="share_chooser_title">Share OwnROM</string>
+  <string name="share_chooser_title">OwnROM austauschen</string>
   <!-- OTA OwnROM -->
   <string name="ownrom_source_title">GitHub</string>
   <string name="ownrom_source_summary">Besuche unsere Quellcode Git Internetseite</string>
