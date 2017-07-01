@@ -228,8 +228,8 @@
   <string name="camera_launch_title">Kamera starten</string>
   <string name="camera_launch_summary">Langes Drücken und Loslassen startet die Kamera</string>
   <string name="volbtn_music_controls_title">Wiedergabe-Steuerung</string>
-  <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
-  <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
+  <string name="volbtn_music_controls_summary">Bei ausgeschaltetem Bildschirm die Lautstärke-Tasten lange drücken, um den Musiktitel zu wechseln</string>
+  <string name="volbtn_cursor_control_title">Cursor-Steuerung mittels Tastatur</string>
   <string name="volbtn_cursor_control_off">Ausgeschaltet</string>
   <string name="volbtn_cursor_control_on">Lautstärketaste lauter/leiser steuert den Cursor links/rechts</string>
   <string name="volbtn_cursor_control_on_reverse">Lautstärketaste lauter/leiser steuert den Cursor rechts/links</string>
