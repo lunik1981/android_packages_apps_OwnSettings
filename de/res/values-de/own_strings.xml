@@ -244,7 +244,7 @@
   <string name="kill_app_longpress_back">Kill app back button</string>
   <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
   <!-- Key backlight -->
-  <string name="button_backlight_title">Backlight</string>
+  <string name="button_backlight_title">Hintergrundbeleuchtung</string>
   <string name="button_backlight_summary">Customize button backlight settings</string>
   <string name="button_backlight_enabled">Illuminate buttons</string>
   <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
