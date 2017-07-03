@@ -23,6 +23,8 @@ import com.android.settings.R;
 
 import cyanogenmod.providers.CMSettings;
 
+import com.own.settings.button.tabs.NavigationButton;
+
 public class ButtonBacklightBrightness extends CustomDialogPref<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {
     private static final int DEFAULT_BUTTON_TIMEOUT = 5;
@@ -202,11 +204,11 @@ public class ButtonBacklightBrightness extends CustomDialogPref<AlertDialog> imp
         final int deviceKeys = res.getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
         // All hardware keys besides volume and camera can possibly have a backlight
-        boolean hasBacklightKey = (deviceKeys & ButtonSettings.KEY_MASK_HOME) != 0
-                || (deviceKeys & ButtonSettings.KEY_MASK_BACK) != 0
-                || (deviceKeys & ButtonSettings.KEY_MASK_MENU) != 0
-                || (deviceKeys & ButtonSettings.KEY_MASK_ASSIST) != 0
-                || (deviceKeys & ButtonSettings.KEY_MASK_APP_SWITCH) != 0;
+        boolean hasBacklightKey = (deviceKeys & NavigationButton.KEY_MASK_HOME) != 0
+                || (deviceKeys & NavigationButton.KEY_MASK_BACK) != 0
+                || (deviceKeys & NavigationButton.KEY_MASK_MENU) != 0
+                || (deviceKeys & NavigationButton.KEY_MASK_ASSIST) != 0
+                || (deviceKeys & NavigationButton.KEY_MASK_APP_SWITCH) != 0;
         boolean hasBacklight = res.getInteger(
                 com.android.internal.R.integer.config_buttonBrightnessSettingDefault) > 0;
 
