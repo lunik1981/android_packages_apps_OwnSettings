@@ -16,9 +16,9 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General Strings -->
-  <string name="general">General</string>
-  <string name="default_string">Default</string>
-  <string name="reset">Reset</string>
+  <string name="general">Allmänt</string>
+  <string name="default_string">Standard</string>
+  <string name="reset">Återställ</string>
   <!-- Color picker -->
   <string name="color_picker_fragment_title">Color Picker</string>
   <string name="apply_color_title">Apply color</string>
@@ -28,7 +28,7 @@
   <string name="palette_darkkat_title">OwnROM</string>
   <string name="palette_material_title">Material</string>
   <string name="palette_rgb_title">RGB</string>
-  <string name="reset_color_title">Reset</string>
+  <string name="reset_color_title">Återställ</string>
   <string name="reset_darkkat_title">Customized palette</string>
   <string name="reset_theme_default_title">Theme default</string>
   <string name="favorites_title">Favorites</string>
@@ -36,7 +36,7 @@
   <string name="show_favorites_title">Show favorites</string>
   <string name="show_help_title">Show help</string>
   <string name="hide_help_title">Hide help</string>
-  <string name="empty_title">Empty</string>
+  <string name="empty_title">Tom</string>
   <!-- Color picker help screen -->
   <string name="color_picker_help_screen_title">Color Picker help</string>
   <string name="color_picker_help_ab_title">Action bar:</string>
@@ -55,9 +55,9 @@
   <string name="color_picker_help_ab_menu_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
   <string name="color_picker_help_ab_menu_favorites_title">Show/hide favorites:</string>
   <string name="color_picker_help_ab_menu_favorites_summary">Shows/hides the favorites.\nHiding the favorites will not reset the favorite colors.</string>
-  <string name="color_picker_help_ab_menu_help_title">Help:</string>
+  <string name="color_picker_help_ab_menu_help_title">Hjälp:</string>
   <string name="color_picker_help_ab_menu_help_summary">Shows this help screen.</string>
-  <string name="color_picker_help_colors_title">Colors:</string>
+  <string name="color_picker_help_colors_title">Färger:</string>
   <string name="color_picker_help_picker_view_title">Color panel:</string>
   <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
   <string name="color_picker_help_color_buttons_title">Color buttons:</string>
@@ -72,8 +72,8 @@
   <!-- Categories -->
   <!-- Status bar -->
   <!-- Tabs -->
-  <string name="statusbar_icons_tab_title">Icons</string>
-  <string name="statusbar_clock_tab">Clock</string>
+  <string name="statusbar_icons_tab_title">Ikoner</string>
+  <string name="statusbar_clock_tab">Klocka</string>
   <string name="statusbar_other_tab_title">Other</string>
   <!-- General -->
   <string name="status_bar_toggle_brightness">Brightness control</string>
@@ -82,7 +82,7 @@
   <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
   <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
+  <string name="status_bar_quick_qs_pulldown_off">Av</string>
   <string name="status_bar_quick_qs_pulldown_left">Left</string>
   <string name="status_bar_quick_qs_pulldown_right">Right</string>
   <!-- Status bar - Clock -->
@@ -129,9 +129,9 @@
   <string name="show_network_traffic_state">Status bar traffic monitor</string>
   <string name="show_network_traffic_unit">Display unit</string>
   <string name="show_network_traffic_frequency">Update interval</string>
-  <string name="show_network_traffic_disable">Disabled</string>
-  <string name="show_network_traffic_up">Outgoing</string>
-  <string name="show_network_traffic_down">Incoming</string>
+  <string name="show_network_traffic_disable">Inaktiverad</string>
+  <string name="show_network_traffic_up">Utgående</string>
+  <string name="show_network_traffic_down">Inkommande</string>
   <string name="show_network_traffic_all">Outgoing and incoming</string>
   <string name="show_network_traffic_bit">Bits per second</string>
   <string name="show_network_traffic_byte">Bytes per second</string>
@@ -151,7 +151,7 @@
   <string name="battery_bar_title">Battery bar</string>
   <string name="battery_bar">Battery bar location</string>
   <string name="battery_bar_no_navbar">Battery bar location</string>
-  <string name="battery_bar_location_hide">Hide</string>
+  <string name="battery_bar_location_hide">Dölj</string>
   <string name="battery_bar_location_statusbar">Statusbar</string>
   <string name="battery_bar_location_top_navbar">Top of navbar</string>
   <string name="battery_bar_location_bottom_navbar">Bottom of navbar</string>
@@ -162,9 +162,9 @@
   <string name="battery_bar_style_title">Battery bar alignment</string>
   <string name="battery_bar_thickness_title">Battery bar thickness</string>
   <string name="battery_bar_animate_title">Charging animation</string>
-  <string name="battery_bar_style_regular">Regular</string>
+  <string name="battery_bar_style_regular">Vanlig</string>
   <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
-  <string name="battery_bar_style_reversed">Reversed</string>
+  <string name="battery_bar_style_reversed">Omvänd</string>
   <string name="battery_bar_use_charging_color">Custom charging color</string>
   <string name="battery_bar_blend_color_title">Blend colors</string>
   <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
@@ -178,8 +178,8 @@
   <string name="ticker_summary">Enable the status bar ticker</string>
   <string name="ticker_restore_defaults_title">Restore defaults</string>
   <string name="text_title">Text</string>
-  <string name="icon_title">Icon</string>
-  <string name="colors_title">Colors</string>
+  <string name="icon_title">Ikon</string>
+  <string name="colors_title">Färger</string>
   <string name="values_restored_title">Values restored</string>
   <string name="ticker_disabled">No ticker</string>
   <string name="ticker_enabled">Notification ticker</string>
@@ -191,10 +191,10 @@
   <!-- VoLTE icon -->
   <string name="volte_icon_title">VoLTE icon</string>
   <string name="volte_icon_summary">Display VoLTE icon when available</string>
-  <string name="show_4g_title">Show 4G</string>
+  <string name="show_4g_title">Visa 4G</string>
   <string name="show_4g_summary">Show 4g instead of LTE in signal icons</string>
   <!-- Button Settings -->
-  <string name="button_settings_title">Buttons</string>
+  <string name="button_settings_title">Knappar</string>
   <string name="button_navigation_tab">Navigation</string>
   <string name="button_power_tab">Power Button</string>
   <string name="button_volume_tab">Volume Buttons</string>
@@ -221,7 +221,7 @@
   <string name="hardware_keys_action_in_app_search">In-app search</string>
   <string name="hardware_keys_action_launch_camera">Launch camera</string>
   <string name="hardware_keys_action_sleep">Turn screen off</string>
-  <string name="hardware_keys_action_last_app">Last app</string>
+  <string name="hardware_keys_action_last_app">Senaste app</string>
   <string name="hardware_keys_action_split_screen">Split screen</string>
   <string name="camera_sleep_on_release_title">Screen peek</string>
   <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
@@ -230,12 +230,12 @@
   <string name="volbtn_music_controls_title">Playback control</string>
   <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
   <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
-  <string name="volbtn_cursor_control_off">Disabled</string>
+  <string name="volbtn_cursor_control_off">Inaktiverad</string>
   <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
   <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-  <string name="power_end_call_title">End call</string>
+  <string name="power_end_call_title">Avsluta samtal</string>
   <string name="power_end_call_summary">Pressing the power button will end the current call</string>
-  <string name="swap_volume_buttons_title">Reorient</string>
+  <string name="swap_volume_buttons_title">Orientera om</string>
   <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
   <string name="button_wake_title">Wake up device</string>
   <string name="button_wake_title_summary">Wake up device by pressing one of the volume buttons</string>
@@ -252,9 +252,9 @@
   <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
   <string name="backlight_timeout_title">Illumination timeout</string>
   <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-  <string name="backlight_summary_disabled">Disabled</string>
+  <string name="backlight_summary_disabled">Inaktiverad</string>
   <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-  <string name="backlight_summary_enabled">Enabled</string>
+  <string name="backlight_summary_enabled">Aktiverad</string>
   <!-- Navigation Bar -->
   <string name="navbar_interface_title">Interface</string>
   <string name="navbar_size">Bar size</string>
@@ -262,7 +262,7 @@
   <string name="navbar_visibility">Enable navigation bar</string>
   <string name="navigationbar_settings_title">Navigation bar</string>
   <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-  <string name="navbar_general_title">Advanced</string>
+  <string name="navbar_general_title">Avancerat</string>
   <string name="navigation_bar_left_title">Left-handed mode</string>
   <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
   <string name="info_pref_note_title">Note</string>
@@ -273,14 +273,14 @@
   <string name="select_custom_app_title">Select custom app</string>
   <string name="select_custom_activity_title">Select custom activity</string>
   <string name="profile_applist_title">Applications</string>
-  <string name="default_string">Default</string>
-  <string name="reset">Reset</string>
+  <string name="default_string">Standard</string>
+  <string name="reset">Återställ</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Choose action</string>
   <string name="action_entry_default_action">Default settings</string>
   <string name="action_entry_select_app">Select application</string>
   <string name="action_entry_custom_action">Select custom action</string>
-  <string name="action_value_default_action">default</string>
+  <string name="action_value_default_action">standard</string>
   <string name="action_value_select_app">app</string>
   <string name="action_value_custom_action">custom</string>
   <!-- Fling -->
@@ -304,7 +304,7 @@
   <string name="fling_single_left_tap">Single tap left</string>
   <string name="fling_double_left_tap">Double tap left</string>
   <string name="fling_long_left_press">Long press left</string>
-  <string name="long_swipe_portrait_title">Portrait</string>
+  <string name="long_swipe_portrait_title">Porträtt</string>
   <string name="long_swipe_landscape_title">Landscape</string>
   <string name="portrait_right_swipe_title">Portrait right swipe</string>
   <string name="portrait_left_swipe_title">Portrait left swipe</string>
@@ -314,8 +314,8 @@
   <string name="vertical_down_swipe_title">Vertical down swipe</string>
   <string name="up_swipe_title">Up swipe</string>
   <string name="down_swipe_title">Down swipe</string>
-  <string name="long_swipe_reset">Reset</string>
-  <string name="fling_advanced">Advanced</string>
+  <string name="long_swipe_reset">Återställ</string>
+  <string name="fling_advanced">Avancerat</string>
   <string name="fling_long_swipe_title">Long swipe thresholds</string>
   <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
   <string name="fling_trails_enable_title">Enable gesture trails</string>
@@ -350,7 +350,7 @@
   <string name="fling_pulse_color">Pulse color</string>
   <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
   <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
-  <string name="pulse_advanced_category">Advanced</string>
+  <string name="pulse_advanced_category">Avancerat</string>
   <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
   <string name="pulse_custom_fudge_factor">Sanity level</string>
   <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
@@ -370,7 +370,7 @@
   <string name="portrait_title">Portrait height</string>
   <string name="land_vert_title">Landscape width</string>
   <string name="land_hor_title">Landscape height</string>
-  <string name="positive_done">Done</string>
+  <string name="positive_done">Klar</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Smartbar</string>
   <string name="smartbar_settings_title">Smartbar settings</string>
@@ -391,7 +391,7 @@
   <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
   <string name="smartbar_ime_action_title">Input method and media actions</string>
   <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing or music is playing</string>
-  <string name="smartbar_ime_action_none">None</string>
+  <string name="smartbar_ime_action_none">Ingen</string>
   <string name="smartbar_ime_action_arrows">Input arrows</string>
   <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
   <string name="smartbar_ime_action_dynamic">Input/media arrows</string>
@@ -412,7 +412,7 @@
   <!-- Power menu -->
   <string name="power_menu_title">Power menu</string>
   <string name="power_menu_reboot_title">Restart menu</string>
-  <string name="power_menu_screenshot_title">Screenshot</string>
+  <string name="power_menu_screenshot_title">Skärmdump</string>
   <string name="power_menu_airplane_title">Airplane mode</string>
   <string name="power_menu_users_title">User switcher</string>
   <string name="power_menu_settings_title">Settings shortcut</string>
@@ -436,7 +436,7 @@
   <!-- Quick Settings -->
   <string name="quick_settings_title">Quick Settings</string>
   <string name="quick_pulldown_title">Quick Pulldown</string>
-  <string name="qs_general_tab">General</string>
+  <string name="qs_general_tab">Allmänt</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Brightness slider</string>
   <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
@@ -448,10 +448,10 @@
   <!-- QS Rows & Collumns -->
   <string name="qs_rows_portrait_title">Rows (portrait)</string>
   <string name="qs_rows_landscape_title">Rows (landscape)</string>
-  <string name="qs_columns_title">Columns</string>
+  <string name="qs_columns_title">Kolumner</string>
   <!-- Notification Drawer Settings -->
   <string name="notification_drawer_settings_title">Notification drawer</string>
-  <string name="drawer_messages_tab_title">Messages</string>
+  <string name="drawer_messages_tab_title">Meddelanden</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
   <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
@@ -459,7 +459,7 @@
   <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
   <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
   <!-- Animation Settings -->
-  <string name="animation_settings_title">Animations</string>
+  <string name="animation_settings_title">Animationer</string>
   <string name="system_animation_tab">System</string>
   <string name="toast_animation_tab">Toast</string>
   <string name="listview_animation_tab">Listview</string>
@@ -469,7 +469,7 @@
   <string name="disable_animations">Disable animations</string>
   <string name="disable_animations_summary">Disables transition animations such as when launching an app</string>
   <!-- AOKP custom system animations -->
-  <string name="animation_title">Animations</string>
+  <string name="animation_title">Animationer</string>
   <string name="system_animation_title">System animations</string>
   <string name="activity_open_title">Activity open animation</string>
   <string name="activity_close_title">Activity close animation</string>
@@ -485,11 +485,11 @@
   <string name="animation_duration_title">Animation duration</string>
   <string name="title_animation_no_override">Prevent app overrides</string>
   <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-  <string name="animation_duration_default">Default</string>
+  <string name="animation_duration_default">Standard</string>
   <!-- Toast Animation -->
   <string name="toast_animation_title">Toast animation</string>
-  <string name="toast_none_animation">None</string>
-  <string name="toast_default_animation">Default</string>
+  <string name="toast_none_animation">Ingen</string>
+  <string name="toast_default_animation">Standard</string>
   <string name="toast_fade_animation">Fade</string>
   <string name="toast_SlideRight_animation">Slide right</string>
   <string name="toast_SlideLeft_animation">Slide left</string>
@@ -509,7 +509,7 @@
   <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
   <!-- ListView animation -->
   <string name="listview_animation_title">ListView animation</string>
-  <string name="listview_off">Default</string>
+  <string name="listview_off">Standard</string>
   <string name="listview_wave_left">Wave (left)</string>
   <string name="listview_wave_right">Wave (right)</string>
   <string name="listview_alpha">Alpha</string>
@@ -522,7 +522,7 @@
   <string name="listview_translate_right">Translate (right)</string>
   <!-- ListView interpolator -->
   <string name="listview_interpolator_title">Interpolator</string>
-  <string name="listview_accelerate_interpolator">Accelerate</string>
+  <string name="listview_accelerate_interpolator">Accelerera</string>
   <string name="listview_decelerate_interpolator">Decelerate</string>
   <string name="listview_accelerate_decelerate_interpolator">Accelerate and decelerate</string>
   <string name="listview_anticipate_interpolator">Anticipate</string>
@@ -560,14 +560,14 @@
   <string name="qs_tile_animation_style_flip">Flip</string>
   <string name="qs_tile_animation_style_rotate">Rotate</string>
   <string name="qs_tile_animation_duration_low">Low</string>
-  <string name="qs_tile_animation_duration_default">Default</string>
-  <string name="qs_tile_animation_duration_fast">Fast</string>
+  <string name="qs_tile_animation_duration_default">Standard</string>
+  <string name="qs_tile_animation_duration_fast">Snabb</string>
   <string name="qs_tile_animation_duration_superfast">Super fast</string>
   <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
   <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
   <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
   <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-  <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Studsa</string>
   <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
   <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
   <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
@@ -576,11 +576,11 @@
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Recents Settings -->
   <string name="recents_settings_title">Recents Apps</string>
-  <string name="general_recents_tab">General</string>
+  <string name="general_recents_tab">Allmänt</string>
   <string name="omniswitch_tab">Omniswitch</string>
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">Hidden apps</string>
-  <string name="hide_from_recents_add_app">Add App</string>
+  <string name="hide_from_recents_add_app">Lägg till app</string>
   <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
   <!-- Recents MEM Bar -->
   <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
@@ -589,7 +589,7 @@
   <string name="immersive_recents_title">Immersive Recents</string>
   <string name="immersive_recents_summary">Change the view of the recents screen</string>
   <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
+  <string name="immersive_recents_default">Standard</string>
   <string name="immersive_recents_fullscreen">Fullscreen</string>
   <string name="immersive_recents_statusbar">Statusbar only</string>
   <string name="immersive_recents_navbar">Navbar only</string>
@@ -635,10 +635,10 @@
   <!-- OwnROM Center -->
   <string name="owncenter">OwnROM Center</string>
   <string name="owncenter_ota_tab">OTA</string>
-  <string name="own_updater_title">Updater</string>
+  <string name="own_updater_title">Uppdaterare</string>
   <string name="own_updater_summary">Update your ROM, G-Apps and other stuf</string>
   <string name="ownrom_maintainers">Maintainers</string>
-  <string name="ownrom_donation_link">Donate</string>
+  <string name="ownrom_donation_link">Donera</string>
   <string name="ownrom_donation_link_summary">Help us make OwnROM even better by donating trough PayPall</string>
   <!-- Changelog -->
   <string name="changelog_ownrom_title">Changelog</string>
