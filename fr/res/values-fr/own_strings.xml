@@ -191,22 +191,22 @@
   <!-- VoLTE icon -->
   <string name="volte_icon_title">VoLTE icon</string>
   <string name="volte_icon_summary">Display VoLTE icon when available</string>
-  <string name="show_4g_title">Show 4G</string>
+  <string name="show_4g_title">Afficher l\'icône 4G</string>
   <string name="show_4g_summary">Show 4g instead of LTE in signal icons</string>
   <!-- Button Settings -->
-  <string name="button_settings_title">Buttons</string>
+  <string name="button_settings_title">Boutons</string>
   <string name="button_navigation_tab">Navigation</string>
-  <string name="button_power_tab">Power Button</string>
-  <string name="button_volume_tab">Volume Buttons</string>
-  <string name="button_other_tab">Other</string>
+  <string name="button_power_tab">Bouton Marche/Arrêt</string>
+  <string name="button_volume_tab">Boutons de volume</string>
+  <string name="button_other_tab">Autre</string>
   <string name="softkeys_title">Software Navigation</string>
   <string name="hardware_keys">Hardware Navigation</string>
   <!-- Button settings -->
-  <string name="hardware_keys_power_key_title">Power button</string>
-  <string name="hardware_keys_home_key_title">Home button</string>
-  <string name="hardware_keys_back_key_title">Back button</string>
-  <string name="hardware_keys_menu_key_title">Menu button</string>
-  <string name="hardware_keys_assist_key_title">Search button</string>
+  <string name="hardware_keys_power_key_title">Bouton Marche/Arrêt</string>
+  <string name="hardware_keys_home_key_title">Bouton Accueil</string>
+  <string name="hardware_keys_back_key_title">Bouton de retour</string>
+  <string name="hardware_keys_menu_key_title">Bouton de menu</string>
+  <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
   <string name="hardware_keys_appswitch_key_title">Recents button</string>
   <string name="hardware_keys_camera_key_title">Camera button</string>
   <string name="hardware_keys_volume_keys_title">Volume buttons</string>
