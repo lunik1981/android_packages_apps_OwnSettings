@@ -43,11 +43,11 @@
   <string name="color_picker_help_ab_back_title">Bouton Retour :</string>
   <string name="color_picker_help_ab_back_summary">Fermer le sélecteur de couleur sans appliquer la nouvelle couleur, (annuler). Ceci a le même effet qu’un clic sur le bouton de retour dans la barre de navigation.</string>
   <string name="color_picker_help_ab_name_title">Titre :</string>
-  <string name="color_picker_help_ab_name_summary">Only shows the title, no additional functions</string>
+  <string name="color_picker_help_ab_name_summary">Affiche uniquement le titre, aucune fonctions supplémentaires</string>
   <string name="color_picker_help_ab_hex_title">Valeur héxadécimale :</string>
-  <string name="color_picker_help_ab_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
+  <string name="color_picker_help_ab_hex_summary">Affiche les valeurs champ hexa. \nLes valeurs hexa entrées doivent être au format hexadécimal couleurs format : \n « #aarrggbb », (« alpha » (transparence), « rouge », « vert » et « bleu »). \nLe bouton \"retour\" ferme le champ de saisie sans fixer la nouvelle valeur hexa. \nLe bouton appliquer affecte la valeur hexa comme nouvelle couleur mais n\'applique pas la nouvelle couleur.</string>
   <string name="color_picker_help_ab_color_apply_title">Aperçu de la couleur et appliquer la couleur :</string>
-  <string name="color_picker_help_ab_color_apply_summary">The color preview is always visible.\nIf the new color doesn\'t equals the old color, the color preview will be expanded, to allow apply the new color.</string>
+  <string name="color_picker_help_ab_color_apply_summary">L’aperçu de la couleur est toujours visible. \nSi la nouvelle couleur ne correspond pas à l’ancienne, l’aperçu de la couleur sera élargi, pour permettre d\'appliquer la nouvelle couleur.</string>
   <string name="color_picker_help_ab_menu_title">Bouton \"Menu\" :</string>
   <string name="color_picker_help_ab_menu_reset_title">Réinitialiser:</string>
   <string name="color_picker_help_ab_menu_reset_summary">Réinitialise la nouvelle couleur à la couleur par défaut d’Android ou de OwnROM sans l\'appliquer.</string>
@@ -59,38 +59,38 @@
   <string name="color_picker_help_ab_menu_help_summary">Affiche cet écran d\'aide.</string>
   <string name="color_picker_help_colors_title">Couleurs:</string>
   <string name="color_picker_help_picker_view_title">Panneau de couleur :</string>
-  <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
-  <string name="color_picker_help_color_buttons_title">Color buttons:</string>
-  <string name="color_picker_help_favorites_title">Favorites:</string>
+  <string name="color_picker_help_picker_view_summary">Sélectionne une nouvelle couleur sans l\'appliquer.\nLa gamme de couleur peut être changée en utilisant le curseur sur le côté droit</string>
+  <string name="color_picker_help_color_buttons_title">Couleur des bouttons  :</string>
+  <string name="color_picker_help_favorites_title">Favoris:</string>
   <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
   <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
-  <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
+  <string name="color_picker_help_do_not_show_title">Ne plus afficher</string>
   <string name="color_picker_help_button_ok_title">OK</string>
   <!-- OwnSettings -->
   <string name="ownsettings_title">OwnSettings</string>
   <!-- Categories -->
   <!-- Status bar -->
   <!-- Tabs -->
-  <string name="statusbar_icons_tab_title">Icons</string>
-  <string name="statusbar_clock_tab">Clock</string>
-  <string name="statusbar_other_tab_title">Other</string>
+  <string name="statusbar_icons_tab_title">Icônes</string>
+  <string name="statusbar_clock_tab">Horloge</string>
+  <string name="statusbar_other_tab_title">Autre</string>
   <!-- General -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
-  <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+  <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser votre doigt sur la barre d\'état</string>
+  <string name="status_bar_notif_count_title">Afficher le nombre de notifications</string>
+  <string name="status_bar_notif_count_summary">Afficher le nombre de notifications restantes</string>
   <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="status_bar_quick_qs_pulldown_off">Off</string>
-  <string name="status_bar_quick_qs_pulldown_left">Left</string>
-  <string name="status_bar_quick_qs_pulldown_right">Right</string>
+  <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
+  <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
+  <string name="status_bar_quick_qs_pulldown_right">Droite</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_position_title">Clock Position</string>
-  <string name="status_bar_clock_position_right">Right</string>
-  <string name="status_bar_clock_position_left">Left</string>
-  <string name="status_bar_clock_position_center">Center</string>
-  <string name="status_bar_am_pm_title">AM/PM style</string>
+  <string name="status_bar_clock_position_title">Position de l’horloge</string>
+  <string name="status_bar_clock_position_right">Droite</string>
+  <string name="status_bar_clock_position_left">Gauche</string>
+  <string name="status_bar_clock_position_center">Centre</string>
+  <string name="status_bar_am_pm_title">Style AM/PM</string>
   <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
   <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Small</string>
