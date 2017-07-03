@@ -23,7 +23,7 @@
   <string name="color_picker_fragment_title">Color Picker</string>
   <string name="apply_color_title">Apply color</string>
   <string name="press_color_to_apply">Press on color below to apply</string>
-  <string name="edit_hex_title">HEX value</string>
+  <string name="edit_hex_title">HEX-värde</string>
   <string name="reset_android_title">Android default</string>
   <string name="palette_darkkat_title">OwnROM</string>
   <string name="palette_material_title">Material</string>
@@ -31,10 +31,10 @@
   <string name="reset_color_title">Återställ</string>
   <string name="reset_darkkat_title">Customized palette</string>
   <string name="reset_theme_default_title">Theme default</string>
-  <string name="favorites_title">Favorites</string>
+  <string name="favorites_title">Favoriter</string>
   <string name="hide_favorites_title">Hide favorites</string>
   <string name="show_favorites_title">Show favorites</string>
-  <string name="show_help_title">Show help</string>
+  <string name="show_help_title">Visa hjälp</string>
   <string name="hide_help_title">Hide help</string>
   <string name="empty_title">Tom</string>
   <!-- Color picker help screen -->
@@ -42,7 +42,7 @@
   <string name="color_picker_help_ab_title">Action bar:</string>
   <string name="color_picker_help_ab_back_title">Back button:</string>
   <string name="color_picker_help_ab_back_summary">Close the color picker without applying the new color, (cancel).\nThis has the same effect as clicking the back button on the navigation bar.</string>
-  <string name="color_picker_help_ab_name_title">Title:</string>
+  <string name="color_picker_help_ab_name_title">Titel:</string>
   <string name="color_picker_help_ab_name_summary">Only shows the title, no additional functions</string>
   <string name="color_picker_help_ab_hex_title">Hex value:</string>
   <string name="color_picker_help_ab_hex_summary">Shows the hex input field.\nHex values have to be in hex color format:\n\'#aarrggbb\', (\'alpha\' (transparency), \'red\', \'green\' and \'blue\').\nThe back button closes the hex input field without setting the hex value.\nThe apply button sets the hex value as new color without applying the new color.</string>
@@ -61,7 +61,7 @@
   <string name="color_picker_help_picker_view_title">Color panel:</string>
   <string name="color_picker_help_picker_view_summary">Pick a color to set a new color without applying the new color.\nThe color range can be changed using the slider on the right side</string>
   <string name="color_picker_help_color_buttons_title">Color buttons:</string>
-  <string name="color_picker_help_favorites_title">Favorites:</string>
+  <string name="color_picker_help_favorites_title">Favoriter:</string>
   <string name="color_picker_help_favorites_summary">Favorites are empty by default.\nThe new color can be saved as a favorite at any time via long click, (a none empty favorite will be overwritten by the new color).\nA click sets the favorite color as new color, without applying the new color.</string>
   <string name="color_picker_help_palette_title">Palette:\n(OwnROM, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
@@ -94,7 +94,7 @@
   <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
   <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Small</string>
-  <string name="status_bar_am_pm_hidden">Hidden</string>
+  <string name="status_bar_am_pm_hidden">Dold</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_category">Battery icon</string>
   <string name="status_bar_battery_style_title">Battery status style</string>
@@ -102,16 +102,16 @@
   <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
   <string name="status_bar_battery_style_circle">Cirkel</string>
   <string name="status_bar_battery_style_text">Text</string>
-  <string name="status_bar_battery_style_hidden">Hidden</string>
+  <string name="status_bar_battery_style_hidden">Dold</string>
   <!-- Status bar - Battery custom charging symbol -->
   <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
   <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
-  <string name="text_charging_symbol_default">Disabled</string>
+  <string name="text_charging_symbol_default">Inaktiverad</string>
   <string name="text_charging_symbol_flash">Flash</string>
   <string name="text_charging_symbol_tilde">Tilde</string>
   <!-- Status bar - Battery percentage -->
   <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
+  <string name="status_bar_battery_percentage_default">Dold</string>
   <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
   <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
   <!-- Status bar - icon blacklist -->
@@ -195,7 +195,7 @@
   <string name="show_4g_summary">Show 4g instead of LTE in signal icons</string>
   <!-- Button Settings -->
   <string name="button_settings_title">Knappar</string>
-  <string name="button_navigation_tab">Navigation</string>
+  <string name="button_navigation_tab">Navigering</string>
   <string name="button_power_tab">Power Button</string>
   <string name="button_volume_tab">Volume Buttons</string>
   <string name="button_other_tab">Other</string>
@@ -267,9 +267,9 @@
   <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
   <string name="info_pref_note_title">Note</string>
   <string name="smartbar_interface">SmartBar</string>
-  <string name="icon_pack_picker_dialog_title">Icon packs</string>
+  <string name="icon_pack_picker_dialog_title">Ikonpack</string>
   <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-  <string name="picker_activities">Activities</string>
+  <string name="picker_activities">Aktiviteter</string>
   <string name="select_custom_app_title">Select custom app</string>
   <string name="select_custom_activity_title">Select custom activity</string>
   <string name="profile_applist_title">Applications</string>
@@ -322,11 +322,11 @@
   <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
   <string name="fling_trails_color_title">Trail color</string>
   <string name="fling_trails_width_title">Trail width</string>
-  <string name="fling_appearance">Appearance</string>
+  <string name="fling_appearance">Utseende</string>
   <string name="fling_show_logo_title">Show Fling logo</string>
   <string name="fling_animate_logo_title">Animate logo</string>
   <string name="fling_animate_logo_summary">Logo animates on touch events</string>
-  <string name="fling_logo_color">Logo color</string>
+  <string name="fling_logo_color">Logotypfärg</string>
   <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
   <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
   <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
@@ -603,14 +603,14 @@
   <string name="recents_clear_all_location_bottom_right">Bottom right</string>
   <string name="recents_clear_all_location_bottom_left">Bottom left</string>
   <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear All</string>
+  <string name="recents_clear_all_title">Rensa alla</string>
   <string name="rr_recents_animations_title">Recents</string>
   <string name="recents_anim_title">Recents Animations</string>
   <string name="recents_anim_summary">Customize the Delay of Recents window and its actions</string>
   <!-- OmniSwitch -->
   <string name="recents_use_omniswitch_title">Use for recents</string>
   <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
-  <string name="omniswitch_start_settings_title">Settings</string>
+  <string name="omniswitch_start_settings_title">Inställningar</string>
   <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
   <string name="omniswitch_first_time_title">Information</string>
   <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
